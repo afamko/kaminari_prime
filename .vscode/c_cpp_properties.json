@@ -4,14 +4,11 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers",
-                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers",
-                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers"
+                "/Users/AfamObioha/Qt/6.6.2/macos/lib"  // This path should help with framework-style includes
             ],
             "defines": [],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-
             ],
             "compilerPath": "/usr/bin/clang",
             "cStandard": "c17",

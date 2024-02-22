@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-
+#include "qtwidgetsglobal.h"  // As a test, to see if the direct include works without the module path
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
