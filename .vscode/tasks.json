@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Build",           // A label for the build task
+            "type": "shell",                  // Indicates this is a shell command
+            "command": "cmake",               // The command to run (cmake)
+            "args": [
+                "--build",                   // This is a CMake argument that tells it to build
+                "${workspaceFolder}/build"   // The location of your build directory (adjust as needed)
+                // Add additional arguments as required for your build setup
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true            // Sets this as the default build task
+            },
+            "problemMatcher": [
+                "$gcc"                       // Use the GCC problem matcher to parse errors/warnings
+            ],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": false
+            }
+        }
+    ]
+}
