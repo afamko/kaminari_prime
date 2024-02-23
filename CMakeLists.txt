@@ -11,9 +11,14 @@ set(CMAKE_AUTORCC ON)
 
 list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake")
 
+
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 set(TS_FILES kaminari_prime_en_US.ts)  # Include translation source files if any
+
+set(PROJECT_RESOURCES
+        myresources.qrc
+)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -23,7 +28,12 @@ set(PROJECT_SOURCES
         ${TS_FILES}
 )
 
-add_executable(SimpleQtApp main.cpp mainwindow.cpp mainwindow.ui)
+
+add_executable(SimpleQtApp main.cpp mainwindow.cpp mainwindow.ui FolderWidget.cpp ${RESOURCES})
+
+# Use this command to process resource files
+qt6_add_resources(SimpleQtApp "resources" SOURCE_DIR "/Users/AfamObioha/kaminari_prime" FILES ${PROJECT_RESOURCES})
+
 target_link_libraries(SimpleQtApp PRIVATE Qt6::Widgets)
 # If you have additional library dependencies, link them here as well
 # target_link_libraries(kaminari_prime PRIVATE SomeOtherLibrary)

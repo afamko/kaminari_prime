@@ -69,17 +69,23 @@ include CMakeFiles/SimpleQtApp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SimpleQtApp.dir/flags.make
 
+.rcc/qrc_resources.cpp: /Users/AfamObioha/kaminari_prime/myresources.qrc
+.rcc/qrc_resources.cpp: .rcc/resources.qrc
+.rcc/qrc_resources.cpp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running rcc for resource resources"
+	/Users/AfamObioha/Qt/6.6.2/macos/libexec/rcc --output /Users/AfamObioha/kaminari_prime/build/.rcc/qrc_resources.cpp --name resources /Users/AfamObioha/kaminari_prime/build/.rcc/resources.qrc --no-zstd
+
 SimpleQtApp_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
 SimpleQtApp_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
 SimpleQtApp_autogen/timestamp: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target SimpleQtApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target SimpleQtApp"
 	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/timestamp
 
 CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: CMakeFiles/SimpleQtApp.dir/flags.make
 CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: SimpleQtApp_autogen/mocs_compilation.cpp
 CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o -MF CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o -c /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/mocs_compilation.cpp
 
 CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -93,7 +99,7 @@ CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.s: cmake_for
 CMakeFiles/SimpleQtApp.dir/main.cpp.o: CMakeFiles/SimpleQtApp.dir/flags.make
 CMakeFiles/SimpleQtApp.dir/main.cpp.o: /Users/AfamObioha/kaminari_prime/main.cpp
 CMakeFiles/SimpleQtApp.dir/main.cpp.o: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleQtApp.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleQtApp.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleQtApp.dir/main.cpp.o -MF CMakeFiles/SimpleQtApp.dir/main.cpp.o.d -o CMakeFiles/SimpleQtApp.dir/main.cpp.o -c /Users/AfamObioha/kaminari_prime/main.cpp
 
 CMakeFiles/SimpleQtApp.dir/main.cpp.i: cmake_force
@@ -107,7 +113,7 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.s: cmake_force
 CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: CMakeFiles/SimpleQtApp.dir/flags.make
 CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: /Users/AfamObioha/kaminari_prime/mainwindow.cpp
 CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o -MF CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o.d -o CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o -c /Users/AfamObioha/kaminari_prime/mainwindow.cpp
 
 CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.i: cmake_force
@@ -118,11 +124,41 @@ CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/mainwindow.cpp -o CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.s
 
+CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o: CMakeFiles/SimpleQtApp.dir/flags.make
+CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o: /Users/AfamObioha/kaminari_prime/FolderWidget.cpp
+CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o -MF CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o.d -o CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o -c /Users/AfamObioha/kaminari_prime/FolderWidget.cpp
+
+CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/FolderWidget.cpp > CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.i
+
+CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/FolderWidget.cpp -o CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.s
+
+CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o: CMakeFiles/SimpleQtApp.dir/flags.make
+CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o: .rcc/qrc_resources.cpp
+CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o: CMakeFiles/SimpleQtApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o -MF CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o.d -o CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o -c /Users/AfamObioha/kaminari_prime/build/.rcc/qrc_resources.cpp
+
+CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/build/.rcc/qrc_resources.cpp > CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.i
+
+CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/build/.rcc/qrc_resources.cpp -o CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.s
+
 # Object files for target SimpleQtApp
 SimpleQtApp_OBJECTS = \
 "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/SimpleQtApp.dir/main.cpp.o" \
-"CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o"
+"CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o" \
+"CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o" \
+"CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o"
 
 # External object files for target SimpleQtApp
 SimpleQtApp_EXTERNAL_OBJECTS =
@@ -130,12 +166,14 @@ SimpleQtApp_EXTERNAL_OBJECTS =
 SimpleQtApp: CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o
 SimpleQtApp: CMakeFiles/SimpleQtApp.dir/main.cpp.o
 SimpleQtApp: CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o
+SimpleQtApp: CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o
+SimpleQtApp: CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o
 SimpleQtApp: CMakeFiles/SimpleQtApp.dir/build.make
 SimpleQtApp: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 SimpleQtApp: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/QtGui
 SimpleQtApp: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/QtCore
 SimpleQtApp: CMakeFiles/SimpleQtApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable SimpleQtApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SimpleQtApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleQtApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +184,7 @@ CMakeFiles/SimpleQtApp.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/SimpleQtApp.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/SimpleQtApp.dir/clean
 
+CMakeFiles/SimpleQtApp.dir/depend: .rcc/qrc_resources.cpp
 CMakeFiles/SimpleQtApp.dir/depend: SimpleQtApp_autogen/timestamp
 	cd /Users/AfamObioha/kaminari_prime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimpleQtApp.dir/depend

@@ -155,6 +155,7 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
@@ -221,6 +222,7 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
@@ -239,18 +241,29 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
@@ -286,6 +299,7 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
@@ -464,6 +478,8 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
 	/Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+	/Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+	/Users/AfamObioha/kaminari_prime/FolderWidget.h \
 	/Users/AfamObioha/kaminari_prime/build/CMakeFiles/3.28.3/CMakeCCompiler.cmake \
 	/Users/AfamObioha/kaminari_prime/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/Users/AfamObioha/kaminari_prime/build/CMakeFiles/3.28.3/CMakeSystem.cmake \

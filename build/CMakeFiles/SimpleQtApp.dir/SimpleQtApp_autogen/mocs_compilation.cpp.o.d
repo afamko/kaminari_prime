@@ -1,9 +1,9 @@
 CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: \
   /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/mocs_compilation.cpp \
-  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/../../../mainwindow.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/moc_FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/../../../FolderWidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qglobal.h \
@@ -222,7 +222,6 @@ CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiexports.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnamespace.h \
@@ -333,5 +332,25 @@ CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
+  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/moc_mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/EWIEGA46WW/../../../mainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h

@@ -333,6 +333,20 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -346,4 +360,8 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QLocale \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QTranslator \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtranslator.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtranslator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QStatusBar \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qstatusbar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QIcon

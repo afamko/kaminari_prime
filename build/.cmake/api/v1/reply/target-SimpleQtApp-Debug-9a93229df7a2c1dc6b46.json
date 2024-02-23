@@ -17,7 +17,11 @@
 			"find_package",
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
-			"_qt_internal_find_third_party_dependencies"
+			"_qt_internal_find_third_party_dependencies",
+			"target_sources",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources"
 		],
 		"files" : 
 		[
@@ -33,7 +37,8 @@
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake"
+			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
 		],
 		"nodes" : 
 		[
@@ -43,19 +48,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 27,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -205,6 +210,30 @@
 				"file" : 12,
 				"line" : 62,
 				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 13,
+				"line" : 337,
+				"parent" : 32
+			},
+			{
+				"command" : 9,
+				"file" : 13,
+				"line" : 2150,
+				"parent" : 33
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 1794,
+				"parent" : 34
 			}
 		]
 	},
@@ -296,18 +325,20 @@
 			[
 				0,
 				1,
-				2
+				2,
+				4,
+				5
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "SimpleQtApp_autogen::@6890427a1f51a3e7e1df"
+			"id" : "SimpleQtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "SimpleQtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "SimpleQtApp_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SimpleQtApp::@6890427a1f51a3e7e1df",
@@ -398,7 +429,9 @@
 			[
 				0,
 				1,
-				2
+				2,
+				4,
+				5
 			]
 		},
 		{
@@ -406,21 +439,22 @@
 			"sourceIndexes" : 
 			[
 				3,
-				5
+				7
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				4
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6
+				8,
+				9
 			]
 		}
 	],
@@ -451,6 +485,19 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FolderWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/SimpleQtApp_autogen/include/ui_mainwindow.h",
@@ -461,6 +508,12 @@
 			"isGenerated" : true,
 			"path" : "build/SimpleQtApp_autogen/timestamp",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/.rcc/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,

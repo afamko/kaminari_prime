@@ -1330,6 +1330,10 @@
 		{
 			"isExternal" : true,
 			"path" : "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
 		}
 	],
 	"kind" : "cmakeFiles",

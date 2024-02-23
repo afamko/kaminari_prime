@@ -316,13 +316,20 @@
 		"/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
-		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake"
+		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
+		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/AfamObioha/kaminari_prime",
 	"DEP_FILE" : "/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "SimpleQtApp_autogen/timestamp",
 	"HEADERS" : 
 	[
+		[
+			"/Users/AfamObioha/kaminari_prime/FolderWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_FolderWidget.cpp",
+			null
+		],
 		[
 			"/Users/AfamObioha/kaminari_prime/mainwindow.h",
 			"MU",
@@ -388,6 +395,7 @@
 	"SETTINGS_FILE" : "/Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/Users/AfamObioha/kaminari_prime/FolderWidget.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_prime/main.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_prime/mainwindow.cpp", "MU", null ]
 	],

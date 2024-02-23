@@ -7,7 +7,8 @@
                 "${workspaceFolder}/build/SimpleQtApp_autogen/include",
                 "/Users/AfamObioha/Qt/6.6.2/macos/lib",
                 "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers",
-                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers"
+                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers",
+                "/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers"
             ],
             "defines": [],
             "macFrameworkPath": [

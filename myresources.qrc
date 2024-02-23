@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>assets/images/myimage.png</file>
+    <file>assets/icons/myicon.ico</file>
+    <file>assets/fonts/myfont.ttf</file>
+</qresource>
+</RCC>
