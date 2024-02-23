@@ -1,7 +1,8 @@
 CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Users/AfamObioha/kaminari_prime/main.cpp \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qglobal.h \
@@ -220,14 +221,19 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiexports.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobject.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstring.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qchar.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringview.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qbytearray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qrefcount.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnamespace.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmetamacros.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qarraydata.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qpair.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qarraydatapointer.h \
@@ -257,12 +263,6 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qutf8stringview.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringtokenizer.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringbuilder.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreevent.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qeventloop.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobject.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlist.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
@@ -292,52 +292,58 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qobject_impl.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qbindingstorage.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qdebug.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtextstream.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringconverter_base.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsharedpointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qshareddata.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qmap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qshareddata_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qset.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qhash.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qpoint.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/q23utility.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsize.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qmargins.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsize.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qpoint.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcolor.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qrgb.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qshareddata.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qimage.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixelformat.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtransform.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpolygon.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qregion.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qline.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qinputmethod.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvariant.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qkeysequence.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpalette.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfont.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontmetrics.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontinfo.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreevent.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qinputmethod.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QLocale \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QTranslator \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtranslator.h
