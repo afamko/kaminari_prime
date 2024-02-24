@@ -230,6 +230,7 @@ SimpleQtApp_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -490,6 +491,7 @@ SimpleQtApp_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
   /Users/AfamObioha/kaminari_prime/mainwindow.h \
   /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
   /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
@@ -832,6 +834,7 @@ CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o: /Users/AfamObioha/kaminari_prime/
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h \
@@ -1178,6 +1181,7 @@ CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o: SimpleQtA
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h \
@@ -1545,6 +1549,7 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: /Users/AfamObioha/kaminari_prime/main.cpp
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QIcon \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h \
@@ -1576,6 +1581,7 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o: /Users/AfamObioha/kaminari_prime/main.cpp
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QStatusBar \
@@ -1960,6 +1966,8 @@ CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: /Users/AfamObioha/kaminari_prime/ma
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qinputmethod.h:
@@ -2258,6 +2266,8 @@ SimpleQtApp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake:
 
+/Users/AfamObioha/kaminari_prime/myresources.qrc:
+
 /Users/AfamObioha/kaminari_prime/mainwindow.h:
 
 SimpleQtApp_autogen/moc_predefs.h:
@@ -2449,14 +2459,6 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringfwd.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake:
 
@@ -2892,6 +2894,14 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qarraydatapointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/syslimits.h:
@@ -2996,12 +3006,6 @@ SimpleQtApp_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h:
@@ -3029,6 +3033,14 @@ SimpleQtApp_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringfwd.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h:
 
@@ -3351,6 +3363,8 @@ SimpleQtApp_autogen/include/ui_mainwindow.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 

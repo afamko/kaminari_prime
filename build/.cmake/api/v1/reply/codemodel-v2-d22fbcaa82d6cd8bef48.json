@@ -45,7 +45,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimpleQtApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimpleQtApp-Debug-9a93229df7a2c1dc6b46.json",
+					"jsonFile" : "target-SimpleQtApp-Debug-acb54b88341a36af8ca5.json",
 					"name" : "SimpleQtApp",
 					"projectIndex" : 0
 				},
@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimpleQtApp_other_files::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimpleQtApp_other_files-Debug-3edd7aa14dd13a2656fe.json",
+					"jsonFile" : "target-SimpleQtApp_other_files-Debug-ff8010581bbf41eed9d6.json",
 					"name" : "SimpleQtApp_other_files",
 					"projectIndex" : 0
 				}

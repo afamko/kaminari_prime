@@ -4,15 +4,17 @@
 #include <QWidget>
 #include <QLabel>
 #include <QVBoxLayout>
+#include <QPixmap>
 
 class FolderWidget : public QWidget {
     Q_OBJECT
 
 public:
-    explicit FolderWidget(QWidget *parent = nullptr);
+    explicit FolderWidget(const QString &folderName, QWidget *parent = nullptr);
 
 private:
     QLabel* label;
+    QLabel* iconLabel;
     QVBoxLayout* layout;
 };
 

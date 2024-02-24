@@ -1,3 +1,6 @@
+file(REMOVE_RECURSE
+  "qrc_myresources.cpp"
+)
 
 # Per-language clean rules from dependency scanning.
 foreach(lang )

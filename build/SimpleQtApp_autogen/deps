@@ -228,6 +228,7 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
 	/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
@@ -487,6 +488,7 @@ SimpleQtApp_autogen/timestamp: \
 	/Users/AfamObioha/kaminari_prime/main.cpp \
 	/Users/AfamObioha/kaminari_prime/mainwindow.cpp \
 	/Users/AfamObioha/kaminari_prime/mainwindow.h \
+	/Users/AfamObioha/kaminari_prime/myresources.qrc \
 	/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
 	/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
 	/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \

@@ -229,6 +229,7 @@
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \

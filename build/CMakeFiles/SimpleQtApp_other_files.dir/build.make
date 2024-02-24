@@ -66,6 +66,16 @@ include CMakeFiles/SimpleQtApp_other_files.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/SimpleQtApp_other_files.dir/progress.make
 
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/myresources.qrc
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/images/myimage.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/folder_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto.ttf
+qrc_myresources.cpp: myresources.qrc.depends
+qrc_myresources.cpp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_myresources.cpp"
+	/Users/AfamObioha/Qt/6.6.2/macos/libexec/rcc --no-zstd --name myresources --output /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp /Users/AfamObioha/kaminari_prime/myresources.qrc
+
+SimpleQtApp_other_files: qrc_myresources.cpp
 SimpleQtApp_other_files: CMakeFiles/SimpleQtApp_other_files.dir/build.make
 .PHONY : SimpleQtApp_other_files
 

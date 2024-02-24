@@ -231,6 +231,7 @@
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h
+ /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h
@@ -491,6 +492,7 @@
  /Users/AfamObioha/kaminari_prime/mainwindow.cpp
  /Users/AfamObioha/kaminari_prime/mainwindow.h
  /Users/AfamObioha/kaminari_prime/mainwindow.ui
+ /Users/AfamObioha/kaminari_prime/myresources.qrc
  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake
  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake
  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake
@@ -834,6 +836,7 @@ CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h
+ /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h
@@ -1181,6 +1184,7 @@ CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h
+ /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h
@@ -1550,6 +1554,7 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QIcon
+ /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h
@@ -1581,6 +1586,7 @@ CMakeFiles/SimpleQtApp.dir/main.cpp.o
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout
+ /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QStatusBar

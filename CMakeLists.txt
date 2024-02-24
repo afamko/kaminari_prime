@@ -16,9 +16,7 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 set(TS_FILES kaminari_prime_en_US.ts)  # Include translation source files if any
 
-set(PROJECT_RESOURCES
-        myresources.qrc
-)
+set(PROJECT_RESOURCES myresources.qrc)
 
 set(PROJECT_SOURCES
         main.cpp
@@ -29,10 +27,20 @@ set(PROJECT_SOURCES
 )
 
 
-add_executable(SimpleQtApp main.cpp mainwindow.cpp mainwindow.ui FolderWidget.cpp ${RESOURCES})
+add_executable(SimpleQtApp 
+        main.cpp 
+        mainwindow.cpp 
+        mainwindow.ui 
+        FolderWidget.cpp 
+        ${RESOURCES}
+)
 
 # Use this command to process resource files
+qt6_add_resources(PROJECT_SOURCES ${PROJECT_RESOURCES})
 qt6_add_resources(SimpleQtApp "resources" SOURCE_DIR "/Users/AfamObioha/kaminari_prime" FILES ${PROJECT_RESOURCES})
+#qt6_add_resources(PROJECT_SOURCES "resources" FILES ${PROJECT_RESOURCES})
+
+
 
 target_link_libraries(SimpleQtApp PRIVATE Qt6::Widgets)
 # If you have additional library dependencies, link them here as well
