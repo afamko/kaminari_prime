@@ -1,7 +1,7 @@
 <!DOCTYPE RCC><RCC version="1.0">
-<qresource>
-    <file>assets/images/myimage.png</file>
-    <file>assets/icons/folder_icon.png</file>
-    <file>assets/fonts/Roboto.ttf</file>
+<qresource prefix="/assets">
+    <file>images/myimage.png</file>
+    <file>icons/folder_icon.png</file>
+    <file>fonts/Roboto.ttf</file>
 </qresource>
 </RCC>

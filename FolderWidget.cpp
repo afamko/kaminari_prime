@@ -6,7 +6,7 @@
 FolderWidget::FolderWidget(const QString &folderName, QWidget *parent) : QWidget(parent) {
     // Set up the folder icon
     QLabel* iconLabel = new QLabel(this);
-    QPixmap folderIcon(":/assets/icons/folder_icon.png"); // Replace with actual path to folder icon
+    QPixmap folderIcon(":/icons/folder_icon.png"); // Replace with actual path to folder icon
     iconLabel->setPixmap(folderIcon);
     //iconLabel->setPixmap(folderIcon.scaled(64, 64, Qt::KeepAspectRatio)); // Set the icon size as needed
 
