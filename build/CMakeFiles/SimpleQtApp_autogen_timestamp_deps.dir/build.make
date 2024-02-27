@@ -66,8 +66,8 @@ include CMakeFiles/SimpleQtApp_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/SimpleQtApp_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/SimpleQtApp_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
 CMakeFiles/SimpleQtApp_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
+CMakeFiles/SimpleQtApp_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
 CMakeFiles/SimpleQtApp_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 SimpleQtApp_autogen_timestamp_deps: CMakeFiles/SimpleQtApp_autogen_timestamp_deps
