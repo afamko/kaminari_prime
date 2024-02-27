@@ -16,34 +16,30 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Admin Bar setup
     QWidget *adminBar = new QWidget(centralWidget);
+    adminBar->setObjectName("adminBar");  // Set object name for the admin bar
     QHBoxLayout *adminLayout = new QHBoxLayout(adminBar);
+    adminLayout->setContentsMargins(10, 0, 10, 0); // Margin adjustment to match wireframe
+
     QLabel *timeLabel = new QLabel("12:21 PM");
     adminLayout->addWidget(timeLabel);
 
+    adminLayout->addSpacerItem(new QSpacerItem(40, 10, QSizePolicy::Expanding, QSizePolicy::Minimum)); // Expanding spacer
+
     QLabel *batteryLabel = new QLabel("78%");
     QPixmap batteryIcon(":/icons/battery_icon.png");
-    batteryLabel->setPixmap(batteryIcon);
+    QLabel *batteryIconLabel = new QLabel();
+    batteryIconLabel->setPixmap(batteryIcon.scaled(24, 24, Qt::KeepAspectRatio)); // Scale icon size as needed
+    adminLayout->addWidget(batteryIconLabel);
     adminLayout->addWidget(batteryLabel);
 
     QLabel *wifiLabel = new QLabel();
     QPixmap wifiIcon(":/icons/wifi_icon.png");
-    wifiLabel->setPixmap(wifiIcon);
+    wifiLabel->setPixmap(wifiIcon.scaled(24, 24, Qt::KeepAspectRatio)); // Scale icon size as needed
     adminLayout->addWidget(wifiLabel);
 
     mainLayout->addWidget(adminBar);
 
-    // Folder Grid setup
-    QGridLayout *gridLayout = new QGridLayout();
-    QStringList folderNames = {"My Personal", "Work", "Wustl", "OME", "LW", "Scribble Dibble"};
-
-    for (int i = 0; i < folderNames.size(); ++i) {
-        FolderWidget *folder = new FolderWidget(folderNames[i]);
-        int row = i / 3;  // Assuming 3 columns
-        int column = i % 3;
-        gridLayout->addWidget(folder, row, column);
-    }
-
-    mainLayout->addLayout(gridLayout);
+    // Rest of the code for Folder Grid setup...
 
     setCentralWidget(centralWidget);
 }
