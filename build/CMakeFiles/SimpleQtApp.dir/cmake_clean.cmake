@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  ".rcc/qrc_resources.cpp"
   "CMakeFiles/SimpleQtApp_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/SimpleQtApp_autogen.dir/ParseCache.txt"
   "SimpleQtApp_autogen"
@@ -7,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o.d"
   "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o"
-  "CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o.d"
   "CMakeFiles/SimpleQtApp.dir/main.cpp.o"
   "CMakeFiles/SimpleQtApp.dir/main.cpp.o.d"
   "CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o"

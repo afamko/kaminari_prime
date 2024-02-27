@@ -17,8 +17,7 @@
 					[
 						0,
 						1,
-						2,
-						3
+						2
 					]
 				}
 			],
@@ -35,8 +34,7 @@
 					[
 						0,
 						1,
-						2,
-						3
+						2
 					]
 				}
 			],
@@ -45,7 +43,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimpleQtApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimpleQtApp-Debug-65ecc8c69afe2189572e.json",
+					"jsonFile" : "target-SimpleQtApp-Debug-dd95229931c04818a863.json",
 					"name" : "SimpleQtApp",
 					"projectIndex" : 0
 				},
@@ -61,13 +59,6 @@
 					"id" : "SimpleQtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SimpleQtApp_autogen_timestamp_deps-Debug-96217ebdda03e70dd540.json",
 					"name" : "SimpleQtApp_autogen_timestamp_deps",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "SimpleQtApp_other_files::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimpleQtApp_other_files-Debug-ff8010581bbf41eed9d6.json",
-					"name" : "SimpleQtApp_other_files",
 					"projectIndex" : 0
 				}
 			]

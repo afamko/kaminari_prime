@@ -1,5 +1,4 @@
 /Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp.dir
-/Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp_other_files.dir
 /Users/AfamObioha/kaminari_prime/build/CMakeFiles/edit_cache.dir
 /Users/AfamObioha/kaminari_prime/build/CMakeFiles/rebuild_cache.dir
 /Users/AfamObioha/kaminari_prime/build/CMakeFiles/SimpleQtApp_autogen_timestamp_deps.dir

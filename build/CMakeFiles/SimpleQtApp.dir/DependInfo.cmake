@@ -11,7 +11,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "SimpleQtApp_autogen/timestamp" "custom" "SimpleQtApp_autogen/deps"
   "/Users/AfamObioha/kaminari_prime/FolderWidget.cpp" "CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o" "gcc" "CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o.d"
   "/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/mocs_compilation.cpp" "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o.d"
-  "/Users/AfamObioha/kaminari_prime/build/.rcc/qrc_resources.cpp" "CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o" "gcc" "CMakeFiles/SimpleQtApp.dir/build/.rcc/qrc_resources.cpp.o.d"
   "/Users/AfamObioha/kaminari_prime/main.cpp" "CMakeFiles/SimpleQtApp.dir/main.cpp.o" "gcc" "CMakeFiles/SimpleQtApp.dir/main.cpp.o.d"
   "/Users/AfamObioha/kaminari_prime/mainwindow.cpp" "CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o.d"
   )

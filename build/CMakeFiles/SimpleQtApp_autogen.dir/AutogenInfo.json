@@ -317,8 +317,7 @@
 		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake",
 		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
-		"/Users/AfamObioha/kaminari_prime/myresources.qrc",
-		"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		"/Users/AfamObioha/kaminari_prime/myresources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/AfamObioha/kaminari_prime",
 	"DEP_FILE" : "/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/deps",

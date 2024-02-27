@@ -11,42 +11,26 @@ set(CMAKE_AUTORCC ON)
 
 list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake")
 
-
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 set(TS_FILES kaminari_prime_en_US.ts)  # Include translation source files if any
 
-set(PROJECT_RESOURCES myresources.qrc)
+# Process the .qrc resource file
+qt6_add_resources(PROJECT_SOURCES myresources.qrc)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-        ${TS_FILES}
+    main.cpp
+    mainwindow.cpp
+    mainwindow.h
+    mainwindow.ui
+    FolderWidget.cpp
+    ${TS_FILES}
 )
 
 
-add_executable(SimpleQtApp 
-        main.cpp 
-        mainwindow.cpp 
-        mainwindow.ui 
-        FolderWidget.cpp 
-        ${RESOURCES}
-)
 
-# Use this command to process resource files
-qt6_add_resources(PROJECT_SOURCES ${PROJECT_RESOURCES})
-qt6_add_resources(SimpleQtApp "resources" SOURCE_DIR "/Users/AfamObioha/kaminari_prime" FILES ${PROJECT_RESOURCES})
-#qt6_add_resources(PROJECT_SOURCES "resources" FILES ${PROJECT_RESOURCES})
+# Create the executable with the project sources
+add_executable(SimpleQtApp ${PROJECT_SOURCES})
 
-
-
+# Link the executable to the necessary Qt modules
 target_link_libraries(SimpleQtApp PRIVATE Qt6::Widgets)
-# If you have additional library dependencies, link them here as well
-# target_link_libraries(kaminari_prime PRIVATE SomeOtherLibrary)
-
-# If you have any install commands, include them here
-# install(TARGETS kaminari_prime RUNTIME DESTINATION bin)
-
-# If you have any additional custom commands or targets, include them here

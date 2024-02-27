@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "*.ts": "xml"
+        "*.ts": "xml",
+        "new": "cpp"
     }
 }

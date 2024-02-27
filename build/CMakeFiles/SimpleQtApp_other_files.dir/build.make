@@ -67,7 +67,6 @@ include CMakeFiles/SimpleQtApp_other_files.dir/compiler_depend.make
 include CMakeFiles/SimpleQtApp_other_files.dir/progress.make
 
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/myresources.qrc
-qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/images/myimage.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/icons/folder_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/fonts/Roboto.ttf
 qrc_myresources.cpp: myresources.qrc.depends

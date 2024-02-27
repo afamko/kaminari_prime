@@ -17,11 +17,7 @@
 			"find_package",
 			"find_dependency",
 			"_qt_internal_find_qt_dependencies",
-			"_qt_internal_find_third_party_dependencies",
-			"target_sources",
-			"__qt_propagate_generated_resource",
-			"_qt_internal_process_resource",
-			"qt6_add_resources"
+			"_qt_internal_find_third_party_dependencies"
 		],
 		"files" : 
 		[
@@ -37,8 +33,7 @@
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake",
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
+			"/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake"
 		],
 		"nodes" : 
 		[
@@ -48,19 +43,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 45,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 15,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -210,30 +205,6 @@
 				"file" : 12,
 				"line" : 62,
 				"parent" : 30
-			},
-			{
-				"command" : 11,
-				"file" : 0,
-				"line" : 40,
-				"parent" : 0
-			},
-			{
-				"command" : 10,
-				"file" : 13,
-				"line" : 337,
-				"parent" : 32
-			},
-			{
-				"command" : 9,
-				"file" : 13,
-				"line" : 2150,
-				"parent" : 33
-			},
-			{
-				"command" : 8,
-				"file" : 13,
-				"line" : 1794,
-				"parent" : 34
 			}
 		]
 	},
@@ -326,7 +297,6 @@
 				0,
 				1,
 				2,
-				4,
 				5
 			]
 		}
@@ -430,12 +400,11 @@
 				0,
 				1,
 				2,
-				4,
 				5
 			]
 		},
 		{
-			"name" : "",
+			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
 				3,
@@ -443,17 +412,18 @@
 			]
 		},
 		{
-			"name" : "Header Files",
+			"name" : "",
 			"sourceIndexes" : 
 			[
-				6
+				4,
+				6,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8,
 				9
 			]
 		}
@@ -481,8 +451,13 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "mainwindow.ui",
+			"path" : "mainwindow.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mainwindow.ui",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 1,
@@ -491,29 +466,21 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 35,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/.rcc/qrc_resources.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/SimpleQtApp_autogen/include/ui_mainwindow.h",
+			"backtrace" : 1,
+			"path" : "kaminari_prime_en_US.ts",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/SimpleQtApp_autogen/timestamp",
+			"path" : "build/SimpleQtApp_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/.rcc/qrc_resources.cpp.rule",
-			"sourceGroupIndex" : 3
+			"path" : "build/SimpleQtApp_autogen/timestamp",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,

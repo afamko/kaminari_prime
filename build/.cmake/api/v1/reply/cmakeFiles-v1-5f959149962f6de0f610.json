@@ -1333,10 +1333,6 @@
 		},
 		{
 			"path" : "myresources.qrc"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
 		}
 	],
 	"kind" : "cmakeFiles",

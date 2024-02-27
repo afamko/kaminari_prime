@@ -1,6 +1,5 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/assets">
-    <file>images/myimage.png</file>
     <file>icons/folder_icon.png</file>
     <file>fonts/Roboto.ttf</file>
 </qresource>
