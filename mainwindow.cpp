@@ -90,7 +90,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Folder Grid setup
     QGridLayout *gridLayout = new QGridLayout();
-    QStringList folderNames = {"My Personal", "Work", "Wustl", "OME", "LW", "Scribble Dibble"};
+    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble"};
 
     for (int i = 0; i < folderNames.size(); ++i) {
         FolderWidget *folder = new FolderWidget(folderNames[i], adminBar);
