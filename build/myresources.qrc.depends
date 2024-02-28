@@ -1,6 +1,7 @@
 <!DOCTYPE RCC><RCC version="1.0">
 <qresource prefix="/assets">
     <file>icons/folder_icon.png</file>
+    <file>icons/wifi_icon.png</file>
     <file>fonts/Roboto.ttf</file>
 </qresource>
 </RCC>

@@ -367,4 +367,13 @@ CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QScreen \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qscreen.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QRect \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QGuiApplication
