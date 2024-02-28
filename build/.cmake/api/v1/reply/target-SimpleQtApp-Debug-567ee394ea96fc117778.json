@@ -304,11 +304,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "SimpleQtApp_autogen::@6890427a1f51a3e7e1df"
+			"id" : "SimpleQtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "SimpleQtApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "SimpleQtApp_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SimpleQtApp::@6890427a1f51a3e7e1df",

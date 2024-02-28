@@ -7,11 +7,26 @@
 #include <QLabel>
 #include <QScreen>
 #include <QGuiApplication>
+#include <QFontDatabase>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
+    // Load the Roboto font
+    int fontId = QFontDatabase::addApplicationFont(":/assets/Roboto-Light.ttf"); // Adjust the path to your font file
+    QFont robotoFont;
+    if (fontId != -1) {
+        QString fontFamily = QFontDatabase::applicationFontFamilies(fontId).at(0);
+        robotoFont.setFamily(fontFamily);
+        robotoFont.setPointSize(20); // Set the font size to 20
+    } else {
+        // Handle the error, use a default font, or set a fallback
+        qDebug() << "Failed to load the Roboto font. Falling back to default font.";
+    }
+
 
     const int windowWidth = 500; // Width in pixels
     const int windowHeight = windowWidth * 4 / 3; // Height in pixels to maintain a 3:4 ratio
@@ -25,7 +40,7 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *adminBar = new QWidget();
     adminBar->setObjectName("adminBar");
     adminBar->setStyleSheet("background-color: rgb(200, 200, 200);"
-                        "border: 5px solid black;"
+                        "border: 1px solid black;"
                         "border-width: 0px 2px 2px 2px;" // Top border set to 0px
                         "border-color: transparent black black black;" // Top border color transparent
                         "border-bottom-left-radius: 8px;"  // Adjust the radius as needed

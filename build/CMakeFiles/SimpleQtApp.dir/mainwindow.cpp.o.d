@@ -376,4 +376,6 @@ CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QGuiApplication
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QGuiApplication \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QFontDatabase \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontdatabase.h
