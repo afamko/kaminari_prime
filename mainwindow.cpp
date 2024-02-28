@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 
     // Load the Roboto font
-    int fontId = QFontDatabase::addApplicationFont(":/assets/Roboto-Light.ttf"); // Adjust the path to your font file
+    int fontId = QFontDatabase::addApplicationFont(":/assets/Roboto-Bold.ttf"); // Adjust the path to your font file
     QFont robotoFont;
     if (fontId != -1) {
         QString fontFamily = QFontDatabase::applicationFontFamilies(fontId).at(0);
