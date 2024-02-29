@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(SimpleQtApp)
+project(InkwellBeta)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,8 +15,7 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 set(TS_FILES kaminari_prime_en_US.ts)  # Include translation source files if any
 
-# Process the .qrc resource file
-qt6_add_resources(PROJECT_SOURCES myresources.qrc)
+
 
 set(PROJECT_SOURCES
     main.cpp
@@ -27,10 +26,12 @@ set(PROJECT_SOURCES
     ${TS_FILES}
 )
 
+# Process the .qrc resource file
+ qt6_add_resources(PROJECT_SOURCES myresources.qrc)
 
 
 # Create the executable with the project sources
-add_executable(SimpleQtApp ${PROJECT_SOURCES})
+add_executable(InkwellBeta ${PROJECT_SOURCES})
 
 # Link the executable to the necessary Qt modules
-target_link_libraries(SimpleQtApp PRIVATE Qt6::Widgets)
+target_link_libraries(InkwellBeta PRIVATE Qt6::Widgets)

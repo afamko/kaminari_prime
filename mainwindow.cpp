@@ -40,11 +40,11 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *adminBar = new QWidget();
     adminBar->setObjectName("adminBar");
     adminBar->setStyleSheet("background-color: rgb(200, 200, 200);"
-                        "border: 1px solid black;"
-                        "border-width: 0px 2px 2px 2px;" // Top border set to 0px
-                        "border-color: transparent black black black;" // Top border color transparent
-                        "border-bottom-left-radius: 8px;"  // Adjust the radius as needed
-                        "border-bottom-right-radius: 8px;");  // Adjust the radius as ne
+                            "border: 1px solid black;"
+                            "border-width: 0px 2px 2px 2px;" // Top border set to 0px
+                            "border-color: transparent black black black;" // Top border color transparent
+                            "border-bottom-left-radius: 8px;"  // Adjust the radius as needed
+                            "border-bottom-right-radius: 8px;");  // Adjust the radius as ne
     adminBar->setFixedHeight(35);
     adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.7)); // 70% of window width
     
@@ -64,7 +64,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Battery label and icon
     QLabel *batteryLabel = new QLabel("78%", adminBar);
     batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
-    QPixmap batteryIcon(":/icons/battery_icon.png");
+    QPixmap batteryIcon(":/assets/icons/battery_icon.png");
     QLabel *batteryIconLabel = new QLabel(adminBar);
     batteryIconLabel->setPixmap(batteryIcon.scaled(24, 24, Qt::KeepAspectRatio));
     batteryIconLabel->setStyleSheet("background-color: transparent; border: none;");
@@ -73,7 +73,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // WiFi label and icon
     QLabel *wifiLabel = new QLabel(adminBar);
-    QPixmap wifiIcon(":/icons/wifi_icon.png");
+    QPixmap wifiIcon(":/assets/icons/wifi_icon.png");
     wifiLabel->setPixmap(wifiIcon.scaled(24, 24, Qt::KeepAspectRatio));
     wifiLabel->setStyleSheet("background-color: transparent; border: none;");
     adminLayout->addWidget(wifiLabel);

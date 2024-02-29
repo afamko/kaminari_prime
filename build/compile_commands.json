@@ -1,26 +1,32 @@
 [
 {
   "directory": "/Users/AfamObioha/kaminari_prime/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o -c /Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/mocs_compilation.cpp",
-  "file": "/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/mocs_compilation.cpp",
-  "output": "CMakeFiles/SimpleQtApp.dir/SimpleQtApp_autogen/mocs_compilation.cpp.o"
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o -c /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp",
+  "file": "/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/Users/AfamObioha/kaminari_prime/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SimpleQtApp.dir/main.cpp.o -c /Users/AfamObioha/kaminari_prime/main.cpp",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/InkwellBeta.dir/main.cpp.o -c /Users/AfamObioha/kaminari_prime/main.cpp",
   "file": "/Users/AfamObioha/kaminari_prime/main.cpp",
-  "output": "CMakeFiles/SimpleQtApp.dir/main.cpp.o"
+  "output": "CMakeFiles/InkwellBeta.dir/main.cpp.o"
 },
 {
   "directory": "/Users/AfamObioha/kaminari_prime/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o -c /Users/AfamObioha/kaminari_prime/mainwindow.cpp",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o -c /Users/AfamObioha/kaminari_prime/mainwindow.cpp",
   "file": "/Users/AfamObioha/kaminari_prime/mainwindow.cpp",
-  "output": "CMakeFiles/SimpleQtApp.dir/mainwindow.cpp.o"
+  "output": "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o"
 },
 {
   "directory": "/Users/AfamObioha/kaminari_prime/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/SimpleQtApp_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o -c /Users/AfamObioha/kaminari_prime/FolderWidget.cpp",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o -c /Users/AfamObioha/kaminari_prime/FolderWidget.cpp",
   "file": "/Users/AfamObioha/kaminari_prime/FolderWidget.cpp",
-  "output": "CMakeFiles/SimpleQtApp.dir/FolderWidget.cpp.o"
+  "output": "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o"
+},
+{
+  "directory": "/Users/AfamObioha/kaminari_prime/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers -iframework /Users/AfamObioha/Qt/6.6.2/macos/lib -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers -isystem /Users/AfamObioha/Qt/6.6.2/macos/mkspecs/macx-clang -isystem /Users/AfamObioha/Qt/6.6.2/macos/include -isystem /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -o CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o -c /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp",
+  "file": "/Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp",
+  "output": "CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o"
 }
 ]

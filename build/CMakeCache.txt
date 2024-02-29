@@ -193,7 +193,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=SimpleQtApp
+CMAKE_PROJECT_NAME:STATIC=InkwellBeta
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -260,6 +260,15 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+InkwellBeta_BINARY_DIR:STATIC=/Users/AfamObioha/kaminari_prime/build
+
+//Value Computed by CMake
+InkwellBeta_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+InkwellBeta_SOURCE_DIR:STATIC=/Users/AfamObioha/kaminari_prime
+
 //Path to a program.
 MACDEPLOYQT_EXECUTABLE:FILEPATH=/Users/AfamObioha/Qt/6.6.2/macos/bin/macdeployqt
 
@@ -305,15 +314,6 @@ Qt6Widgets_DIR:PATH=/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6
-
-//Value Computed by CMake
-SimpleQtApp_BINARY_DIR:STATIC=/Users/AfamObioha/kaminari_prime/build
-
-//Value Computed by CMake
-SimpleQtApp_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SimpleQtApp_SOURCE_DIR:STATIC=/Users/AfamObioha/kaminari_prime
 
 //Path to a library.
 WrapOpenGL_AGL:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AGL.framework
