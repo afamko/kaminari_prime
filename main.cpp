@@ -1,5 +1,3 @@
-// main.cpp
-
 #include "mainwindow.h"
 #include <QApplication>
 
@@ -12,7 +10,7 @@ int main(int argc, char *argv[])
 
     // Apply stylesheet to the main window for admin bar and other widgets
     QString styleSheet = "QMainWindow { "
-                         "background-color: rgb(200, 200, 200); " // Main window background
+                         "background-color: rgb(239, 239, 239); " // Main window background
                          "} "
                          "QLabel { "
                          "color: rgb(0, 0, 0); " // Text color for labels
