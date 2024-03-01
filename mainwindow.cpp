@@ -45,12 +45,12 @@ MainWindow::MainWindow(QWidget *parent)
                             "border-color: transparent black black black;" // Top border color transparent
                             "border-bottom-left-radius: 8px;"  // Adjust the radius as needed
                             "border-bottom-right-radius: 8px;");  // Adjust the radius as ne
-    adminBar->setFixedHeight(35);
+    adminBar->setFixedHeight(40);
     adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.7)); // 70% of window width
     
     QHBoxLayout *adminLayout = new QHBoxLayout(adminBar);
     adminLayout->setContentsMargins(10, 10, 10, 10); // Adjust padding to ensure space for larger text
-    adminLayout->setSpacing(10); // Remove spacing between elements
+    adminLayout->setSpacing(30); // Remove spacing between elements
 
     // Add a single spacer item to push content to the right
     adminLayout->addSpacerItem(new QSpacerItem(1, 10, QSizePolicy::Expanding, QSizePolicy::Minimum)); 
@@ -71,11 +71,15 @@ MainWindow::MainWindow(QWidget *parent)
     adminLayout->addWidget(batteryIconLabel);
     adminLayout->addWidget(batteryLabel);
 
-    // WiFi label and icon
+    // WiFi label and icon setup
     QLabel *wifiLabel = new QLabel(adminBar);
     QPixmap wifiIcon(":/assets/icons/wifi_icon.png");
-    wifiLabel->setPixmap(wifiIcon.scaled(24, 24, Qt::KeepAspectRatio));
-    wifiLabel->setStyleSheet("background-color: transparent; border: none;");
+    // Ensure the icon fits within the label without being cut off
+    wifiIcon = wifiIcon.scaled(24, 24, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    wifiLabel->setPixmap(wifiIcon);
+    // Set fixed size to prevent the icon from being cut off or having borders
+    wifiLabel->setFixedSize(wifiIcon.size());
+    wifiLabel->setStyleSheet("background-color: transparent; border: none;");  // Ensure no border
     adminLayout->addWidget(wifiLabel);
 
     // Center the admin bar within the centralWidget
