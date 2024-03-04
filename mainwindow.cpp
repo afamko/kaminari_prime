@@ -32,25 +32,25 @@ MainWindow::MainWindow(QWidget *parent)
                             "border: 1px solid black;"
                             "border-width: 0px 2px 2px 2px;"
                             "border-color: transparent black black black;"
-                            "border-bottom-left-radius: 8px;"
-                            "border-bottom-right-radius: 8px;");
-    adminBar->setFixedHeight(43);
-    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.6)); // 60% of window width
+                            "border-bottom-left-radius: 6px;"
+                            "border-bottom-right-radius: 6px;");
+    adminBar->setFixedHeight(34);
+    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.56)); // 60% of window width
 
     QHBoxLayout *adminLayout = new QHBoxLayout(adminBar);
     adminLayout->setContentsMargins(10, 5, 10, 5); // Adjusted top and bottom padding
 
     // Time label - aligned towards the left
     QLabel *timeLabel = new QLabel("12:21 PM", adminBar);
-    timeLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
+    timeLabel->setStyleSheet("background-color: transparent; border: none; font-size: 16px;");
     adminLayout->addWidget(timeLabel);
 
-    adminLayout->addStretch(1); // Add stretchable space for centering
+    adminLayout->addStretch(2); // Add stretchable space for centering
 
     // WiFi label and icon - centered
     QLabel *wifiLabel = new QLabel(adminBar);
     QPixmap wifiIcon(":/assets/icons/wifi_icon.png");
-    const int wifiIconSize = 32; // The desired icon size for WiFi
+    const int wifiIconSize = 24; // The desired icon size for WiFi
     wifiIcon = wifiIcon.scaled(wifiIconSize, wifiIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
     wifiLabel->setPixmap(wifiIcon);
     wifiLabel->setFixedSize(wifiIcon.size());
@@ -61,12 +61,15 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Battery label and icon - aligned towards the right
     QLabel *batteryLabel = new QLabel("78%", adminBar);
-    batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
+    batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 16px;");
     adminLayout->addWidget(batteryLabel);
+
+    // Adjust the margin to the right of the batteryLabel to bring it closer to the battery icon
+    //batteryLabel->setContentsMargins(20, 0, 0, 0); // Negative right margin to reduce space
 
     QLabel *batteryIconLabel = new QLabel(adminBar);
     QPixmap batteryIcon(":/assets/icons/battery_icon.png");
-    const int batteryIconSize = 48; // Increased icon size for battery
+    const int batteryIconSize = 42; // Increased icon size for battery
     batteryIcon = batteryIcon.scaled(batteryIconSize, batteryIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
     batteryIconLabel->setPixmap(batteryIcon);
     batteryIconLabel->setFixedSize(batteryIcon.size());
