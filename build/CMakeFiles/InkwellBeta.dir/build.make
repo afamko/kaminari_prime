@@ -72,6 +72,7 @@ include CMakeFiles/InkwellBeta.dir/flags.make
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/myresources.qrc
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/folder_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/wifi_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/battery_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Bold.ttf
 qrc_myresources.cpp: myresources.qrc.depends
 qrc_myresources.cpp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/rcc

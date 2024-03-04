@@ -2,6 +2,7 @@
 <qresource>
     <file>assets/icons/folder_icon.png</file>
     <file>assets/icons/wifi_icon.png</file>
+    <file>assets/icons/battery_icon.png</file>
     <file>assets/fonts/Roboto-Bold.ttf</file>
 </qresource>
 </RCC>

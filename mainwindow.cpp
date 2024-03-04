@@ -15,18 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
 
-    // Load the Roboto font
-    int fontId = QFontDatabase::addApplicationFont(":/assets/Roboto-Bold.ttf"); // Adjust the path to your font file
-    QFont robotoFont;
-    if (fontId != -1) {
-        QString fontFamily = QFontDatabase::applicationFontFamilies(fontId).at(0);
-        robotoFont.setFamily(fontFamily);
-        robotoFont.setPointSize(20); // Set the font size to 20
-    } else {
-        // Handle the error, use a default font, or set a fallback
-        qDebug() << "Failed to load the Roboto font. Falling back to default font.";
-    }
-
+    // ... [previous includes and font loading]
 
     const int windowWidth = 500; // Width in pixels
     const int windowHeight = windowWidth * 4 / 3; // Height in pixels to maintain a 3:4 ratio
@@ -41,64 +30,59 @@ MainWindow::MainWindow(QWidget *parent)
     adminBar->setObjectName("adminBar");
     adminBar->setStyleSheet("background-color: rgb(239, 239, 239);"
                             "border: 1px solid black;"
-                            "border-width: 0px 2px 2px 2px;" // Top border set to 0px
-                            "border-color: transparent black black black;" // Top border color transparent
-                            "border-bottom-left-radius: 8px;"  // Adjust the radius as needed
-                            "border-bottom-right-radius: 8px;");  // Adjust the radius as ne
-    adminBar->setFixedHeight(40);
-    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.7)); // 70% of window width
-    
+                            "border-width: 0px 2px 2px 2px;"
+                            "border-color: transparent black black black;"
+                            "border-bottom-left-radius: 8px;"
+                            "border-bottom-right-radius: 8px;");
+    adminBar->setFixedHeight(43);
+    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.6)); // 60% of window width
+
     QHBoxLayout *adminLayout = new QHBoxLayout(adminBar);
-    adminLayout->setContentsMargins(10, 10, 10, 10); // Adjust padding to ensure space for larger text
-    adminLayout->setSpacing(30); // Remove spacing between elements
+    adminLayout->setContentsMargins(10, 5, 10, 5); // Adjusted top and bottom padding
 
-    // Add a single spacer item to push content to the right
-    adminLayout->addSpacerItem(new QSpacerItem(1, 10, QSizePolicy::Expanding, QSizePolicy::Minimum)); 
-
-    // Time label
+    // Time label - aligned towards the left
     QLabel *timeLabel = new QLabel("12:21 PM", adminBar);
     timeLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
     adminLayout->addWidget(timeLabel);
-    adminLayout->addSpacing(160); // Adjust this value as needed for visual separation
 
-    // Battery label and icon
-    QLabel *batteryLabel = new QLabel("78%", adminBar);
-    batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
-    QPixmap batteryIcon(":/assets/icons/battery_icon.png");
-    QLabel *batteryIconLabel = new QLabel(adminBar);
-    batteryIconLabel->setPixmap(batteryIcon.scaled(24, 24, Qt::KeepAspectRatio));
-    batteryIconLabel->setStyleSheet("background-color: transparent; border: none;");
-    adminLayout->addWidget(batteryIconLabel);
-    adminLayout->addWidget(batteryLabel);
+    adminLayout->addStretch(1); // Add stretchable space for centering
 
-   // WiFi label and icon
+    // WiFi label and icon - centered
     QLabel *wifiLabel = new QLabel(adminBar);
     QPixmap wifiIcon(":/assets/icons/wifi_icon.png");
-
-    // Set the desired size for the icon within the admin bar
-    const int iconSize = 32; // Adjust this size as needed
-
-    // Scale the icon to the desired size using smooth transformation for better quality
-    wifiIcon = wifiIcon.scaled(iconSize, iconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-
+    const int wifiIconSize = 32; // The desired icon size for WiFi
+    wifiIcon = wifiIcon.scaled(wifiIconSize, wifiIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
     wifiLabel->setPixmap(wifiIcon);
-
-    // Set the QLabel size to exactly fit the scaled pixmap
     wifiLabel->setFixedSize(wifiIcon.size());
-
     wifiLabel->setStyleSheet("background-color: transparent; border: none;");
     adminLayout->addWidget(wifiLabel);
 
+    adminLayout->addStretch(1); // Add another stretchable space for even spacing
+
+    // Battery label and icon - aligned towards the right
+    QLabel *batteryLabel = new QLabel("78%", adminBar);
+    batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 20px;");
+    adminLayout->addWidget(batteryLabel);
+
+    QLabel *batteryIconLabel = new QLabel(adminBar);
+    QPixmap batteryIcon(":/assets/icons/battery_icon.png");
+    const int batteryIconSize = 48; // Increased icon size for battery
+    batteryIcon = batteryIcon.scaled(batteryIconSize, batteryIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    batteryIconLabel->setPixmap(batteryIcon);
+    batteryIconLabel->setFixedSize(batteryIcon.size());
+    batteryIconLabel->setStyleSheet("background-color: transparent; border: none;");
+    adminLayout->addWidget(batteryIconLabel);
 
     // Center the admin bar within the centralWidget
     QHBoxLayout *centeredAdminBarLayout = new QHBoxLayout();
-    centeredAdminBarLayout->addStretch();
+    centeredAdminBarLayout->addStretch(1); // Stretchable space to the left of the admin bar
     centeredAdminBarLayout->addWidget(adminBar);
-    centeredAdminBarLayout->addStretch();
+    centeredAdminBarLayout->addStretch(1); // Stretchable space to the right of the admin bar
 
     mainLayout->addLayout(centeredAdminBarLayout);
 
     mainLayout->addSpacing(5); // Add some spacing between the admin bar and the rest of the content
+
 
     // Folder Grid setup
     QGridLayout *gridLayout = new QGridLayout();
