@@ -89,6 +89,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Folder Grid setup
     QGridLayout *gridLayout = new QGridLayout();
+    gridLayout->setVerticalSpacing(0); // Try setting this to zero again
     QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble"};
 
     for (int i = 0; i < folderNames.size(); ++i) {

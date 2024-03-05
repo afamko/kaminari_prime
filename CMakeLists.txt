@@ -9,14 +9,20 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
-list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake")
+# It's better to set Qt's CMAKE_PREFIX_PATH in the environment variable rather than in the CMake file
+# This way, each developer can have their own Qt setup
+# For example, you can set it in your .bashrc or .zshrc: export CMAKE_PREFIX_PATH="$HOME/Qt/6.6.2/macos/lib/cmake"
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 set(TS_FILES kaminari_prime_en_US.ts)  # Include translation source files if any
 
+# Resource files
+set(PROJECT_RESOURCES
+    myresources.qrc
+)
 
-
+# Specify all sources and resource files
 set(PROJECT_SOURCES
     main.cpp
     mainwindow.cpp
@@ -24,11 +30,11 @@ set(PROJECT_SOURCES
     mainwindow.ui
     FolderWidget.cpp
     ${TS_FILES}
+    ${PROJECT_RESOURCES} # Include the resource file in the project sources
 )
 
-# Process the .qrc resource file
- qt6_add_resources(PROJECT_SOURCES myresources.qrc)
-
+# Automatically process resource files
+qt6_add_resources(PROJECT_SOURCES ${PROJECT_RESOURCES})
 
 # Create the executable with the project sources
 add_executable(InkwellBeta ${PROJECT_SOURCES})
