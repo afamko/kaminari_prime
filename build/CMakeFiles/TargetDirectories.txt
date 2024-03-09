@@ -1,5 +1,5 @@
-/Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta.dir
-/Users/deltonutsey/kaminari_prime/build/CMakeFiles/edit_cache.dir
-/Users/deltonutsey/kaminari_prime/build/CMakeFiles/rebuild_cache.dir
-/Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir
-/Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir
+/Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta.dir
+/Users/AfamObioha/kaminari_prime/build/CMakeFiles/edit_cache.dir
+/Users/AfamObioha/kaminari_prime/build/CMakeFiles/rebuild_cache.dir
+/Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir
+/Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir
