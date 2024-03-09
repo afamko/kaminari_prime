@@ -90,71 +90,71 @@ CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: CMakeFile
 CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: InkwellBeta_autogen/mocs_compilation.cpp
 CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o -MF CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o -c /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o -MF CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o -c /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp
 
 CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp > CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp > CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp -o CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp -o CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/InkwellBeta.dir/main.cpp.o: CMakeFiles/InkwellBeta.dir/flags.make
 CMakeFiles/InkwellBeta.dir/main.cpp.o: /Users/AfamObioha/kaminari_prime/main.cpp
 CMakeFiles/InkwellBeta.dir/main.cpp.o: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InkwellBeta.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/main.cpp.o -MF CMakeFiles/InkwellBeta.dir/main.cpp.o.d -o CMakeFiles/InkwellBeta.dir/main.cpp.o -c /Users/AfamObioha/kaminari_prime/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/main.cpp.o -MF CMakeFiles/InkwellBeta.dir/main.cpp.o.d -o CMakeFiles/InkwellBeta.dir/main.cpp.o -c /Users/AfamObioha/kaminari_prime/main.cpp
 
 CMakeFiles/InkwellBeta.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InkwellBeta.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/main.cpp > CMakeFiles/InkwellBeta.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/main.cpp > CMakeFiles/InkwellBeta.dir/main.cpp.i
 
 CMakeFiles/InkwellBeta.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InkwellBeta.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/main.cpp -o CMakeFiles/InkwellBeta.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/main.cpp -o CMakeFiles/InkwellBeta.dir/main.cpp.s
 
 CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o: CMakeFiles/InkwellBeta.dir/flags.make
 CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o: /Users/AfamObioha/kaminari_prime/mainwindow.cpp
 CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o -MF CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o.d -o CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o -c /Users/AfamObioha/kaminari_prime/mainwindow.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o -MF CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o.d -o CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o -c /Users/AfamObioha/kaminari_prime/mainwindow.cpp
 
 CMakeFiles/InkwellBeta.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InkwellBeta.dir/mainwindow.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/mainwindow.cpp > CMakeFiles/InkwellBeta.dir/mainwindow.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/mainwindow.cpp > CMakeFiles/InkwellBeta.dir/mainwindow.cpp.i
 
 CMakeFiles/InkwellBeta.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InkwellBeta.dir/mainwindow.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/mainwindow.cpp -o CMakeFiles/InkwellBeta.dir/mainwindow.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/mainwindow.cpp -o CMakeFiles/InkwellBeta.dir/mainwindow.cpp.s
 
 CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o: CMakeFiles/InkwellBeta.dir/flags.make
 CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o: /Users/AfamObioha/kaminari_prime/FolderWidget.cpp
 CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o -MF CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o.d -o CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o -c /Users/AfamObioha/kaminari_prime/FolderWidget.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o -MF CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o.d -o CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o -c /Users/AfamObioha/kaminari_prime/FolderWidget.cpp
 
 CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/FolderWidget.cpp > CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/FolderWidget.cpp > CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.i
 
 CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/FolderWidget.cpp -o CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/FolderWidget.cpp -o CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.s
 
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o: CMakeFiles/InkwellBeta.dir/flags.make
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o: qrc_myresources.cpp
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o -MF CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o.d -o CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o -c /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o -MF CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o.d -o CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o -c /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp
 
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp > CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp > CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.i
 
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp -o CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp -o CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.s
 
 # Object files for target InkwellBeta
 InkwellBeta_OBJECTS = \
