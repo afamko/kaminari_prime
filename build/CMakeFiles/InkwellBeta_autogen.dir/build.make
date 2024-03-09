@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/AfamObioha/kaminari_prime
+CMAKE_SOURCE_DIR = /Users/deltonutsey/kaminari_prime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/AfamObioha/kaminari_prime/build
+CMAKE_BINARY_DIR = /Users/deltonutsey/kaminari_prime/build
 
 # Utility rule file for InkwellBeta_autogen.
 
@@ -68,12 +68,12 @@ include CMakeFiles/InkwellBeta_autogen.dir/progress.make
 
 CMakeFiles/InkwellBeta_autogen: InkwellBeta_autogen/timestamp
 
-InkwellBeta_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
-InkwellBeta_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
+InkwellBeta_autogen/timestamp: /Users/deltonutsey/Qt/6.6.2/macos/./libexec/moc
+InkwellBeta_autogen/timestamp: /Users/deltonutsey/Qt/6.6.2/macos/./libexec/uic
 InkwellBeta_autogen/timestamp: CMakeFiles/InkwellBeta_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target InkwellBeta"
-	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/AutogenInfo.json Debug
-	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/deltonutsey/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target InkwellBeta"
+	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/deltonutsey/kaminari_prime/build/InkwellBeta_autogen/timestamp
 
 InkwellBeta_autogen: CMakeFiles/InkwellBeta_autogen
 InkwellBeta_autogen: InkwellBeta_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/InkwellBeta_autogen.dir/clean:
 .PHONY : CMakeFiles/InkwellBeta_autogen.dir/clean
 
 CMakeFiles/InkwellBeta_autogen.dir/depend:
-	cd /Users/AfamObioha/kaminari_prime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/deltonutsey/kaminari_prime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/deltonutsey/kaminari_prime /Users/deltonutsey/kaminari_prime /Users/deltonutsey/kaminari_prime/build /Users/deltonutsey/kaminari_prime/build /Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/InkwellBeta_autogen.dir/depend
 
