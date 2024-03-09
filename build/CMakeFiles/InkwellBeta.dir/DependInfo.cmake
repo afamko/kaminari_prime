@@ -9,11 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "InkwellBeta_autogen/timestamp" "custom" "InkwellBeta_autogen/deps"
-  "/Users/deltonutsey/kaminari_prime/FolderWidget.cpp" "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o.d"
-  "/Users/deltonutsey/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp" "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o.d"
-  "/Users/deltonutsey/kaminari_prime/main.cpp" "CMakeFiles/InkwellBeta.dir/main.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/main.cpp.o.d"
-  "/Users/deltonutsey/kaminari_prime/mainwindow.cpp" "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o.d"
-  "/Users/deltonutsey/kaminari_prime/build/qrc_myresources.cpp" "CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o.d"
+  "/Users/AfamObioha/kaminari_prime/FolderWidget.cpp" "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o.d"
+  "/Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/mocs_compilation.cpp" "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o.d"
+  "/Users/AfamObioha/kaminari_prime/main.cpp" "CMakeFiles/InkwellBeta.dir/main.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/main.cpp.o.d"
+  "/Users/AfamObioha/kaminari_prime/mainwindow.cpp" "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o.d"
+  "/Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp" "CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o" "gcc" "CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
