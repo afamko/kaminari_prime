@@ -16,6 +16,10 @@ set(CMAKE_AUTORCC ON)
 
 # list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake")
 
+if(DEFINED ENV{MY_CMAKE_PATH})
+    list(APPEND CMAKE_PREFIX_PATH $ENV{MY_CMAKE_PATH})
+endif()
+
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
