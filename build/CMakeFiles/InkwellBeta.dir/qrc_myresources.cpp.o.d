@@ -1,2 +1,2 @@
 CMakeFiles/InkwellBeta.dir/qrc_myresources.cpp.o: \
-  /Users/AfamObioha/kaminari_prime/build/qrc_myresources.cpp
+  /Users/deltonutsey/kaminari_prime/build/qrc_myresources.cpp

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/AfamObioha/kaminari_prime
+CMAKE_SOURCE_DIR = /Users/deltonutsey/kaminari_prime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/AfamObioha/kaminari_prime/build
+CMAKE_BINARY_DIR = /Users/deltonutsey/kaminari_prime/build
 
 # Utility rule file for InkwellBeta_autogen_timestamp_deps.
 
@@ -66,9 +66,9 @@ include CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
-CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
-CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
+CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/deltonutsey/Qt/6.6.2/macos/./libexec/moc
+CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/deltonutsey/Qt/6.6.2/macos/./libexec/uic
+CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/deltonutsey/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 InkwellBeta_autogen_timestamp_deps: CMakeFiles/InkwellBeta_autogen_timestamp_deps
 InkwellBeta_autogen_timestamp_deps: CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/depend:
-	cd /Users/AfamObioha/kaminari_prime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build /Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/deltonutsey/kaminari_prime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/deltonutsey/kaminari_prime /Users/deltonutsey/kaminari_prime /Users/deltonutsey/kaminari_prime/build /Users/deltonutsey/kaminari_prime/build /Users/deltonutsey/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/depend
 
