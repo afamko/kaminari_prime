@@ -14,8 +14,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    // Load the Roboto font
+    QFontDatabase::addApplicationFont(":/assets/Roboto-Bold.ttf");
+    QFont robotoFont("Roboto", 20);
 
-    // ... [previous includes and font loading]
 
     const int windowWidth = 500; // Width in pixels
     const int windowHeight = windowWidth * 4 / 3; // Height in pixels to maintain a 3:4 ratio
@@ -89,19 +91,35 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Folder Grid setup
     QGridLayout *gridLayout = new QGridLayout();
-    gridLayout->setVerticalSpacing(0); // Try setting this to zero again
-    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble"};
 
-    for (int i = 0; i < folderNames.size(); ++i) {
-        FolderWidget *folder = new FolderWidget(folderNames[i], adminBar);
-        int row = i / 3;
-        int column = i % 3;
-        gridLayout->addWidget(folder, row, column);
+    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble"};
+    int totalRows = (folderNames.size() + 2) / 3; // Calculate total rows needed for folders, assuming 3 columns
+
+    for (int row = 0; row < totalRows; ++row) {
+        // Add a horizontal line above the row
+        QFrame* topLine = new QFrame();
+        topLine->setFrameShape(QFrame::HLine);
+        topLine->setFrameShadow(QFrame::Sunken);
+        gridLayout->addWidget(topLine, row * 2, 0, 1, 3); // Span across all columns
+
+        for (int col = 0; col < 3; ++col) {
+            int index = row * 3 + col;
+            if (index < folderNames.size()) {
+                FolderWidget *folder = new FolderWidget(folderNames[index], this);
+                gridLayout->addWidget(folder, row * 2 + 1, col); // Place folders on odd rows
+            }
+        }
+
+        // Add a horizontal line below the row
+        QFrame* bottomLine = new QFrame();
+        bottomLine->setFrameShape(QFrame::HLine);
+        bottomLine->setFrameShadow(QFrame::Sunken);
+        gridLayout->addWidget(bottomLine, row * 2 + 2, 0, 1, 3); // Span across all columns
     }
 
     QWidget *gridWidget = new QWidget(centralWidget);
     gridWidget->setLayout(gridLayout);
-    mainLayout->addWidget(gridWidget, 1); // Add grid widget to main layout and let it expand
+    mainLayout->addWidget(gridWidget, 1); // Let the grid widget expand
 
     setCentralWidget(centralWidget);
 }

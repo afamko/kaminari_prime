@@ -20,6 +20,8 @@ FolderWidget::FolderWidget(const QString &folderName, QWidget *parent) : QWidget
     layout->addWidget(iconLabel); // Add the icon to the layout
     layout->addWidget(label); // Add the label below the icon
     layout->setAlignment(Qt::AlignCenter); // Center the contents of the layout
+    //layout->setSpacing(0); // Ensure no additional space between the icon and label
+    layout->setContentsMargins(0, 0, 0, 0); // Ensure no margins around the layout contents
 
     
 }
