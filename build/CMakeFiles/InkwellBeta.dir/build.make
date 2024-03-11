@@ -83,7 +83,7 @@ InkwellBeta_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
 InkwellBeta_autogen/timestamp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
 InkwellBeta_autogen/timestamp: CMakeFiles/InkwellBeta.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic MOC and UIC for target InkwellBeta"
-	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/AutogenInfo.json ""
+	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E cmake_autogen /Users/AfamObioha/kaminari_prime/build/CMakeFiles/InkwellBeta_autogen.dir/AutogenInfo.json Debug
 	/opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E touch /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/timestamp
 
 CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: CMakeFiles/InkwellBeta.dir/flags.make
