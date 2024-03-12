@@ -23,5 +23,15 @@ FolderWidget::FolderWidget(const QString &folderName, QWidget *parent) : QWidget
     //layout->setSpacing(0); // Ensure no additional space between the icon and label
     layout->setContentsMargins(0, 0, 0, 0); // Ensure no margins around the layout contents
 
+
+    // Debug output
+    qDebug() << "Folder Name:" << folderName;
+    qDebug() << "Icon Label Size Hint:" << iconLabel->sizeHint();
+    qDebug() << "Label Size Hint:" << label->sizeHint();
+    qDebug() << "FolderWidget Size Hint:" << this->sizeHint();
+    qDebug() << "Icon Label Size Policy:" << iconLabel->sizePolicy();
+    qDebug() << "Label Size Policy:" << label->sizePolicy();
+    qDebug() << "FolderWidget Size Policy:" << this->sizePolicy();
+
     
 }

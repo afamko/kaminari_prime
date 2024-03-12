@@ -91,37 +91,25 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Folder Grid setup
     QGridLayout *gridLayout = new QGridLayout();
+    gridLayout->setSpacing(0); // Assuming you don't want extra space between grid items
+    //gridLayout->setContentsMargins(0, 0, 0, 0);  // No margins around the grid
 
-    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble"};
-    int totalRows = (folderNames.size() + 2) / 3; // Calculate total rows needed for folders, assuming 3 columns
-
-    for (int row = 0; row < totalRows; ++row) {
-        // Add a horizontal line above the row
-        QFrame* topLine = new QFrame();
-        topLine->setFrameShape(QFrame::HLine);
-        topLine->setFrameShadow(QFrame::Sunken);
-        gridLayout->addWidget(topLine, row * 2, 0, 1, 3); // Span across all columns
-
-        for (int col = 0; col < 3; ++col) {
-            int index = row * 3 + col;
-            if (index < folderNames.size()) {
-                FolderWidget *folder = new FolderWidget(folderNames[index], this);
-                gridLayout->addWidget(folder, row * 2 + 1, col); // Place folders on odd rows
-            }
-        }
-
-        // Add a horizontal line below the row
-        QFrame* bottomLine = new QFrame();
-        bottomLine->setFrameShape(QFrame::HLine);
-        bottomLine->setFrameShadow(QFrame::Sunken);
-        gridLayout->addWidget(bottomLine, row * 2 + 2, 0, 1, 3); // Span across all columns
+    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble", "Fathie/Sekai", "Shutter", "Mode"};
+    for (int i = 0; i < folderNames.size(); ++i) {
+        FolderWidget *folder = new FolderWidget(folderNames[i], centralWidget);
+        int row = i / 3; // Assumes a layout with 3 columns
+        int column = i % 3;
+        gridLayout->addWidget(folder, row, column);
     }
 
     QWidget *gridWidget = new QWidget(centralWidget);
     gridWidget->setLayout(gridLayout);
-    mainLayout->addWidget(gridWidget, 1); // Let the grid widget expand
+    mainLayout->addWidget(gridWidget, 1); // Add grid widget to main layout and let it expand
+
+    // ... [remaining code]
 
     setCentralWidget(centralWidget);
+
 }
 
 MainWindow::~MainWindow()
