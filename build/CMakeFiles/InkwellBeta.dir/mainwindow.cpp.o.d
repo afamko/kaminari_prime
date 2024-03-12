@@ -378,4 +378,7 @@ CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QGuiApplication \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QFontDatabase \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontdatabase.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontdatabase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QScrollArea \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h

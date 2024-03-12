@@ -8,6 +8,8 @@
 #include <QScreen>
 #include <QGuiApplication>
 #include <QFontDatabase>
+#include <QScrollArea>
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)

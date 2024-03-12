@@ -66,9 +66,9 @@ include CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
-CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
 CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/moc
+CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/uic
+CMakeFiles/InkwellBeta_autogen_timestamp_deps: /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 InkwellBeta_autogen_timestamp_deps: CMakeFiles/InkwellBeta_autogen_timestamp_deps
 InkwellBeta_autogen_timestamp_deps: CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir/build.make
