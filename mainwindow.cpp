@@ -9,6 +9,8 @@
 #include <QGuiApplication>
 #include <QFontDatabase>
 #include <QScrollArea>
+#include <QToolBar>
+
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -121,6 +123,52 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Add the scroll area to the main layout
     mainLayout->addWidget(scrollArea, 1);
+
+    // Navigation Bar Setup
+    QToolBar *toolBar = new QToolBar;
+    toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
+    toolBar->setMovable(false);
+
+    // Set the icon size to be twice as large
+    toolBar->setIconSize(QSize(55, 55));  // Replace iconWidth and iconHeight with actual values
+
+    // Add stretchable spacers to center the icons
+    QWidget* spacerLeft = new QWidget();
+    spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+    toolBar->addWidget(spacerLeft);
+
+
+
+    QAction *actionOne = new QAction(QIcon(":/assets/icons/action_icon.png"), "First", this);
+    QAction *actionTwo = new QAction(QIcon(":/assets/icons/sketch_icon.png"), "Second", this);
+    QAction *actionThree = new QAction(QIcon(":/assets/icons/settings_icon.png"), "Third", this);
+
+    toolBar->addAction(actionOne);
+
+    // Add an invisible widget as a spacer
+    QWidget *spacer1 = new QWidget();
+    spacer1->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer1->setFixedWidth(26); // Set your desired width
+    toolBar->addWidget(spacer1);
+
+
+    toolBar->addAction(actionTwo);
+
+    // Add an invisible widget as a spacer
+    QWidget *spacer2 = new QWidget();
+    spacer2->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer2->setFixedWidth(26); // Set your desired width
+    toolBar->addWidget(spacer2);
+
+
+    toolBar->addAction(actionThree);
+
+    QWidget* spacerRight = new QWidget();
+    spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+    toolBar->addWidget(spacerRight);
+
+    this->addToolBar(Qt::BottomToolBarArea, toolBar);
+
 
     // Set the central widget
     setCentralWidget(centralWidget);
