@@ -10,6 +10,8 @@
 #include <QFontDatabase>
 #include <QScrollArea>
 #include <QToolBar>
+#include <QWidgetAction>
+
 
 
 
@@ -137,32 +139,52 @@ MainWindow::MainWindow(QWidget *parent)
     spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerLeft);
 
+    // Custom widget for the first icon with increased padding
+    QWidget *customWidgetOne = new QWidget();
+    QVBoxLayout *customLayoutOne = new QVBoxLayout(customWidgetOne);
+    customLayoutOne->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
+    QLabel *iconLabelOne = new QLabel(customWidgetOne);
+    iconLabelOne->setPixmap(QPixmap(":/assets/icons/action_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutOne->addWidget(iconLabelOne, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionOne = new QWidgetAction(toolBar);
+    widgetActionOne->setDefaultWidget(customWidgetOne);
+    toolBar->addAction(widgetActionOne);
 
-
-    QAction *actionOne = new QAction(QIcon(":/assets/icons/action_icon.png"), "First", this);
-    QAction *actionTwo = new QAction(QIcon(":/assets/icons/sketch_icon.png"), "Second", this);
-    QAction *actionThree = new QAction(QIcon(":/assets/icons/settings_icon.png"), "Third", this);
-
-    toolBar->addAction(actionOne);
-
-    // Add an invisible widget as a spacer
+    // Spacer between the icons
     QWidget *spacer1 = new QWidget();
     spacer1->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
     spacer1->setFixedWidth(26); // Set your desired width
     toolBar->addWidget(spacer1);
 
+    // Repeat the custom widget process for the second icon
+    QWidget *customWidgetTwo = new QWidget();
+    QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
+    customLayoutTwo->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
+    QLabel *iconLabelTwo = new QLabel(customWidgetTwo);
+    iconLabelTwo->setPixmap(QPixmap(":/assets/icons/sketch_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutTwo->addWidget(iconLabelTwo, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
+    widgetActionTwo->setDefaultWidget(customWidgetTwo);
+    toolBar->addAction(widgetActionTwo);
 
-    toolBar->addAction(actionTwo);
-
-    // Add an invisible widget as a spacer
+    // Spacer between the icons
     QWidget *spacer2 = new QWidget();
     spacer2->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
     spacer2->setFixedWidth(26); // Set your desired width
     toolBar->addWidget(spacer2);
 
+    // Repeat the custom widget process for the third icon
+    QWidget *customWidgetThree = new QWidget();
+    QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
+    customLayoutThree->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
+    QLabel *iconLabelThree = new QLabel(customWidgetThree);
+    iconLabelThree->setPixmap(QPixmap(":/assets/icons/settings_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutThree->addWidget(iconLabelThree, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionThree = new QWidgetAction(toolBar);
+    widgetActionThree->setDefaultWidget(customWidgetThree);
+    toolBar->addAction(widgetActionThree);
 
-    toolBar->addAction(actionThree);
-
+    // Add stretchable spacer to the right
     QWidget* spacerRight = new QWidget();
     spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
