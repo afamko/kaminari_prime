@@ -91,25 +91,38 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addSpacing(5); // Add some spacing between the admin bar and the rest of the content
 
 
-    // Folder Grid setup
+        // Create a grid layout to hold the FolderWidgets
     QGridLayout *gridLayout = new QGridLayout();
-    gridLayout->setSpacing(0); // Assuming you don't want extra space between grid items
-    //gridLayout->setContentsMargins(0, 0, 0, 0);  // No margins around the grid
+    gridLayout->setSpacing(10);  // Adjust spacing as needed
 
-    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", "scribble dibble", "Fathie/Sekai", "Shutter", "Mode"};
+    // List of folder names
+    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", 
+                               "scribble dibble", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode"};
+
+    // Populate the grid layout with FolderWidgets
     for (int i = 0; i < folderNames.size(); ++i) {
-        FolderWidget *folder = new FolderWidget(folderNames[i], centralWidget);
-        int row = i / 3; // Assumes a layout with 3 columns
+        FolderWidget *folder = new FolderWidget(folderNames[i]);
+        int row = i / 3;
         int column = i % 3;
         gridLayout->addWidget(folder, row, column);
     }
 
-    QWidget *gridWidget = new QWidget(centralWidget);
+    // Wrap the grid layout in a widget
+    QWidget *gridWidget = new QWidget();
     gridWidget->setLayout(gridLayout);
-    mainLayout->addWidget(gridWidget, 1); // Add grid widget to main layout and let it expand
 
-    // ... [remaining code]
+    // Create a scroll area and set the grid layout widget as its child
+    QScrollArea *scrollArea = new QScrollArea();
+    scrollArea->setWidget(gridWidget);
+    scrollArea->setWidgetResizable(true);
+    scrollArea->viewport()->setStyleSheet("background-color: rgb(239, 239, 239);");
+    scrollArea->setStyleSheet("QScrollArea { border: none; }");  // Remove border from scroll area
 
+
+    // Add the scroll area to the main layout
+    mainLayout->addWidget(scrollArea, 1);
+
+    // Set the central widget
     setCentralWidget(centralWidget);
 
 }
