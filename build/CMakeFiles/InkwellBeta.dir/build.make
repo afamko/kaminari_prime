@@ -76,6 +76,12 @@ qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/battery_icon.
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/action_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/sketch_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/settings_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/search_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/sticky_note_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/d_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/g_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/o_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/trashcan_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Bold.ttf
 qrc_myresources.cpp: myresources.qrc.depends
 qrc_myresources.cpp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/rcc

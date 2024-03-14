@@ -11,7 +11,7 @@
 #include <QScrollArea>
 #include <QToolBar>
 #include <QWidgetAction>
-
+#include <QPushButton>
 
 
 
@@ -95,7 +95,77 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addSpacing(5); // Add some spacing between the admin bar and the rest of the content
 
 
-        // Create a grid layout to hold the FolderWidgets
+    // Header section setup
+    QWidget *headerWidget = new QWidget();
+    QVBoxLayout *headerLayout = new QVBoxLayout(headerWidget);
+
+    // Top Row
+    QWidget *topRowWidget = new QWidget();
+    QHBoxLayout *topRowLayout = new QHBoxLayout(topRowWidget);
+
+    // Add the sticky note button
+    QPushButton *stickyNoteButton = new QPushButton();
+    stickyNoteButton->setIcon(QIcon(":/assets/icons/sticky_note_icon.png"));
+    stickyNoteButton->setIconSize(QSize(30, 30));
+    topRowLayout->addWidget(stickyNoteButton);
+
+    // Add the search button
+    QPushButton *searchButton = new QPushButton();
+    searchButton->setIcon(QIcon(":/assets/icons/search_icon.png"));
+    searchButton->setIconSize(QSize(30, 30));
+    topRowLayout->addWidget(searchButton);
+
+    // Add the sort/filter buttons
+    QPushButton *sortButton = new QPushButton("Sort");
+    QPushButton *filterButton = new QPushButton("Filter");
+    topRowLayout->addWidget(sortButton);
+    topRowLayout->addWidget(filterButton);
+
+    headerLayout->addWidget(topRowWidget);
+
+
+    // Bottom Row
+    QWidget *bottomRowWidget = new QWidget();
+    QHBoxLayout *bottomRowLayout = new QHBoxLayout(bottomRowWidget);
+
+    // Add the page title to the bottom row layout
+    QLabel *pageTitle = new QLabel("Local Home");
+    pageTitle->setFont(robotoFont);
+    bottomRowLayout->addWidget(pageTitle);
+
+    // Add stretch after title to push icons to the right
+    bottomRowLayout->addStretch(1);
+
+    // Add action icons (D, G, O, trash can)
+    QPushButton *actionButtonD = new QPushButton();
+    actionButtonD->setIcon(QIcon(":/assets/icons/d_icon.png"));
+    actionButtonD->setIconSize(QSize(24, 24));
+    bottomRowLayout->addWidget(actionButtonD);
+
+    // For example, with QPushButton:
+    QPushButton *actionButtonG = new QPushButton();
+    actionButtonG->setIcon(QIcon(":/assets/icons/g_icon.png"));
+    actionButtonG->setIconSize(QSize(24, 24)); // Adjust size as needed
+    bottomRowLayout->addWidget(actionButtonG);
+
+    // For example, with QPushButton:
+    QPushButton *actionButtonO = new QPushButton();
+    actionButtonO->setIcon(QIcon(":/assets/icons/o_icon.png"));
+    actionButtonO->setIconSize(QSize(24, 24)); // Adjust size as needed
+    bottomRowLayout->addWidget(actionButtonO);
+
+    // For example, with QPushButton:
+    QPushButton *actionButtonTrash = new QPushButton();
+    actionButtonTrash->setIcon(QIcon(":/assets/icons/trashcan_icon.png"));
+    actionButtonTrash->setIconSize(QSize(24, 24)); // Adjust size as needed
+    bottomRowLayout->addWidget(actionButtonTrash);
+
+    headerLayout->addWidget(bottomRowWidget);
+
+    // Add header layout to main layout before the scroll area
+    mainLayout->addWidget(headerWidget);
+
+    // Create a grid layout to hold the FolderWidgets
     QGridLayout *gridLayout = new QGridLayout();
     gridLayout->setSpacing(10);  // Adjust spacing as needed
 

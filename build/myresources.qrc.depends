@@ -6,6 +6,15 @@
     <file>assets/icons/action_icon.png</file>
     <file>assets/icons/sketch_icon.png</file>
     <file>assets/icons/settings_icon.png</file>
+
+    <file>assets/icons/search_icon.png</file>
+    <file>assets/icons/sticky_note_icon.png</file>
+    <file>assets/icons/d_icon.png</file>
+    <file>assets/icons/g_icon.png</file>
+    <file>assets/icons/o_icon.png</file>
+    <file>assets/icons/trashcan_icon.png</file>
+
+
     <file>assets/fonts/Roboto-Bold.ttf</file>
 </qresource>
 </RCC>
