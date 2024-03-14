@@ -82,7 +82,10 @@ qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/d_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/g_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/o_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/trashcan_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/sort_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/filter_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Bold.ttf
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Regular.ttf
 qrc_myresources.cpp: myresources.qrc.depends
 qrc_myresources.cpp: /Users/AfamObioha/Qt/6.6.2/macos/./libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/AfamObioha/kaminari_prime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_myresources.cpp"

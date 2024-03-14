@@ -12,6 +12,8 @@
 #include <QToolBar>
 #include <QWidgetAction>
 #include <QPushButton>
+#include <QToolButton>
+
 
 
 
@@ -21,8 +23,13 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     // Load the Roboto font
-    QFontDatabase::addApplicationFont(":/assets/Roboto-Bold.ttf");
-    QFont robotoFont("Roboto", 20);
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Black.ttf");
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Bold.ttf");
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Italic.ttf");
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Regular.ttf");
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Light.ttf");
+    QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Thin.ttf");
+
 
 
     const int windowWidth = 500; // Width in pixels
@@ -106,21 +113,101 @@ MainWindow::MainWindow(QWidget *parent)
     // Add the sticky note button
     QPushButton *stickyNoteButton = new QPushButton();
     stickyNoteButton->setIcon(QIcon(":/assets/icons/sticky_note_icon.png"));
-    stickyNoteButton->setIconSize(QSize(30, 30));
+    stickyNoteButton->setIconSize(QSize(40, 40));
+    stickyNoteButton->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    stickyNoteButton->setCursor(Qt::PointingHandCursor); // Change the cursor to a hand pointer for a better UX
     topRowLayout->addWidget(stickyNoteButton);
+    topRowLayout->addSpacing(62); // Adjust this value to fit your design
+
+    
+
+    
+
+    // SORT BUTTON
+    // Create a composite widget to hold the text and icon
+    QWidget *sortButtonWidget = new QWidget();
+    QHBoxLayout *sortButtonLayout = new QHBoxLayout(sortButtonWidget);
+    sortButtonLayout->setContentsMargins(0, 0, 0, 0); // No margins for the composite widget
+    sortButtonLayout->setSpacing(0); // Adjust this spacing to control the distance between the icon and text
+
+    // Button for the 'Sort' icon
+    QToolButton *sortIconButton = new QToolButton();
+    sortIconButton->setIcon(QIcon(":/assets/icons/sort_icon.png"));
+    sortIconButton->setIconSize(QSize(40, 40));
+    sortIconButton->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
+    sortIconButton->setCursor(Qt::ArrowCursor);
+
+    // Label for the 'Sort' text
+    QLabel *sortTextLabel = new QLabel("Sort");
+    QFont sortFont = sortTextLabel->font(); // Get the current font
+    sortFont.setPointSize(22); // Set your desired font size
+    sortTextLabel->setFont(sortFont); // Apply the font with the new size
+    sortTextLabel->setStyleSheet("background-color: transparent;"); // Style as needed
+
+    // Add the icon button and text label to the layout
+    sortButtonLayout->addWidget(sortIconButton, 0, Qt::AlignVCenter | Qt::AlignLeft);
+    sortButtonLayout->addWidget(sortTextLabel, 0, Qt::AlignVCenter | Qt::AlignLeft);
+
+    // Now add the composite widget to the top row layout
+    topRowLayout->addWidget(sortButtonWidget);
+    topRowLayout->addSpacing(10); // Adjust this value to fit your design
+
+
+    // V E R T I C A L  L I N E
+    QFrame *line = new QFrame();
+    line->setFrameShape(QFrame::VLine);  // Set the shape of the frame to a vertical line
+    line->setFrameShadow(QFrame::Sunken); // Give it a shadow effect to make it more visible
+    line->setLineWidth(2); // Set the line width (you can adjust this as needed)
+    topRowLayout->addWidget(line); // Add the line to the layout here
+    // Adjust line's margins to remove any extra space it might have by default
+    line->setContentsMargins(0, 0, 0, 0);
+
+
+    // FILTER BUTTON
+    // Create a composite widget to hold the text and icon
+    QWidget *filterButtonWidget = new QWidget();
+    QHBoxLayout *filterButtonLayout = new QHBoxLayout(filterButtonWidget);
+    filterButtonLayout->setContentsMargins(0, 0, 0, 0); // No margins for the composite widget
+    filterButtonLayout->setSpacing(0); // No additional spacing
+
+    
+    // Label for the 'Filter' text
+    QLabel *filterTextLabel = new QLabel("Filter");
+    QFont filterFont = filterTextLabel->font(); // Get the current font
+    filterFont.setPointSize(22); // Set your desired font size
+    filterTextLabel->setFont(filterFont); // Apply the font with the new size
+    filterTextLabel->setStyleSheet("background-color: transparent; margin-left: 5px;"); // Style as needed
+
+    // Button for the 'Filter' icon
+    QToolButton *filterIconButton = new QToolButton();
+    filterIconButton->setIcon(QIcon(":/assets/icons/filter_icon.png"));
+    filterIconButton->setIconSize(QSize(40, 40));
+    filterIconButton->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
+    filterIconButton->setCursor(Qt::ArrowCursor);
+
+    // Add the text label and icon button to the layout
+    filterButtonLayout->addWidget(filterTextLabel, 0, Qt::AlignVCenter | Qt::AlignRight);
+
+    // This next line adds a horizontal spacer with a fixed width after the label
+    // It ensures that the 'Filter' label is pushed to the left and closer to the vertical line
+    filterButtonLayout->addSpacing(5); // Adjust this spacing as necessary
+
+    filterButtonLayout->addWidget(filterIconButton, 0, Qt::AlignVCenter | Qt::AlignLeft);
+
+    // Now add the composite widget to the top row layout
+    topRowLayout->addWidget(filterButtonWidget);
+    topRowLayout->addSpacing(50); // Adjust this value to fit your design
+
+
+
 
     // Add the search button
     QPushButton *searchButton = new QPushButton();
     searchButton->setIcon(QIcon(":/assets/icons/search_icon.png"));
-    searchButton->setIconSize(QSize(30, 30));
+    searchButton->setIconSize(QSize(34, 34));
     topRowLayout->addWidget(searchButton);
-
-    // Add the sort/filter buttons
-    QPushButton *sortButton = new QPushButton("Sort");
-    QPushButton *filterButton = new QPushButton("Filter");
-    topRowLayout->addWidget(sortButton);
-    topRowLayout->addWidget(filterButton);
-
+    searchButton->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    searchButton->setCursor(Qt::PointingHandCursor); // Change the cursor to a hand pointer for a better UX
     headerLayout->addWidget(topRowWidget);
 
 
@@ -128,10 +215,17 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *bottomRowWidget = new QWidget();
     QHBoxLayout *bottomRowLayout = new QHBoxLayout(bottomRowWidget);
 
+
+
     // Add the page title to the bottom row layout
     QLabel *pageTitle = new QLabel("Local Home");
-    pageTitle->setFont(robotoFont);
+    // Use the default application font, set to bold and with a specific size
+    QFont defaultFont = QApplication::font();
+    //defaultFont.setBold(true); // Set the font weight to bold
+    defaultFont.setPointSize(30); // Replace 20 with your desired font size
+    pageTitle->setFont(defaultFont);
     bottomRowLayout->addWidget(pageTitle);
+
 
     // Add stretch after title to push icons to the right
     bottomRowLayout->addStretch(1);
@@ -140,24 +234,33 @@ MainWindow::MainWindow(QWidget *parent)
     QPushButton *actionButtonD = new QPushButton();
     actionButtonD->setIcon(QIcon(":/assets/icons/d_icon.png"));
     actionButtonD->setIconSize(QSize(24, 24));
+    actionButtonD->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    actionButtonD->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonD);
+    
 
     // For example, with QPushButton:
     QPushButton *actionButtonG = new QPushButton();
     actionButtonG->setIcon(QIcon(":/assets/icons/g_icon.png"));
     actionButtonG->setIconSize(QSize(24, 24)); // Adjust size as needed
+    actionButtonG->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    actionButtonG->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonG);
 
     // For example, with QPushButton:
     QPushButton *actionButtonO = new QPushButton();
     actionButtonO->setIcon(QIcon(":/assets/icons/o_icon.png"));
     actionButtonO->setIconSize(QSize(24, 24)); // Adjust size as needed
+    actionButtonO->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    actionButtonO->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonO);
 
     // For example, with QPushButton:
     QPushButton *actionButtonTrash = new QPushButton();
     actionButtonTrash->setIcon(QIcon(":/assets/icons/trashcan_icon.png"));
-    actionButtonTrash->setIconSize(QSize(24, 24)); // Adjust size as needed
+    actionButtonTrash->setIconSize(QSize(30, 30)); // Adjust size as needed
+    actionButtonTrash->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    actionButtonTrash->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonTrash);
 
     headerLayout->addWidget(bottomRowWidget);
@@ -258,6 +361,12 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget* spacerRight = new QWidget();
     spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
+
+    // Increase the width of the right spacer
+    int rightSpacerWidth = 1; // Increase this value to push the icons to the left
+    QWidget *additionalSpacerRight = new QWidget();
+    additionalSpacerRight->setFixedWidth(rightSpacerWidth);
+    toolBar->addWidget(additionalSpacerRight);
 
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
 

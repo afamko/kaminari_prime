@@ -13,8 +13,9 @@
     <file>assets/icons/g_icon.png</file>
     <file>assets/icons/o_icon.png</file>
     <file>assets/icons/trashcan_icon.png</file>
-
-
+    <file>assets/icons/sort_icon.png</file>
+    <file>assets/icons/filter_icon.png</file>
     <file>assets/fonts/Roboto-Bold.ttf</file>
+    <file>assets/fonts/Roboto-Regular.ttf</file>
 </qresource>
 </RCC>
