@@ -33,6 +33,9 @@ set(PROJECT_SOURCES
     mainwindow.h
     mainwindow.ui
     FolderWidget.cpp
+    FolderWidget.h  # Add this line if you have a header file for FolderWidget
+    NewItemDialog.cpp  # Add your NewItemDialog source file
+    NewItemDialog.h    # Add your NewItemDialog header file
     ${TS_FILES}
 )
 

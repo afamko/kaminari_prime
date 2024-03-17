@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/InkwellBeta.dir/FolderWidget.cpp.o.d"
   "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/InkwellBeta.dir/NewItemDialog.cpp.o"
+  "CMakeFiles/InkwellBeta.dir/NewItemDialog.cpp.o.d"
   "CMakeFiles/InkwellBeta.dir/main.cpp.o"
   "CMakeFiles/InkwellBeta.dir/main.cpp.o.d"
   "CMakeFiles/InkwellBeta.dir/mainwindow.cpp.o"

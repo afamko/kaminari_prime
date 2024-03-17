@@ -13,6 +13,8 @@
 #include <QWidgetAction>
 #include <QPushButton>
 #include <QToolButton>
+#include <QMessageBox>
+#include "NewItemDialog.h"
 
 
 
@@ -333,9 +335,12 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *customWidgetTwo = new QWidget();
     QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
     customLayoutTwo->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
-    QLabel *iconLabelTwo = new QLabel(customWidgetTwo);
-    iconLabelTwo->setPixmap(QPixmap(":/assets/icons/sketch_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
-    customLayoutTwo->addWidget(iconLabelTwo, 0, Qt::AlignCenter);
+    QToolButton *actionButtonSketch = new QToolButton();
+    actionButtonSketch->setIcon(QIcon(":/assets/icons/sketch_icon.png"));
+    actionButtonSketch->setIconSize(QSize(55, 55));
+    actionButtonSketch->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
+    customLayoutTwo->addWidget(actionButtonSketch, 0, Qt::AlignCenter);
+
     QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
     widgetActionTwo->setDefaultWidget(customWidgetTwo);
     toolBar->addAction(widgetActionTwo);
@@ -369,10 +374,27 @@ MainWindow::MainWindow(QWidget *parent)
     toolBar->addWidget(additionalSpacerRight);
 
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
+    
+    // Connect the 'sketch_icon' button to the slot for creating a new item
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::onSketchButtonClicked);
+    
 
 
     // Set the central widget
     setCentralWidget(centralWidget);
+
+}
+
+void MainWindow::onSketchButtonClicked() {
+
+    NewItemDialog dialog(this);
+    dialog.exec();
+    // This is just a conceptual example
+    QMessageBox msgBox;
+    msgBox.setText("Create New:");
+    msgBox.addButton(tr("Folder"), QMessageBox::AcceptRole);
+    msgBox.addButton(tr("Sketch"), QMessageBox::RejectRole);
+    
 
 }
 

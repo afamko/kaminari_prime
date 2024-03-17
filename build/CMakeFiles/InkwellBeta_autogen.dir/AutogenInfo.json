@@ -331,6 +331,12 @@
 			null
 		],
 		[
+			"/Users/AfamObioha/kaminari_prime/NewItemDialog.h",
+			"MU",
+			"EWIEGA46WW/moc_NewItemDialog.cpp",
+			null
+		],
+		[
 			"/Users/AfamObioha/kaminari_prime/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -396,6 +402,7 @@
 	"SOURCES" : 
 	[
 		[ "/Users/AfamObioha/kaminari_prime/FolderWidget.cpp", "MU", null ],
+		[ "/Users/AfamObioha/kaminari_prime/NewItemDialog.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_prime/main.cpp", "MU", null ],
 		[ "/Users/AfamObioha/kaminari_prime/mainwindow.cpp", "MU", null ]
 	],

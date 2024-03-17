@@ -350,6 +350,10 @@ CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpen.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextoption.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
+  /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/EWIEGA46WW/moc_NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/EWIEGA46WW/../../../NewItemDialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qdialog.h \
   /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp \
   /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/EWIEGA46WW/../../../mainwindow.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \

@@ -19,5 +19,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void onSketchButtonClicked();
+    // ... other slot declarations
+
 };
 #endif // MAINWINDOW_H
