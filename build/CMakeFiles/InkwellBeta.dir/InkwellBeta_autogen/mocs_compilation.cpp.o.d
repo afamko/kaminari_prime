@@ -358,4 +358,6 @@ CMakeFiles/InkwellBeta.dir/InkwellBeta_autogen/mocs_compilation.cpp.o: \
   /Users/AfamObioha/kaminari_prime/build/InkwellBeta_autogen/EWIEGA46WW/../../../mainwindow.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout

@@ -5,21 +5,22 @@
 NewItemDialog::NewItemDialog(QWidget *parent) : QDialog(parent) {
     QVBoxLayout *layout = new QVBoxLayout(this);
 
-    QPushButton *newFolderButton = new QPushButton("Folder", this);
+    QPushButton *newFolderButton = new QPushButton("New Folder", this);
     connect(newFolderButton, &QPushButton::clicked, this, &NewItemDialog::onNewFolder);
     layout->addWidget(newFolderButton);
 
-    QPushButton *newSheetButton = new QPushButton("Sheet", this);
+    QPushButton *newSheetButton = new QPushButton("New Sheet", this);
     connect(newSheetButton, &QPushButton::clicked, this, &NewItemDialog::onNewSheet);
     layout->addWidget(newSheetButton);
 }
 
 void NewItemDialog::onNewFolder() {
-    // Implement new folder creation logic
-    accept(); // Close the dialog
+    QString folderName = "New Folder";  // Or get this from user input
+    emit newFolderRequested(folderName);
+    accept();  // Close the dialog
 }
 
 void NewItemDialog::onNewSheet() {
-    // Implement new sheet creation logic
-    accept(); // Close the dialog
+    emit newSheetRequested();
+    accept();  // Close the dialog
 }

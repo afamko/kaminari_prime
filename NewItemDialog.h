@@ -12,6 +12,10 @@ class NewItemDialog : public QDialog {
 public:
     explicit NewItemDialog(QWidget *parent = nullptr);
 
+signals:
+    void newFolderRequested(const QString &folderName);
+    void newSheetRequested();
+
 private slots:
     void onNewFolder();
     void onNewSheet();

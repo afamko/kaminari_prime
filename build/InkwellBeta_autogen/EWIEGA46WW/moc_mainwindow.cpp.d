@@ -114,6 +114,7 @@
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -251,7 +252,12 @@
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \

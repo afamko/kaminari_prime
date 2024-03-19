@@ -20,7 +20,9 @@
 
 
 MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent), ui(new Ui::MainWindow)
+    : QMainWindow(parent), ui(new Ui::MainWindow),
+    folderNames(new QStringList()), gridLayout(new QGridLayout())
+    
 {
     ui->setupUi(this);
 
@@ -274,6 +276,7 @@ MainWindow::MainWindow(QWidget *parent)
     QGridLayout *gridLayout = new QGridLayout();
     gridLayout->setSpacing(10);  // Adjust spacing as needed
 
+
     // List of folder names
     QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW", 
                                "scribble dibble", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode"};
@@ -289,6 +292,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Wrap the grid layout in a widget
     QWidget *gridWidget = new QWidget();
     gridWidget->setLayout(gridLayout);
+
 
     // Create a scroll area and set the grid layout widget as its child
     QScrollArea *scrollArea = new QScrollArea();
@@ -377,7 +381,10 @@ MainWindow::MainWindow(QWidget *parent)
     
     // Connect the 'sketch_icon' button to the slot for creating a new item
     connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::onSketchButtonClicked);
-    
+
+
+
+
 
 
     // Set the central widget
@@ -386,19 +393,55 @@ MainWindow::MainWindow(QWidget *parent)
 }
 
 void MainWindow::onSketchButtonClicked() {
+    NewItemDialog *dialog = new NewItemDialog(this);
 
-    NewItemDialog dialog(this);
-    dialog.exec();
-    // This is just a conceptual example
-    QMessageBox msgBox;
-    msgBox.setText("Create New:");
-    msgBox.addButton(tr("Folder"), QMessageBox::AcceptRole);
-    msgBox.addButton(tr("Sketch"), QMessageBox::RejectRole);
-    
+    // Connect the signals from the dialog to slots in MainWindow
+    connect(dialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
+    connect(dialog, &NewItemDialog::newSheetRequested, this, &MainWindow::createNewSheet);
 
+    dialog->exec();
 }
+
+
+void MainWindow::createNewFolder(const QString &folderName) {
+    // Check if the member variables are initialized
+    if (!gridLayout) {
+        qDebug() << "Grid layout is not initialized";
+        return;
+    }
+
+    if (!folderNames) {
+        qDebug() << "Folder names list is not initialized";
+        return;
+    }
+
+    // Append the new folder name to the list
+    folderNames->append(folderName);
+
+    // Create the new FolderWidget and add it to the grid layout
+    FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
+    int row = folderNames->size() / 3;
+    int column = folderNames->size() % 3;
+    gridLayout->addWidget(newFolderWidget, row, column);
+    
+    // Optional: Refresh or update the layout or parent widget if necessary
+    gridLayout->update();  // This forces the layout to re-arrange the widgets
+    // or use gridLayout->parentWidget()->update();
+}
+
+void MainWindow::createNewSheet() {
+    // Implement the logic for creating a new sheet here.
+    // For now, you can leave this empty or add a simple placeholder implementation.
+    
+    // Placeholder example: Show a message box indicating the action (for testing purposes)
+    QMessageBox::information(this, "Action", "Create New Sheet action triggered");
+}
+
+
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete folderNames;
+    delete gridLayout;
 }
