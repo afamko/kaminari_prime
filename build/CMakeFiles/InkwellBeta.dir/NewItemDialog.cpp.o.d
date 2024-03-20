@@ -339,4 +339,30 @@ CMakeFiles/InkwellBeta.dir/NewItemDialog.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreevent.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qeventloop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qinputmethod.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlocale.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QScreen \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qscreen.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QObject \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QRect \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform

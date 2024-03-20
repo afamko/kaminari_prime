@@ -15,6 +15,10 @@
     <file>assets/icons/trashcan_icon.png</file>
     <file>assets/icons/sort_icon.png</file>
     <file>assets/icons/filter_icon.png</file>
+    
+    <file>assets/icons/newFolder_icon.png</file>
+    <file>assets/icons/newSheet_icon.png</file>
+
     <file>assets/fonts/Roboto-Bold.ttf</file>
     <file>assets/fonts/Roboto-Regular.ttf</file>
 </qresource>

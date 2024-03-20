@@ -19,6 +19,9 @@ signals:
 private slots:
     void onNewFolder();
     void onNewSheet();
+
+private:
+    void positionAtBottom(QWidget *parent);
 };
 
 #endif // NEWITEMDIALOG_H
