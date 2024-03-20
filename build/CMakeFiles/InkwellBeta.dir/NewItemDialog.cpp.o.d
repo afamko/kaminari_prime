@@ -365,4 +365,5 @@ CMakeFiles/InkwellBeta.dir/NewItemDialog.cpp.o: \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QRect \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout

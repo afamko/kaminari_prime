@@ -18,6 +18,8 @@
     
     <file>assets/icons/newFolder_icon.png</file>
     <file>assets/icons/newSheet_icon.png</file>
+    <file>assets/icons/createNew_icon.png</file>
+
 
     <file>assets/fonts/Roboto-Bold.ttf</file>
     <file>assets/fonts/Roboto-Regular.ttf</file>

@@ -86,6 +86,7 @@ qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/sort_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/filter_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/newFolder_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/newSheet_icon.png
+qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/icons/createNew_icon.png
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Bold.ttf
 qrc_myresources.cpp: /Users/AfamObioha/kaminari_prime/assets/fonts/Roboto-Regular.ttf
 qrc_myresources.cpp: myresources.qrc.depends

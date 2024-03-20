@@ -262,8 +262,10 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
@@ -272,6 +274,7 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
@@ -498,26 +501,100 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/kaminari_prime/mainwindow.ui \
   /Users/AfamObioha/kaminari_prime/myresources.qrc \
   /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
@@ -526,12 +603,6752 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
+  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
+  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
+  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.28.3/CMakeSystem.cmake \
+  InkwellBeta_autogen/moc_predefs.h \
+  /Users/AfamObioha/kaminari_prime/main.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
+  /Users/AfamObioha/kaminari_prime/mainwindow.h \
+  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
+  /Users/AfamObioha/kaminari_prime/myresources.qrc \
+  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
@@ -1032,26 +7849,100 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/kaminari_prime/mainwindow.ui \
   /Users/AfamObioha/kaminari_prime/myresources.qrc \
   /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
@@ -1060,12 +7951,14 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
@@ -1566,26 +8459,100 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/kaminari_prime/mainwindow.ui \
   /Users/AfamObioha/kaminari_prime/myresources.qrc \
   /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
@@ -1594,12 +8561,14 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
@@ -2100,26 +9069,100 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /Users/AfamObioha/kaminari_prime/mainwindow.ui \
   /Users/AfamObioha/kaminari_prime/myresources.qrc \
   /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
@@ -2128,546 +9171,14 @@ InkwellBeta_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX11
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityMacros.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/TargetConditionals.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__threading_support \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/variant \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/sched.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/QStringList \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmath.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstring.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringview.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/QPixmap \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Config.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6Targets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /Users/AfamObioha/kaminari_prime/CMakeLists.txt \
-  /Users/AfamObioha/kaminari_prime/FolderWidget.cpp \
-  /Users/AfamObioha/kaminari_prime/FolderWidget.h \
-  /Users/AfamObioha/kaminari_prime/NewItemDialog.cpp \
-  /Users/AfamObioha/kaminari_prime/NewItemDialog.h \
-  CMakeFiles/3.28.3/CMakeCCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.28.3/CMakeSystem.cmake \
-  InkwellBeta_autogen/moc_predefs.h \
-  /Users/AfamObioha/kaminari_prime/main.cpp \
-  /Users/AfamObioha/kaminari_prime/mainwindow.cpp \
-  /Users/AfamObioha/kaminari_prime/mainwindow.h \
-  /Users/AfamObioha/kaminari_prime/mainwindow.ui \
-  /Users/AfamObioha/kaminari_prime/myresources.qrc \
-  /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCInformation.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeGenericSystem.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-C.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindOpenGL.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindThreads.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GNUInstallDirs.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
-  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake
@@ -3730,6 +10241,7 @@ CMakeFiles/InkwellBeta.dir/NewItemDialog.cpp.o: /Users/AfamObioha/kaminari_prime
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QDialog \
+  /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
@@ -4529,15 +11041,11 @@ InkwellBeta_autogen/include/ui_mainwindow.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMenuBar:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontdatabase.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QGuiApplication:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QVariant:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
 
@@ -4545,57 +11053,69 @@ InkwellBeta_autogen/include/ui_mainwindow.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qscreen.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qminmax.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QScreen:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlocale.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreevent.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QObject:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QList:
 
 InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
+InkwellBeta_autogen/EWIEGA46WW/moc_NewItemDialog.cpp:
+
+InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtabwidget.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qdialog.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QMainWindow:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QGridLayout:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qmap.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QDialog:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextcursor.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextformat.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpen.h:
 
+InkwellBeta_autogen/mocs_compilation.cpp:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayout.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringview.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlabel.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qgridlayout.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdbool.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qframe.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QWidget:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qwindowdefs.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiglobal.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtgui-config.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextdocument.h:
 
@@ -4603,41 +11123,31 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpolygon.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixmap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdio.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixelformat.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qkeysequence.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qimage.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpicture.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qicon.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontmetrics.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontinfo.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfont.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcolor.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtypes.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qversiontagging.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvariant.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtypeinfo.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qutf8stringview.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qurl.h:
 
 /Users/AfamObioha/kaminari_prime/main.cpp:
 
@@ -4663,13 +11173,7 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtclasshelpermacros.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtaggedpointer.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringlist.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qwidget.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringalgorithms.h:
 
@@ -4715,11 +11219,11 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/mach/machine/_structs.h:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qglobal.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qfloat16.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qflags.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qdebug.h:
 
@@ -4727,21 +11231,17 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qconstructormacros.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtgui-config.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qconfig.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QTransform:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcompilerdetection.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcompare_impl.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qchar.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qregion.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qbytearrayview.h:
 
@@ -4773,21 +11273,13 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/limits.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextoption.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringconverter_base.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/wchar.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiexports.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/stdio.h:
 
@@ -4799,15 +11291,27 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_wchar_t.h:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineSystem.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_va_list.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qaction.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtypes.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rsize_t.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qkeysequence.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_off_t.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_errno_t.h:
 
@@ -4837,8 +11341,6 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/limits.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcursor.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wctype.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qline.h:
@@ -4848,12 +11350,6 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/libkern/_OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/ctype.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/arch.h:
 
@@ -4869,19 +11365,15 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint64_t.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/UnixPaths.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtypeinfo.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake:
 
@@ -4890,10 +11382,6 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/MacroAddFileDependencies.cmake:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h:
-
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake:
 
@@ -4909,6 +11397,82 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/machine/limits.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtaggedpointer.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qregion.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/endian.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/math.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_intmax_t.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qgenericatomic.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckLibraryExists.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mbstate_t.h:
@@ -4923,7 +11487,13 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCCompiler.cmake:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystem.cmake.in:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h:
 
@@ -4931,9 +11501,31 @@ InkwellBeta_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXInformation.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnativeinterface.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qflags.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompilerABI.c:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeCCompiler.cmake.in:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
 
@@ -4957,19 +11549,19 @@ InkwellBeta_autogen/moc_predefs.h:
 
 CMakeFiles/3.28.3/CMakeCXXCompiler.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/signal.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qrgb.h:
-
 CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/kaminari_prime/NewItemDialog.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 /Users/AfamObioha/kaminari_prime/FolderWidget.h:
 
 /Users/AfamObioha/kaminari_prime/FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
@@ -4985,12 +11577,6 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qset.h:
@@ -5003,6 +11589,10 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qatomic.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qrgb.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/arm/signal.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/optional:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
@@ -5012,6 +11602,10 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/q20memory.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiglobal.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
@@ -5025,9 +11619,9 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/kaminari_prime/CMakeLists.txt:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSize:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake:
 
@@ -5053,17 +11647,13 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_timeval.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QRect:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
 
@@ -5107,6 +11697,10 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixelformat.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/stdio.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
@@ -5115,23 +11709,21 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpalette.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtversion.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbitmap.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qvarlengtharray.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qxptype_traits.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/resource.h:
 
@@ -5151,7 +11743,17 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeFindBinUtils.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake:
 
@@ -5178,6 +11780,14 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtransform.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
 
@@ -5224,6 +11834,8 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
 
@@ -5331,29 +11943,37 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
@@ -5371,11 +11991,9 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtFeature.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h:
 
@@ -5399,6 +12017,12 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtguiexports.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapAtomic.cmake:
@@ -5411,13 +12035,19 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qhashfunctions.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h:
 
@@ -5433,13 +12063,19 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlabel.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringview.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qfontmetrics.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
 
@@ -5451,9 +12087,17 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qnamespace.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qframe.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdbool.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qanystringview.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h:
 
@@ -5463,11 +12107,13 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qurl.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/wait.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Internal/FeatureTesting.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake:
 
@@ -5501,10 +12147,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QGridLayout:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
@@ -5520,8 +12162,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qlocale.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
 
@@ -5553,10 +12193,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpaintdevice.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/signal.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
@@ -5565,13 +12201,17 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h:
 
-InkwellBeta_autogen/EWIEGA46WW/moc_NewItemDialog.cpp:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qsystemdetection.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qimage.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdio.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h:
 
@@ -5593,7 +12233,9 @@ InkwellBeta_autogen/EWIEGA46WW/moc_NewItemDialog.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qdialog.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h:
 
@@ -5615,19 +12257,21 @@ InkwellBeta_autogen/EWIEGA46WW/moc_NewItemDialog.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qswap.h:
 
-InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctime:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_null.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextcursor.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qmap.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qshareddata.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtmochelpers.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qset.h:
 
@@ -5685,19 +12329,17 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qline.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QObject:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/FindPackageMessage.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h:
 
@@ -5707,13 +12349,17 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QFontDatabase:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextoption.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qpoint.h:
 
@@ -5725,6 +12371,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qalgorithms.h:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
@@ -5732,8 +12380,6 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint16_t.h:
 
@@ -5751,6 +12397,10 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpalette.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qanystringview.h:
@@ -5765,13 +12415,17 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qstringfwd.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeUnixFindMake.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qarraydata.h:
 
@@ -5783,6 +12437,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
@@ -5790,8 +12446,6 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/stdarg.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdbool.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
@@ -5823,11 +12477,17 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_wctype.h:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_time_t.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QScreen:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qminmax.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake:
 
@@ -5847,6 +12507,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_size_t.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
@@ -5855,11 +12517,7 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int64_t.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QWidget:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
 
@@ -5867,11 +12525,11 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qtconfiginclude.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qgenericatomic.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
 
@@ -5879,9 +12537,9 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qconfig.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
 
@@ -5915,6 +12573,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h:
 
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Clang.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QApplication:
@@ -5929,17 +12589,27 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QDialog:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreapplication.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdlib:
 
@@ -5954,6 +12624,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
 
@@ -5971,11 +12643,11 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qcolor.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qutf8stringview.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qbindingstorage.h:
 
@@ -5994,6 +12666,8 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int32_t.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h:
 
@@ -6017,6 +12691,10 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qrefcount.h:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qapplication.h:
+
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm:
@@ -6025,21 +12703,15 @@ InkwellBeta_autogen/EWIEGA46WW/moc_FolderWidget.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
-
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h:
-
-InkwellBeta_autogen/mocs_compilation.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/QPixmap:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/assert.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckCSourceCompiles.cmake:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
@@ -6049,7 +12721,9 @@ InkwellBeta_autogen/mocs_compilation.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qttranslation.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/QSizeF:
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpaintdevice.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/cdefs.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
@@ -6091,27 +12765,27 @@ InkwellBeta_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_u_int8_t.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qtextformat.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qdatastream.h:
 
-/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake:
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qbrush.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CheckIncludeFile.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/_types.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog:
 
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpixmap.h:
+
+/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h:
+
 /opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/CMakeInitializeConfigs.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtWidgets.framework/Headers/QLabel:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h:
 
@@ -6122,8 +12796,6 @@ InkwellBeta_autogen/mocs_compilation.cpp:
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qswap.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qhashfunctions.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
@@ -6137,13 +12809,11 @@ InkwellBeta_autogen/mocs_compilation.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h:
 
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Headers/qcoreevent.h:
+/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
 
 qrc_myresources.cpp:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h:
-
-/Users/AfamObioha/Qt/6.6.2/macos/lib/QtGui.framework/Headers/qpicture.h:
 
 /Users/AfamObioha/Qt/6.6.2/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
