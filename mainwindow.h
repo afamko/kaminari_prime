@@ -20,12 +20,14 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
+    void openNewItemDialog();
     ~MainWindow();
 
 public slots:
     void toggleCreateNewSection(); // Changed from onSketchButtonClicked to toggleCreateNewSection
     void createNewFolder(const QString &folderName);
     void createNewSheet();
+    void showNewItemDialog();
 
 protected:
     void resizeEvent(QResizeEvent *event) override; // To handle resize events

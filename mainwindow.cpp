@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "FolderWidget.h"
+#include "NewItemDialog.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGridLayout>
@@ -14,7 +15,6 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMessageBox>
-#include "NewItemDialog.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
@@ -423,7 +423,8 @@ MainWindow::MainWindow(QWidget *parent)
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
 
     // Connect the sketch button's signal to the slot that toggles the 'Create New' section visibility
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::toggleCreateNewSection);
+    // connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::toggleCreateNewSection);
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
 
     // Position createNewSection at the bottom of the MainWindow and raise it.
     createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
@@ -443,6 +444,13 @@ void MainWindow::resizeEvent(QResizeEvent *event)
     {
         createNewSection->raise();
     }
+}
+
+void MainWindow::showNewItemDialog()
+{
+    NewItemDialog *dialog = new NewItemDialog(this);
+    dialog->setAttribute(Qt::WA_DeleteOnClose); // Set the dialog to delete itself on close
+    dialog->show();                             // Display the dialog
 }
 
 void MainWindow::toggleCreateNewSection()

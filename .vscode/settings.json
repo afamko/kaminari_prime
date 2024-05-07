@@ -17,6 +17,8 @@
         "utility": "cpp",
         "vector": "cpp",
         "qfontdatabase": "cpp",
-        "qwidgetaction": "cpp"
+        "qwidgetaction": "cpp",
+        "qscrollarea": "cpp",
+        "qguiapplication": "cpp"
     }
 }
