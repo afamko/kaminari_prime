@@ -14,19 +14,19 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     layout->setAlignment(Qt::AlignCenter);
 
     // Style the QDialog using a style sheet.
-    setStyleSheet("background-color: #535353;");
+    setStyleSheet("background-color: #535353; border: none;");
 
     // Create a horizontal layout for the title area
     QHBoxLayout *titleLayout = new QHBoxLayout();
     QLabel *driveIconLabel = new QLabel(this);
     QPixmap driveIconPixmap(":/assets/icons/createNew_icon.png");
-    driveIconLabel->setPixmap(driveIconPixmap.scaled(16, 16)); // Scale icon as necessary
+    driveIconLabel->setPixmap(driveIconPixmap.scaled(20, 20)); // Scale icon as necessary
     titleLayout->addWidget(driveIconLabel);                    // Add the icon to the horizontal layout
 
     QLabel *titleLabel = new QLabel("Create new:", this);
     titleLabel->setAlignment(Qt::AlignCenter);
     QFont titleFont = titleLabel->font();
-    titleFont.setPointSize(16);
+    titleFont.setPointSize(32);
     titleLabel->setFont(titleFont);
     titleLabel->setStyleSheet("color: #FFFFFF;");
     titleLayout->addWidget(titleLabel); // Add the label to the horizontal layout
@@ -34,11 +34,11 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     layout->addLayout(titleLayout); // Add the title layout to the main vertical layout
 
     QPushButton *newFolderButton = new QPushButton(QIcon(":/assets/icons/newFolder_icon.png"), "Folder", this);
-    newFolderButton->setIconSize(QSize(24, 24));
+    newFolderButton->setIconSize(QSize(48, 48));
     newFolderButton->setCursor(Qt::PointingHandCursor);
 
     QPushButton *newSheetButton = new QPushButton(QIcon(":/assets/icons/newSheet_icon.png"), "Sheet", this);
-    newSheetButton->setIconSize(QSize(24, 24));
+    newSheetButton->setIconSize(QSize(48, 48));
     newSheetButton->setCursor(Qt::PointingHandCursor);
 
     QString buttonStyle = "QPushButton { color: #FFFFFF; border: none; margin: 5px; padding: 10px; }"
@@ -84,13 +84,18 @@ void NewItemDialog::positionAtBottom(QWidget *parent)
         int x = parent->geometry().left();
 
         // Calculate the y position to align at the bottom of the parent
-        int y = parent->geometry().bottom() - height(); // No need for an arbitrary margin
+        // Adjust the y-coordinate to position it above the window frame, status bar, or other bottom elements
+        int y = parent->geometry().bottom() - this->height() - parent->frameGeometry().height() + parent->geometry().height();
 
         // Ensure that the dialog is completely visible on screen.
         QRect availableGeometry = QApplication::primaryScreen()->availableGeometry();
         if (y < availableGeometry.top())
         {
             y = availableGeometry.top();
+        }
+        if (y + height() > availableGeometry.bottom())
+        {
+            y = availableGeometry.bottom() - height();
         }
 
         // Set the dialog's position

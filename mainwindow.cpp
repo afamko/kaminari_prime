@@ -291,62 +291,7 @@ MainWindow::MainWindow(QWidget *parent)
     // 'Create New' section setup
     createNewSection = new QWidget(this);
     createNewSection->setObjectName("createNewSection");
-    createNewSection->setStyleSheet("background-color: #535353;");
-    createNewSection->setFixedHeight(150); // Adjust the height to match your design
-    createNewSection->setVisible(false);   // Initially hidden
-
-    QVBoxLayout *createNewLayout = new QVBoxLayout(createNewSection);
-    createNewLayout->setAlignment(Qt::AlignCenter);
-
-    // Create a horizontal layout for the title with the icon
-    QHBoxLayout *titleLayout = new QHBoxLayout();
-    titleLayout->setContentsMargins(0, 0, 0, 0); // Adjust margins as necessary
-
-    // Icon for the 'Create new' section
-    QLabel *iconLabel = new QLabel();
-    QPixmap addIconPixmap(":/assets/icons/createNew_icon.png"); // Replace with actual resource path
-    addIconPixmap = addIconPixmap.scaled(24, 24, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    iconLabel->setPixmap(addIconPixmap);
-    iconLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
-    titleLayout->addWidget(iconLabel);
-
-    titleLayout->addSpacing(8); // Adjust spacing between icon and text as needed
-
-    // Title for the 'Create New' section
-    QLabel *createNewLabel = new QLabel("Create new:");
-    createNewLabel->setStyleSheet("color: white; font-size: 24px;");
-    titleLayout->addWidget(createNewLabel);
-
-    // Add the title layout to the main 'Create New' layout
-    createNewLayout->addLayout(titleLayout);
-
-    // Buttons for 'Folder' and 'Sheet'
-    QPushButton *newFolderButton = new QPushButton(QIcon(":/assets/icons/newFolder_icon.png"), "Folder");
-    QPushButton *newSheetButton = new QPushButton(QIcon(":/assets/icons/newSheet_icon.png"), "Sheet");
-    // Style your buttons as before
-    // ...
-    createNewLayout->addWidget(newFolderButton);
-    createNewLayout->addWidget(newSheetButton);
-
-    // Style for buttons without borders
-    QString buttonStyle = "QPushButton { "
-                          "color: #FFFFFF; "
-                          "border: none; " // Set border to none to remove it
-                          "background-color: transparent; "
-                          "font-size: 16px; "
-                          "text-align: left; "
-                          "padding: 12px; "
-                          "margin: 0 10px; "
-                          "icon-size: 24px 24px; }"
-                          "QPushButton:hover { "
-                          "background-color: #676767; }"; // Adjust hover background color as needed
-
-    // Set the style for 'Folder' and 'Sheet' buttons
-    newFolderButton->setStyleSheet(buttonStyle);
-    newSheetButton->setStyleSheet(buttonStyle);
-
-    // Position the 'Create New' section at the bottom of the main window
-    createNewSection->move(0, this->size().height() - createNewSection->height());
+    createNewSection->setVisible(false); // Initially hidden
 
     // Navigation Bar Setup
     QToolBar *toolBar = new QToolBar;
