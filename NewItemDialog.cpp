@@ -10,29 +10,39 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     : QDialog(parent, Qt::FramelessWindowHint | Qt::Popup)
 {
     QVBoxLayout *layout = new QVBoxLayout(this);
-    layout->setSpacing(10);
+    layout->setSpacing(0);
     layout->setAlignment(Qt::AlignCenter);
+    // Reduce the vertical margins around the content
+    layout->setContentsMargins(5, 5, 5, 5);
 
     // Style the QDialog using a style sheet.
     setStyleSheet("background-color: #535353; border: none;");
 
     // Create a horizontal layout for the title area
     QHBoxLayout *titleLayout = new QHBoxLayout();
+    titleLayout->setSpacing(2);                  // Reduced spacing between icon and text
+    titleLayout->setContentsMargins(0, 0, 0, 0); // No extra margins in the horizontal layout
+
     QLabel *driveIconLabel = new QLabel(this);
     QPixmap driveIconPixmap(":/assets/icons/createNew_icon.png");
-    driveIconLabel->setPixmap(driveIconPixmap.scaled(20, 20)); // Scale icon as necessary
+    driveIconLabel->setPixmap(driveIconPixmap.scaled(32, 32)); // Scale icon as necessary
     titleLayout->addWidget(driveIconLabel);                    // Add the icon to the horizontal layout
 
     QLabel *titleLabel = new QLabel("Create new:", this);
-    titleLabel->setAlignment(Qt::AlignCenter);
+    titleLabel->setAlignment(Qt::AlignLeft | Qt::AlignVCenter);
     QFont titleFont = titleLabel->font();
-    titleFont.setPointSize(32);
+    titleFont.setPointSize(24);
     titleLabel->setFont(titleFont);
-    titleLabel->setStyleSheet("color: #FFFFFF;");
-    titleLayout->addWidget(titleLabel); // Add the label to the horizontal layout
+    titleLabel->setStyleSheet("color: #FFFFFF; margin-left: 5px;"); // Minimal left margin for text alignment
+    titleLayout->addWidget(titleLabel);
 
     layout->addLayout(titleLayout); // Add the title layout to the main vertical layout
 
+    // Add a vertical spacer
+    layout->addSpacing(0); // Adjust the spacing to your preference
+
+    // Horizontal layout for buttons
+    QHBoxLayout *buttonLayout = new QHBoxLayout();
     QPushButton *newFolderButton = new QPushButton(QIcon(":/assets/icons/newFolder_icon.png"), "Folder", this);
     newFolderButton->setIconSize(QSize(48, 48));
     newFolderButton->setCursor(Qt::PointingHandCursor);
@@ -46,14 +56,16 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     newFolderButton->setStyleSheet(buttonStyle);
     newSheetButton->setStyleSheet(buttonStyle);
 
-    layout->addWidget(newFolderButton);
-    layout->addWidget(newSheetButton);
+    buttonLayout->addWidget(newFolderButton);
+    buttonLayout->addWidget(newSheetButton);
+
+    layout->addLayout(buttonLayout); // Add horizontal layout for buttons to the main vertical layout
 
     connect(newFolderButton, &QPushButton::clicked, this, &NewItemDialog::onNewFolder);
     connect(newSheetButton, &QPushButton::clicked, this, &NewItemDialog::onNewSheet);
 
     // Set the fixed size of the dialog or set it based on its content and style.
-    setFixedSize(300, 200);
+    setFixedSize(300, 140);
 
     // Position the dialog at the bottom of the parent widget.
     positionAtBottom(parent);
