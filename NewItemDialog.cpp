@@ -12,69 +12,75 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     QVBoxLayout *layout = new QVBoxLayout(this);
     layout->setSpacing(0);
     layout->setAlignment(Qt::AlignCenter);
-    // Reduce the vertical margins around the content
     layout->setContentsMargins(5, 5, 5, 5);
 
-    // Style the QDialog using a style sheet.
     setStyleSheet("background-color: #535353; border: none;");
 
-    // Create a horizontal layout for the title area
     QHBoxLayout *titleLayout = new QHBoxLayout();
-    titleLayout->setSpacing(2);                  // Reduced spacing between icon and text
-    titleLayout->setContentsMargins(0, 0, 0, 0); // No extra margins in the horizontal layout
-
     QLabel *driveIconLabel = new QLabel(this);
     QPixmap driveIconPixmap(":/assets/icons/createNew_icon.png");
-    driveIconLabel->setPixmap(driveIconPixmap.scaled(32, 32)); // Scale icon as necessary
-    titleLayout->addWidget(driveIconLabel);                    // Add the icon to the horizontal layout
+    driveIconLabel->setPixmap(driveIconPixmap.scaled(24, 24, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    titleLayout->addWidget(driveIconLabel);
 
     QLabel *titleLabel = new QLabel("Create new:", this);
-    titleLabel->setAlignment(Qt::AlignLeft | Qt::AlignVCenter);
-    QFont titleFont = titleLabel->font();
-    titleFont.setPointSize(24);
-    titleLabel->setFont(titleFont);
-    titleLabel->setStyleSheet("color: #FFFFFF; margin-left: 5px;"); // Minimal left margin for text alignment
+    titleLabel->setFont(QFont("Arial", 28));
+    titleLabel->setStyleSheet("color: #FFFFFF; margin-left: 5px;");
     titleLayout->addWidget(titleLabel);
 
-    layout->addLayout(titleLayout); // Add the title layout to the main vertical layout
+    layout->addLayout(titleLayout);
 
-    // Add a vertical spacer
-    layout->addSpacing(0); // Adjust the spacing to your preference
+    layout->addSpacing(10); // Add extra spacing between the title and the buttons
 
-    // Horizontal layout for buttons
     QHBoxLayout *buttonLayout = new QHBoxLayout();
-    QPushButton *newFolderButton = new QPushButton(QIcon(":/assets/icons/newFolder_icon.png"), "Folder", this);
-    newFolderButton->setIconSize(QSize(48, 48));
-    newFolderButton->setCursor(Qt::PointingHandCursor);
+    buttonLayout->setAlignment(Qt::AlignCenter);
 
-    QPushButton *newSheetButton = new QPushButton(QIcon(":/assets/icons/newSheet_icon.png"), "Sheet", this);
-    newSheetButton->setIconSize(QSize(48, 48));
-    newSheetButton->setCursor(Qt::PointingHandCursor);
+    // Create Folder button
+    QVBoxLayout *folderLayout = new QVBoxLayout();
+    folderLayout->setAlignment(Qt::AlignCenter);
+    QPushButton *newFolderButton = new QPushButton();
+    newFolderButton->setIcon(QIcon(":/assets/icons/newFolder_icon.png"));
+    newFolderButton->setIconSize(QSize(58, 58));
+    newFolderButton->setStyleSheet("QPushButton { border: none; background-color: transparent; } QPushButton:hover { background-color: #f0f0f0; }");
+    QLabel *folderLabel = new QLabel("Folder");
+    folderLabel->setAlignment(Qt::AlignCenter);
+    folderLabel->setStyleSheet("color: #FFFFFF;");
 
-    QString buttonStyle = "QPushButton { color: #FFFFFF; border: none; margin: 5px; padding: 10px; }"
-                          "QPushButton:hover { background-color: #f0f0f0; }";
-    newFolderButton->setStyleSheet(buttonStyle);
-    newSheetButton->setStyleSheet(buttonStyle);
+    folderLayout->addWidget(newFolderButton);
+    folderLayout->addSpacing(5); // Add spacer for spacing between icon and text
+    folderLayout->addWidget(folderLabel);
 
-    buttonLayout->addWidget(newFolderButton);
-    buttonLayout->addWidget(newSheetButton);
+    // Create Sheet button
+    QVBoxLayout *sheetLayout = new QVBoxLayout();
+    sheetLayout->setAlignment(Qt::AlignCenter);
+    QPushButton *newSheetButton = new QPushButton();
+    newSheetButton->setIcon(QIcon(":/assets/icons/newSheet_icon.png"));
+    newSheetButton->setIconSize(QSize(58, 58));
+    newSheetButton->setStyleSheet("QPushButton { border: none; background-color: transparent; } QPushButton:hover { background-color: #f0f0f0; }");
+    QLabel *sheetLabel = new QLabel("Sheet");
+    sheetLabel->setAlignment(Qt::AlignCenter);
+    sheetLabel->setStyleSheet("color: #FFFFFF;");
 
-    layout->addLayout(buttonLayout); // Add horizontal layout for buttons to the main vertical layout
+    sheetLayout->addWidget(newSheetButton);
+    sheetLayout->addSpacing(5); // Add spacer for spacing between icon and text
+    sheetLayout->addWidget(sheetLabel);
+
+    buttonLayout->addLayout(folderLayout);
+    buttonLayout->addSpacing(80); // Add spacing between Folder and Sheet buttons
+    buttonLayout->addLayout(sheetLayout);
+
+    layout->addLayout(buttonLayout);
 
     connect(newFolderButton, &QPushButton::clicked, this, &NewItemDialog::onNewFolder);
     connect(newSheetButton, &QPushButton::clicked, this, &NewItemDialog::onNewSheet);
 
-    // Set the fixed size of the dialog or set it based on its content and style.
-    setFixedSize(300, 140);
+    setFixedSize(300, 160);
 
-    // Position the dialog at the bottom of the parent widget.
     positionAtBottom(parent);
 }
 
 void NewItemDialog::onNewFolder()
 {
-    QString folderName = "New Folder"; // This could be retrieved from a QLineEdit or similar widget.
-    emit newFolderRequested(folderName);
+    emit newFolderRequested("New Folder");
     close();
 }
 
