@@ -4,15 +4,10 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QGridLayout>
-#include <QWidget>
-#include <QToolBar> // Include QToolBar
 
-QT_BEGIN_NAMESPACE
-namespace Ui
-{
-    class MainWindow;
+namespace Ui {
+class MainWindow;
 }
-QT_END_NAMESPACE
 
 class MainWindow : public QMainWindow
 {
@@ -20,26 +15,23 @@ class MainWindow : public QMainWindow
 
 public:
     explicit MainWindow(QWidget *parent = nullptr);
-    void openNewItemDialog();
     ~MainWindow();
 
-public slots:
-    void toggleCreateNewSection(); // Changed from onSketchButtonClicked to toggleCreateNewSection
+protected:
+    void resizeEvent(QResizeEvent *event) override;
+
+private slots:
+    void showNewItemDialog();
+    void toggleCreateNewSection();
     void createNewFolder(const QString &folderName);
     void createNewSheet();
-    void showNewItemDialog();
-
-protected:
-    void resizeEvent(QResizeEvent *event) override; // To handle resize events
 
 private:
     Ui::MainWindow *ui;
-    QStringList *folderNames;  // Stores the names of the folders
-    QGridLayout *gridLayout;   // Layout to manage FolderWidgets
-    QWidget *createNewSection; // Widget for the 'Create New' section
-    QToolBar *toolBar;         // Toolbar for navigation
-
-    // Additional private members and methods as needed
+    QStringList *folderNames;
+    QGridLayout *gridLayout;
+    QWidget *createNewSection;
+    QToolBar *toolBar;
 };
 
 #endif // MAINWINDOW_H

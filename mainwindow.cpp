@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "FolderWidget.h"
 #include "NewItemDialog.h"
+#include "NewFolderDialog.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGridLayout>
@@ -15,11 +16,12 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMessageBox>
+#include <QDebug>      // Add this include for qDebug()
+#include <QStringList> // Add this include for QStringList
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
       folderNames(new QStringList()), gridLayout(new QGridLayout())
-
 {
     ui->setupUi(this);
 
@@ -77,9 +79,6 @@ MainWindow::MainWindow(QWidget *parent)
     QLabel *batteryLabel = new QLabel("78%", adminBar);
     batteryLabel->setStyleSheet("background-color: transparent; border: none; font-size: 16px;");
     adminLayout->addWidget(batteryLabel);
-
-    // Adjust the margin to the right of the batteryLabel to bring it closer to the battery icon
-    // batteryLabel->setContentsMargins(20, 0, 0, 0); // Negative right margin to reduce space
 
     QLabel *batteryIconLabel = new QLabel(adminBar);
     QPixmap batteryIcon(":/assets/icons/battery_icon.png");
@@ -258,20 +257,21 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addWidget(headerWidget);
 
     // Create a grid layout to hold the FolderWidgets
-    QGridLayout *gridLayout = new QGridLayout();
-    gridLayout->setSpacing(10); // Adjust spacing as needed
+    gridLayout = new QGridLayout(); // Use the member variable, not a local variable
+    gridLayout->setSpacing(10);     // Adjust spacing as needed
 
     // List of folder names
-    QStringList folderNames = {"My Personal", "Work", "wustl", "OME", "LW",
-                               "scribble dibble", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode"};
+    QStringList initialFolderNames = {"My Personal", "Work", "wustl", "OME", "LW",
+                                      "scribble dibble", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode"};
 
     // Populate the grid layout with FolderWidgets
-    for (int i = 0; i < folderNames.size(); ++i)
+    for (int i = 0; i < initialFolderNames.size(); ++i)
     {
-        FolderWidget *folder = new FolderWidget(folderNames[i]);
+        FolderWidget *folder = new FolderWidget(initialFolderNames[i]);
         int row = i / 3;
         int column = i % 3;
         gridLayout->addWidget(folder, row, column);
+        folderNames->append(initialFolderNames[i]); // Add the folder name to the list
     }
 
     // Wrap the grid layout in a widget
@@ -294,7 +294,7 @@ MainWindow::MainWindow(QWidget *parent)
     createNewSection->setVisible(false); // Initially hidden
 
     // Navigation Bar Setup
-    QToolBar *toolBar = new QToolBar;
+    toolBar = new QToolBar(this);
     toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
     toolBar->setMovable(false);
 
@@ -395,7 +395,11 @@ void MainWindow::showNewItemDialog()
 {
     NewItemDialog *dialog = new NewItemDialog(this);
     dialog->setAttribute(Qt::WA_DeleteOnClose); // Set the dialog to delete itself on close
-    dialog->show();                             // Display the dialog
+
+    // Connect newFolderRequested signal to createNewFolder slot
+    connect(dialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
+
+    dialog->show(); // Display the dialog
 }
 
 void MainWindow::toggleCreateNewSection()
@@ -430,16 +434,20 @@ void MainWindow::createNewFolder(const QString &folderName)
 
     // Append the new folder name to the list
     folderNames->append(folderName);
+    qDebug() << "Total folders:" << folderNames->size();
 
     // Create the new FolderWidget and add it to the grid layout
     FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
-    int row = folderNames->size() / 3;
-    int column = folderNames->size() % 3;
+
+    // Calculate the row and column based on the current total number of folders
+    int currentFolderCount = folderNames->size();
+    int row = (currentFolderCount - 1) / 3; // Subtract 1 to get zero-based index
+    int column = (currentFolderCount - 1) % 3;
+
+    qDebug() << "Adding new folder widget at row" << row << "and column" << column;
     gridLayout->addWidget(newFolderWidget, row, column);
 
-    // Optional: Refresh or update the layout or parent widget if necessary
-    gridLayout->update(); // This forces the layout to re-arrange the widgets
-    // or use gridLayout->parentWidget()->update();
+    qDebug() << "New folder widget added to the layout.";
 }
 
 void MainWindow::createNewSheet()

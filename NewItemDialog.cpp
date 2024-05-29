@@ -1,10 +1,11 @@
 #include "NewItemDialog.h"
+#include "NewFolderDialog.h"
 #include <QVBoxLayout>
 #include <QPushButton>
 #include <QLabel>
 #include <QApplication>
 #include <QScreen>
-#include <QHBoxLayout> // Include for QHBoxLayout
+#include <QHBoxLayout>
 
 NewItemDialog::NewItemDialog(QWidget *parent)
     : QDialog(parent, Qt::FramelessWindowHint | Qt::Popup)
@@ -17,14 +18,19 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     setStyleSheet("background-color: #535353; border: none;");
 
     QHBoxLayout *titleLayout = new QHBoxLayout();
+    titleLayout->setSpacing(0);
+    titleLayout->setContentsMargins(0, 0, 0, 0);
+
     QLabel *driveIconLabel = new QLabel(this);
     QPixmap driveIconPixmap(":/assets/icons/createNew_icon.png");
-    driveIconLabel->setPixmap(driveIconPixmap.scaled(24, 24, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    driveIconLabel->setPixmap(driveIconPixmap.scaled(21, 21, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+    driveIconLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     titleLayout->addWidget(driveIconLabel);
 
     QLabel *titleLabel = new QLabel("Create new:", this);
     titleLabel->setFont(QFont("Arial", 28));
-    titleLabel->setStyleSheet("color: #FFFFFF; margin-left: 5px;");
+    titleLabel->setStyleSheet("color: #FFFFFF; margin-left: 0px;");
+    titleLabel->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     titleLayout->addWidget(titleLabel);
 
     layout->addLayout(titleLayout);
@@ -80,7 +86,14 @@ NewItemDialog::NewItemDialog(QWidget *parent)
 
 void NewItemDialog::onNewFolder()
 {
-    emit newFolderRequested("New Folder");
+    NewFolderDialog *folderDialog = new NewFolderDialog(this);
+    if (folderDialog->exec() == QDialog::Accepted)
+    {
+        QString folderName = folderDialog->folderName();
+        qDebug() << "New folder name received:" << folderName;
+        emit newFolderRequested(folderName);
+    }
+    delete folderDialog;
     close();
 }
 

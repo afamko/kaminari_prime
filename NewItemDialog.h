@@ -6,7 +6,8 @@
 class QVBoxLayout;
 class QPushButton;
 
-class NewItemDialog : public QDialog {
+class NewItemDialog : public QDialog
+{
     Q_OBJECT
 
 public:
