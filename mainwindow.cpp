@@ -3,6 +3,7 @@
 #include "FolderWidget.h"
 #include "NewItemDialog.h"
 #include "NewFolderDialog.h"
+#include "SketchPage.h" // Include the SketchPage header
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGridLayout>
@@ -21,7 +22,8 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
-      folderNames(new QStringList()), gridLayout(new QGridLayout())
+      folderNames(new QStringList()), gridLayout(new QGridLayout()),
+      sketchPage(new SketchPage(this)) // Initialize the sketch page
 {
     ui->setupUi(this);
 
@@ -375,6 +377,8 @@ MainWindow::MainWindow(QWidget *parent)
     createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
     createNewSection->setVisible(false); // It should start hidden.
 
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+
     // Set the central widget
     setCentralWidget(centralWidget);
 }
@@ -398,6 +402,13 @@ void MainWindow::showNewItemDialog()
 
     // Connect newFolderRequested signal to createNewFolder slot
     connect(dialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
+
+    // Connect the sheet button signal to the showSketchPage slot
+    connect(dialog, &NewItemDialog::newSheetRequested, this, [this, dialog]()
+            {
+                qDebug() << "New sheet requested, closing dialog and showing sketch page";
+                dialog->close(); // Close the dialog
+                showSketchPage(); });
 
     dialog->show(); // Display the dialog
 }
@@ -434,16 +445,12 @@ void MainWindow::createNewFolder(const QString &folderName)
 
     // Append the new folder name to the list
     folderNames->append(folderName);
-    qDebug() << "Total folders:" << folderNames->size();
+    qDebug() << "Total folders:" << folderNames->size(); // Add this line
 
     // Create the new FolderWidget and add it to the grid layout
     FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
-
-    // Calculate the row and column based on the current total number of folders
-    int currentFolderCount = folderNames->size();
-    int row = (currentFolderCount - 1) / 3; // Subtract 1 to get zero-based index
-    int column = (currentFolderCount - 1) % 3;
-
+    int row = (folderNames->size() - 1) / 3;
+    int column = (folderNames->size() - 1) % 3;
     qDebug() << "Adding new folder widget at row" << row << "and column" << column;
     gridLayout->addWidget(newFolderWidget, row, column);
 
@@ -457,6 +464,20 @@ void MainWindow::createNewSheet()
 
     // Placeholder example: Show a message box indicating the action (for testing purposes)
     QMessageBox::information(this, "Action", "Create New Sheet action triggered");
+}
+
+void MainWindow::showSketchPage()
+{
+    // Remove the current central widget
+    QWidget *currentCentralWidget = centralWidget();
+    if (currentCentralWidget)
+    {
+        currentCentralWidget->hide();
+    }
+
+    // Set the sketch page as the new central widget
+    setCentralWidget(sketchPage);
+    sketchPage->show();
 }
 
 MainWindow::~MainWindow()

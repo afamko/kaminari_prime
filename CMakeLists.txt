@@ -37,6 +37,9 @@ set(PROJECT_SOURCES
     NewItemDialog.cpp  # Add your NewItemDialog source file
     NewItemDialog.h    # Add your NewItemDialog header file
     NewFolderDialog.cpp
+    NewFolderDialog.h
+    SketchPage.cpp
+    SketchPage.h
     ${TS_FILES}
 )
 

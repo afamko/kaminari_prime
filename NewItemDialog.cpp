@@ -99,6 +99,7 @@ void NewItemDialog::onNewFolder()
 
 void NewItemDialog::onNewSheet()
 {
+    qDebug() << "Sheet button clicked, emitting newSheetRequested signal";
     emit newSheetRequested();
     close();
 }

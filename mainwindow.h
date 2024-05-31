@@ -4,9 +4,11 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QGridLayout>
+#include "SketchPage.h" // Include the SketchPage header
 
-namespace Ui {
-class MainWindow;
+namespace Ui
+{
+    class MainWindow;
 }
 
 class MainWindow : public QMainWindow
@@ -25,6 +27,7 @@ private slots:
     void toggleCreateNewSection();
     void createNewFolder(const QString &folderName);
     void createNewSheet();
+    void showSketchPage(); // Slot for showing the sketch page
 
 private:
     Ui::MainWindow *ui;
@@ -32,6 +35,7 @@ private:
     QGridLayout *gridLayout;
     QWidget *createNewSection;
     QToolBar *toolBar;
+    SketchPage *sketchPage; // Member variable for the sketch page
 };
 
 #endif // MAINWINDOW_H
