@@ -3,7 +3,7 @@
 #include "FolderWidget.h"
 #include "NewItemDialog.h"
 #include "NewFolderDialog.h"
-#include "SketchPage.h"
+#include "SketchPage.h" // Include the SketchPage header
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGridLayout>
@@ -17,12 +17,12 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMessageBox>
-#include <QStringList>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
       folderNames(new QStringList()), gridLayout(new QGridLayout()),
-      sketchPage(new SketchPage(this)), newItemDialog(nullptr)
+      sketchPage(new SketchPage(this)), // Initialize the sketch page
+      newItemDialog(nullptr)            // Initialize the NewItemDialog to nullptr
 {
     ui->setupUi(this);
 
@@ -258,8 +258,8 @@ MainWindow::MainWindow(QWidget *parent)
     mainLayout->addWidget(headerWidget);
 
     // Create a grid layout to hold the FolderWidgets
-    gridLayout = new QGridLayout();
-    gridLayout->setSpacing(10); // Adjust spacing as needed
+    gridLayout = new QGridLayout(); // Use the member variable, not a local variable
+    gridLayout->setSpacing(10);     // Adjust spacing as needed
 
     // List of folder names
     QStringList initialFolderNames = {"My Personal", "Work", "wustl", "OME", "LW",
@@ -272,7 +272,7 @@ MainWindow::MainWindow(QWidget *parent)
         int row = i / 3;
         int column = i % 3;
         gridLayout->addWidget(folder, row, column);
-        folderNames->append(initialFolderNames[i]);
+        folderNames->append(initialFolderNames[i]); // Add the folder name to the list
     }
 
     // Wrap the grid layout in a widget
@@ -369,6 +369,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
 
     // Connect the sketch button's signal to the slot that toggles the 'Create New' section visibility
+    // connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::toggleCreateNewSection);
     connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
 
     // Position createNewSection at the bottom of the MainWindow and raise it.
@@ -406,6 +407,7 @@ void MainWindow::showNewItemDialog()
         // Connect the sheet button signal to the showSketchPage slot
         connect(newItemDialog, &NewItemDialog::newSheetRequested, this, [this]()
                 {
+            qDebug() << "New sheet requested, closing dialog and showing sketch page";
             newItemDialog->close(); // Close the dialog
             showSketchPage(); });
 
@@ -431,19 +433,30 @@ void MainWindow::toggleCreateNewSection()
 void MainWindow::createNewFolder(const QString &folderName)
 {
     // Check if the member variables are initialized
-    if (!gridLayout || !folderNames)
+    if (!gridLayout)
     {
+        qDebug() << "Grid layout is not initialized";
+        return;
+    }
+
+    if (!folderNames)
+    {
+        qDebug() << "Folder names list is not initialized";
         return;
     }
 
     // Append the new folder name to the list
     folderNames->append(folderName);
+    qDebug() << "Total folders:" << folderNames->size(); // Add this line
 
     // Create the new FolderWidget and add it to the grid layout
     FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
     int row = (folderNames->size() - 1) / 3;
     int column = (folderNames->size() - 1) % 3;
+    qDebug() << "Adding new folder widget at row" << row << "and column" << column;
     gridLayout->addWidget(newFolderWidget, row, column);
+
+    qDebug() << "New folder widget added to the layout.";
 }
 
 void MainWindow::createNewSheet()
