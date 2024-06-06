@@ -6,6 +6,7 @@
 #include <QApplication>
 #include <QScreen>
 #include <QHBoxLayout>
+#include <QTimer>
 
 NewItemDialog::NewItemDialog(QWidget *parent)
     : QDialog(parent, Qt::FramelessWindowHint | Qt::Popup)
@@ -90,7 +91,6 @@ void NewItemDialog::onNewFolder()
     if (folderDialog->exec() == QDialog::Accepted)
     {
         QString folderName = folderDialog->folderName();
-        qDebug() << "New folder name received:" << folderName;
         emit newFolderRequested(folderName);
     }
     delete folderDialog;
@@ -99,9 +99,8 @@ void NewItemDialog::onNewFolder()
 
 void NewItemDialog::onNewSheet()
 {
-    qDebug() << "Sheet button clicked, emitting newSheetRequested signal";
     emit newSheetRequested();
-    close();
+    QTimer::singleShot(0, this, &NewItemDialog::close);
 }
 
 void NewItemDialog::positionAtBottom(QWidget *parent)
