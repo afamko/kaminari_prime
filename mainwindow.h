@@ -59,6 +59,11 @@ private:
     QWidget *spacerRight;
 
     NewItemDialog *newItemDialog; // Declare newItemDialog as a member variable
+
+    // Declare custom widgets as member variables
+    QWidget *customWidgetOne;
+    QWidget *customWidgetTwo;
+    QWidget *customWidgetThree;
 };
 
 #endif // MAINWINDOW_H

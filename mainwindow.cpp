@@ -19,6 +19,7 @@
 #include <QMessageBox>
 #include <QDebug>
 #include <QStringList>
+#include <QTimer>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
@@ -40,7 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
     setFixedSize(windowWidth, windowHeight);
 
     QWidget *centralWidget = new QWidget(this);
-    QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
+    mainLayout = new QVBoxLayout(centralWidget);
     mainLayout->setContentsMargins(0, 0, 0, 0);
 
     // Admin Bar setup
@@ -92,7 +93,7 @@ MainWindow::MainWindow(QWidget *parent)
     adminLayout->addWidget(batteryIconLabel);
 
     // Center the admin bar within the centralWidget
-    QHBoxLayout *centeredAdminBarLayout = new QHBoxLayout();
+    centeredAdminBarLayout = new QHBoxLayout();
     centeredAdminBarLayout->addStretch(1);
     centeredAdminBarLayout->addWidget(adminBar);
     centeredAdminBarLayout->addStretch(1);
@@ -108,7 +109,7 @@ MainWindow::MainWindow(QWidget *parent)
     toolBar->setIconSize(QSize(55, 55));
 
     // Header section setup
-    QWidget *headerWidget = new QWidget();
+    headerWidget = new QWidget();
     QVBoxLayout *headerLayout = new QVBoxLayout(headerWidget);
 
     // Top Row
@@ -252,7 +253,7 @@ MainWindow::MainWindow(QWidget *parent)
     QWidget *gridWidget = new QWidget();
     gridWidget->setLayout(gridLayout);
 
-    QScrollArea *scrollArea = new QScrollArea();
+    scrollArea = new QScrollArea();
     scrollArea->setWidget(gridWidget);
     scrollArea->setWidgetResizable(true);
     scrollArea->viewport()->setStyleSheet("background-color: rgb(239, 239, 239);");
@@ -270,26 +271,26 @@ MainWindow::MainWindow(QWidget *parent)
 
     toolBar->setIconSize(QSize(55, 55));
 
-    QWidget *spacerLeft = new QWidget();
+    spacerLeft = new QWidget();
     spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerLeft);
 
-    QWidget *customWidgetOne = new QWidget();
+    customWidgetOne = new QWidget();
     QVBoxLayout *customLayoutOne = new QVBoxLayout(customWidgetOne);
     customLayoutOne->setContentsMargins(0, 25, 0, 25);
     QLabel *iconLabelOne = new QLabel(customWidgetOne);
     iconLabelOne->setPixmap(QPixmap(":/assets/icons/action_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
     customLayoutOne->addWidget(iconLabelOne, 0, Qt::AlignCenter);
-    QWidgetAction *widgetActionOne = new QWidgetAction(toolBar);
+    widgetActionOne = new QWidgetAction(toolBar);
     widgetActionOne->setDefaultWidget(customWidgetOne);
     toolBar->addAction(widgetActionOne);
 
-    QWidget *spacer1 = new QWidget();
+    spacer1 = new QWidget();
     spacer1->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
     spacer1->setFixedWidth(26);
     toolBar->addWidget(spacer1);
 
-    QWidget *customWidgetTwo = new QWidget();
+    customWidgetTwo = new QWidget();
     QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
     customLayoutTwo->setContentsMargins(0, 25, 0, 25);
     QToolButton *actionButtonSketch = new QToolButton();
@@ -298,26 +299,26 @@ MainWindow::MainWindow(QWidget *parent)
     actionButtonSketch->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
     customLayoutTwo->addWidget(actionButtonSketch, 0, Qt::AlignCenter);
 
-    QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
+    widgetActionTwo = new QWidgetAction(toolBar);
     widgetActionTwo->setDefaultWidget(customWidgetTwo);
     toolBar->addAction(widgetActionTwo);
 
-    QWidget *spacer2 = new QWidget();
+    spacer2 = new QWidget();
     spacer2->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
     spacer2->setFixedWidth(26);
     toolBar->addWidget(spacer2);
 
-    QWidget *customWidgetThree = new QWidget();
+    customWidgetThree = new QWidget();
     QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
     customLayoutThree->setContentsMargins(0, 25, 0, 25);
     QLabel *iconLabelThree = new QLabel(customWidgetThree);
     iconLabelThree->setPixmap(QPixmap(":/assets/icons/settings_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
     customLayoutThree->addWidget(iconLabelThree, 0, Qt::AlignCenter);
-    QWidgetAction *widgetActionThree = new QWidgetAction(toolBar);
+    widgetActionThree = new QWidgetAction(toolBar);
     widgetActionThree->setDefaultWidget(customWidgetThree);
     toolBar->addAction(widgetActionThree);
 
-    QWidget *spacerRight = new QWidget();
+    spacerRight = new QWidget();
     spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
 
@@ -371,7 +372,7 @@ void MainWindow::showNewItemDialog()
                             newItemDialog->close();
                             newItemDialog = nullptr;
                         }
-                        showSketchPage(); });
+                        QTimer::singleShot(0, this, &MainWindow::showSketchPage); });
 
             newItemDialog->show();
         }
@@ -533,4 +534,8 @@ MainWindow::~MainWindow()
     delete ui;
     delete folderNames;
     delete gridLayout;
+    if (newItemDialog)
+    {
+        newItemDialog->deleteLater();
+    }
 }
