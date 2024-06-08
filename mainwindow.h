@@ -4,7 +4,7 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QGridLayout>
-#include "SketchPage.h" // Include the SketchPage header
+#include "SketchPage.h"    // Include the SketchPage header
 #include "NewItemDialog.h" // Include the NewItemDialog header
 
 namespace Ui
@@ -36,7 +36,7 @@ private:
     QGridLayout *gridLayout;
     QWidget *createNewSection;
     QToolBar *toolBar;
-    SketchPage *sketchPage; // Member variable for the sketch page
+    SketchPage *sketchPage;       // Member variable for the sketch page
     NewItemDialog *newItemDialog; // Member variable for the NewItemDialog
 };
 
