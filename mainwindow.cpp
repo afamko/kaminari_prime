@@ -456,10 +456,10 @@ void MainWindow::showSketchPage()
     spacer1->setFixedWidth(26); // Set your desired width
     toolBar->addWidget(spacer1);
 
-    // Custom widget for the home button with increased padding
+    // Custom widget for the home button with increased padding and elevation
     QWidget *customWidgetHome = new QWidget();
     QVBoxLayout *customLayoutHome = new QVBoxLayout(customWidgetHome);
-    customLayoutHome->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
+    customLayoutHome->setContentsMargins(0, 10, 0, 25); // Adjust the top margin for elevation
     QPushButton *homeButton = new QPushButton();
     homeButton->setIcon(QIcon(":/assets/icons/homescreen_icon.png"));
     homeButton->setIconSize(QSize(55, 55));
