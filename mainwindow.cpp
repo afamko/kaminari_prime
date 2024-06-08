@@ -3,7 +3,7 @@
 #include "FolderWidget.h"
 #include "NewItemDialog.h"
 #include "NewFolderDialog.h"
-#include "SketchPage.h" // Include the SketchPage header
+#include "SketchPage.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGridLayout>
@@ -17,12 +17,13 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMessageBox>
+#include <QDebug>
+#include <QStringList>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
       folderNames(new QStringList()), gridLayout(new QGridLayout()),
-      sketchPage(new SketchPage(this)), // Initialize the sketch page
-      newItemDialog(nullptr)            // Initialize the NewItemDialog to nullptr
+      sketchPage(new SketchPage(this)), newItemDialog(nullptr) // Initialize newItemDialog to nullptr
 {
     ui->setupUi(this);
 
@@ -34,13 +35,13 @@ MainWindow::MainWindow(QWidget *parent)
     QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Light.ttf");
     QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Thin.ttf");
 
-    const int windowWidth = 500;                  // Width in pixels
-    const int windowHeight = windowWidth * 4 / 3; // Height in pixels to maintain a 3:4 ratio
-    setFixedSize(windowWidth, windowHeight);      // Set the fixed size for the window
+    const int windowWidth = 500;
+    const int windowHeight = windowWidth * 4 / 3;
+    setFixedSize(windowWidth, windowHeight);
 
     QWidget *centralWidget = new QWidget(this);
     QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
-    mainLayout->setContentsMargins(0, 0, 0, 0); // Remove margins around the layout
+    mainLayout->setContentsMargins(0, 0, 0, 0);
 
     // Admin Bar setup
     QWidget *adminBar = new QWidget();
@@ -52,29 +53,29 @@ MainWindow::MainWindow(QWidget *parent)
                             "border-bottom-left-radius: 6px;"
                             "border-bottom-right-radius: 6px;");
     adminBar->setFixedHeight(34);
-    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.56)); // 60% of window width
+    adminBar->setFixedWidth(static_cast<int>(windowWidth * 0.56));
 
     QHBoxLayout *adminLayout = new QHBoxLayout(adminBar);
-    adminLayout->setContentsMargins(10, 5, 10, 5); // Adjusted top and bottom padding
+    adminLayout->setContentsMargins(10, 5, 10, 5);
 
     // Time label - aligned towards the left
     QLabel *timeLabel = new QLabel("12:21 PM", adminBar);
     timeLabel->setStyleSheet("background-color: transparent; border: none; font-size: 16px;");
     adminLayout->addWidget(timeLabel);
 
-    adminLayout->addStretch(2); // Add stretchable space for centering
+    adminLayout->addStretch(2);
 
     // WiFi label and icon - centered
     QLabel *wifiLabel = new QLabel(adminBar);
     QPixmap wifiIcon(":/assets/icons/wifi_icon.png");
-    const int wifiIconSize = 24; // The desired icon size for WiFi
+    const int wifiIconSize = 24;
     wifiIcon = wifiIcon.scaled(wifiIconSize, wifiIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
     wifiLabel->setPixmap(wifiIcon);
     wifiLabel->setFixedSize(wifiIcon.size());
     wifiLabel->setStyleSheet("background-color: transparent; border: none;");
     adminLayout->addWidget(wifiLabel);
 
-    adminLayout->addStretch(1); // Add another stretchable space for even spacing
+    adminLayout->addStretch(1);
 
     // Battery label and icon - aligned towards the right
     QLabel *batteryLabel = new QLabel("78%", adminBar);
@@ -83,7 +84,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QLabel *batteryIconLabel = new QLabel(adminBar);
     QPixmap batteryIcon(":/assets/icons/battery_icon.png");
-    const int batteryIconSize = 42; // Increased icon size for battery
+    const int batteryIconSize = 42;
     batteryIcon = batteryIcon.scaled(batteryIconSize, batteryIconSize, Qt::KeepAspectRatio, Qt::SmoothTransformation);
     batteryIconLabel->setPixmap(batteryIcon);
     batteryIconLabel->setFixedSize(batteryIcon.size());
@@ -92,19 +93,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Center the admin bar within the centralWidget
     QHBoxLayout *centeredAdminBarLayout = new QHBoxLayout();
-    centeredAdminBarLayout->addStretch(1); // Stretchable space to the left of the admin bar
+    centeredAdminBarLayout->addStretch(1);
     centeredAdminBarLayout->addWidget(adminBar);
-    centeredAdminBarLayout->addStretch(1); // Stretchable space to the right of the admin bar
+    centeredAdminBarLayout->addStretch(1);
 
     mainLayout->addLayout(centeredAdminBarLayout);
 
-    mainLayout->addSpacing(5); // Add some spacing between the admin bar and the rest of the content
+    mainLayout->addSpacing(5);
 
     // Initialize the toolbar
-    toolBar = new QToolBar(this); // This line should replace the local declaration of QToolBar
+    toolBar = new QToolBar(this);
     toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
     toolBar->setMovable(false);
-    toolBar->setIconSize(QSize(55, 55)); // Adjust icon size as needed
+    toolBar->setIconSize(QSize(55, 55));
 
     // Header section setup
     QWidget *headerWidget = new QWidget();
@@ -119,16 +120,15 @@ MainWindow::MainWindow(QWidget *parent)
     stickyNoteButton->setIcon(QIcon(":/assets/icons/sticky_note_icon.png"));
     stickyNoteButton->setIconSize(QSize(40, 40));
     stickyNoteButton->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
-    stickyNoteButton->setCursor(Qt::PointingHandCursor); // Change the cursor to a hand pointer for a better UX
+    stickyNoteButton->setCursor(Qt::PointingHandCursor);
     topRowLayout->addWidget(stickyNoteButton);
-    topRowLayout->addSpacing(62); // Adjust this value to fit your design
+    topRowLayout->addSpacing(62);
 
     // SORT BUTTON
-    // Create a composite widget to hold the text and icon
     QWidget *sortButtonWidget = new QWidget();
     QHBoxLayout *sortButtonLayout = new QHBoxLayout(sortButtonWidget);
-    sortButtonLayout->setContentsMargins(0, 0, 0, 0); // No margins for the composite widget
-    sortButtonLayout->setSpacing(0);                  // Adjust this spacing to control the distance between the icon and text
+    sortButtonLayout->setContentsMargins(0, 0, 0, 0);
+    sortButtonLayout->setSpacing(0);
 
     // Button for the 'Sort' icon
     QToolButton *sortIconButton = new QToolButton();
@@ -139,88 +139,69 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Label for the 'Sort' text
     QLabel *sortTextLabel = new QLabel("Sort");
-    QFont sortFont = sortTextLabel->font();                         // Get the current font
-    sortFont.setPointSize(22);                                      // Set your desired font size
-    sortTextLabel->setFont(sortFont);                               // Apply the font with the new size
-    sortTextLabel->setStyleSheet("background-color: transparent;"); // Style as needed
+    QFont sortFont = sortTextLabel->font();
+    sortFont.setPointSize(22);
+    sortTextLabel->setFont(sortFont);
+    sortTextLabel->setStyleSheet("background-color: transparent;");
 
-    // Add the icon button and text label to the layout
     sortButtonLayout->addWidget(sortIconButton, 0, Qt::AlignVCenter | Qt::AlignLeft);
     sortButtonLayout->addWidget(sortTextLabel, 0, Qt::AlignVCenter | Qt::AlignLeft);
 
-    // Now add the composite widget to the top row layout
     topRowLayout->addWidget(sortButtonWidget);
-    topRowLayout->addSpacing(10); // Adjust this value to fit your design
+    topRowLayout->addSpacing(10);
 
-    // V E R T I C A L  L I N E
     QFrame *line = new QFrame();
-    line->setFrameShape(QFrame::VLine);   // Set the shape of the frame to a vertical line
-    line->setFrameShadow(QFrame::Sunken); // Give it a shadow effect to make it more visible
-    line->setLineWidth(2);                // Set the line width (you can adjust this as needed)
-    topRowLayout->addWidget(line);        // Add the line to the layout here
-    // Adjust line's margins to remove any extra space it might have by default
+    line->setFrameShape(QFrame::VLine);
+    line->setFrameShadow(QFrame::Sunken);
+    line->setLineWidth(2);
+    topRowLayout->addWidget(line);
     line->setContentsMargins(0, 0, 0, 0);
 
-    // FILTER BUTTON
-    // Create a composite widget to hold the text and icon
     QWidget *filterButtonWidget = new QWidget();
     QHBoxLayout *filterButtonLayout = new QHBoxLayout(filterButtonWidget);
-    filterButtonLayout->setContentsMargins(0, 0, 0, 0); // No margins for the composite widget
-    filterButtonLayout->setSpacing(0);                  // No additional spacing
+    filterButtonLayout->setContentsMargins(0, 0, 0, 0);
+    filterButtonLayout->setSpacing(0);
 
-    // Label for the 'Filter' text
     QLabel *filterTextLabel = new QLabel("Filter");
-    QFont filterFont = filterTextLabel->font();                                         // Get the current font
-    filterFont.setPointSize(22);                                                        // Set your desired font size
-    filterTextLabel->setFont(filterFont);                                               // Apply the font with the new size
-    filterTextLabel->setStyleSheet("background-color: transparent; margin-left: 5px;"); // Style as needed
+    QFont filterFont = filterTextLabel->font();
+    filterFont.setPointSize(22);
+    filterTextLabel->setFont(filterFont);
+    filterTextLabel->setStyleSheet("background-color: transparent; margin-left: 5px;");
 
-    // Button for the 'Filter' icon
     QToolButton *filterIconButton = new QToolButton();
     filterIconButton->setIcon(QIcon(":/assets/icons/filter_icon.png"));
     filterIconButton->setIconSize(QSize(40, 40));
     filterIconButton->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
     filterIconButton->setCursor(Qt::ArrowCursor);
 
-    // Add the text label and icon button to the layout
     filterButtonLayout->addWidget(filterTextLabel, 0, Qt::AlignVCenter | Qt::AlignRight);
 
-    // This next line adds a horizontal spacer with a fixed width after the label
-    // It ensures that the 'Filter' label is pushed to the left and closer to the vertical line
-    filterButtonLayout->addSpacing(5); // Adjust this spacing as necessary
+    filterButtonLayout->addSpacing(5);
 
     filterButtonLayout->addWidget(filterIconButton, 0, Qt::AlignVCenter | Qt::AlignLeft);
 
-    // Now add the composite widget to the top row layout
     topRowLayout->addWidget(filterButtonWidget);
-    topRowLayout->addSpacing(50); // Adjust this value to fit your design
+    topRowLayout->addSpacing(50);
 
-    // Add the search button
     QPushButton *searchButton = new QPushButton();
     searchButton->setIcon(QIcon(":/assets/icons/search_icon.png"));
     searchButton->setIconSize(QSize(34, 34));
     topRowLayout->addWidget(searchButton);
     searchButton->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
-    searchButton->setCursor(Qt::PointingHandCursor); // Change the cursor to a hand pointer for a better UX
+    searchButton->setCursor(Qt::PointingHandCursor);
     headerLayout->addWidget(topRowWidget);
 
-    // Bottom Row
     QWidget *bottomRowWidget = new QWidget();
     QHBoxLayout *bottomRowLayout = new QHBoxLayout(bottomRowWidget);
 
-    // Add the page title to the bottom row layout
     QLabel *pageTitle = new QLabel("Local Home");
-    // Use the default application font, set to bold and with a specific size
     QFont defaultFont = QApplication::font();
-    // defaultFont.setBold(true); // Set the font weight to bold
-    defaultFont.setPointSize(30); // Replace 20 with your desired font size
+    defaultFont.setPointSize(30);
     pageTitle->setFont(defaultFont);
     bottomRowLayout->addWidget(pageTitle);
 
-    // Add stretch after title to push icons to the right
     bottomRowLayout->addStretch(1);
 
-    // Add action icons (D, G, O, trash can)
     QPushButton *actionButtonD = new QPushButton();
     actionButtonD->setIcon(QIcon(":/assets/icons/d_icon.png"));
     actionButtonD->setIconSize(QSize(24, 24));
@@ -228,79 +209,230 @@ MainWindow::MainWindow(QWidget *parent)
     actionButtonD->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonD);
 
-    // For example, with QPushButton:
     QPushButton *actionButtonG = new QPushButton();
     actionButtonG->setIcon(QIcon(":/assets/icons/g_icon.png"));
-    actionButtonG->setIconSize(QSize(24, 24)); // Adjust size as needed
+    actionButtonG->setIconSize(QSize(24, 24));
     actionButtonG->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
     actionButtonG->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonG);
 
-    // For example, with QPushButton:
     QPushButton *actionButtonO = new QPushButton();
     actionButtonO->setIcon(QIcon(":/assets/icons/o_icon.png"));
-    actionButtonO->setIconSize(QSize(24, 24)); // Adjust size as needed
+    actionButtonO->setIconSize(QSize(24, 24));
     actionButtonO->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
     actionButtonO->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonO);
 
-    // For example, with QPushButton:
     QPushButton *actionButtonTrash = new QPushButton();
     actionButtonTrash->setIcon(QIcon(":/assets/icons/trashcan_icon.png"));
-    actionButtonTrash->setIconSize(QSize(30, 30)); // Adjust size as needed
+    actionButtonTrash->setIconSize(QSize(30, 30));
     actionButtonTrash->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
     actionButtonTrash->setCursor(Qt::PointingHandCursor);
     bottomRowLayout->addWidget(actionButtonTrash);
 
     headerLayout->addWidget(bottomRowWidget);
 
-    // Add header layout to main layout before the scroll area
     mainLayout->addWidget(headerWidget);
 
-    // Create a grid layout to hold the FolderWidgets
-    gridLayout = new QGridLayout(); // Use the member variable, not a local variable
-    gridLayout->setSpacing(10);     // Adjust spacing as needed
+    gridLayout = new QGridLayout();
+    gridLayout->setSpacing(10);
 
-    // List of folder names
     QStringList initialFolderNames = {"My Personal", "Work", "wustl", "OME", "LW",
                                       "scribble dibble", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode", "Fathie/Sekai", "Shutter", "Mode"};
 
-    // Populate the grid layout with FolderWidgets
     for (int i = 0; i < initialFolderNames.size(); ++i)
     {
         FolderWidget *folder = new FolderWidget(initialFolderNames[i]);
         int row = i / 3;
         int column = i % 3;
         gridLayout->addWidget(folder, row, column);
-        folderNames->append(initialFolderNames[i]); // Add the folder name to the list
+        folderNames->append(initialFolderNames[i]);
     }
 
-    // Wrap the grid layout in a widget
     QWidget *gridWidget = new QWidget();
     gridWidget->setLayout(gridLayout);
 
-    // Create a scroll area and set the grid layout widget as its child
     QScrollArea *scrollArea = new QScrollArea();
     scrollArea->setWidget(gridWidget);
     scrollArea->setWidgetResizable(true);
     scrollArea->viewport()->setStyleSheet("background-color: rgb(239, 239, 239);");
-    scrollArea->setStyleSheet("QScrollArea { border: none; }"); // Remove border from scroll area
+    scrollArea->setStyleSheet("QScrollArea { border: none; }");
 
-    // Add the scroll area to the main layout
     mainLayout->addWidget(scrollArea, 1);
 
-    // 'Create New' section setup
     createNewSection = new QWidget(this);
     createNewSection->setObjectName("createNewSection");
-    createNewSection->setVisible(false); // Initially hidden
+    createNewSection->setVisible(false);
 
-    // Navigation Bar Setup
     toolBar = new QToolBar(this);
     toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
     toolBar->setMovable(false);
 
-    // Set the icon size to be twice as large
-    toolBar->setIconSize(QSize(55, 55)); // Replace iconWidth and iconHeight with actual values
+    toolBar->setIconSize(QSize(55, 55));
+
+    QWidget *spacerLeft = new QWidget();
+    spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+    toolBar->addWidget(spacerLeft);
+
+    QWidget *customWidgetOne = new QWidget();
+    QVBoxLayout *customLayoutOne = new QVBoxLayout(customWidgetOne);
+    customLayoutOne->setContentsMargins(0, 25, 0, 25);
+    QLabel *iconLabelOne = new QLabel(customWidgetOne);
+    iconLabelOne->setPixmap(QPixmap(":/assets/icons/action_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutOne->addWidget(iconLabelOne, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionOne = new QWidgetAction(toolBar);
+    widgetActionOne->setDefaultWidget(customWidgetOne);
+    toolBar->addAction(widgetActionOne);
+
+    QWidget *spacer1 = new QWidget();
+    spacer1->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer1->setFixedWidth(26);
+    toolBar->addWidget(spacer1);
+
+    QWidget *customWidgetTwo = new QWidget();
+    QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
+    customLayoutTwo->setContentsMargins(0, 25, 0, 25);
+    QToolButton *actionButtonSketch = new QToolButton();
+    actionButtonSketch->setIcon(QIcon(":/assets/icons/sketch_icon.png"));
+    actionButtonSketch->setIconSize(QSize(55, 55));
+    actionButtonSketch->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
+    customLayoutTwo->addWidget(actionButtonSketch, 0, Qt::AlignCenter);
+
+    QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
+    widgetActionTwo->setDefaultWidget(customWidgetTwo);
+    toolBar->addAction(widgetActionTwo);
+
+    QWidget *spacer2 = new QWidget();
+    spacer2->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer2->setFixedWidth(26);
+    toolBar->addWidget(spacer2);
+
+    QWidget *customWidgetThree = new QWidget();
+    QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
+    customLayoutThree->setContentsMargins(0, 25, 0, 25);
+    QLabel *iconLabelThree = new QLabel(customWidgetThree);
+    iconLabelThree->setPixmap(QPixmap(":/assets/icons/settings_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutThree->addWidget(iconLabelThree, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionThree = new QWidgetAction(toolBar);
+    widgetActionThree->setDefaultWidget(customWidgetThree);
+    toolBar->addAction(widgetActionThree);
+
+    QWidget *spacerRight = new QWidget();
+    spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
+    toolBar->addWidget(spacerRight);
+
+    int rightSpacerWidth = 1;
+    QWidget *additionalSpacerRight = new QWidget();
+    additionalSpacerRight->setFixedWidth(rightSpacerWidth);
+    toolBar->addWidget(additionalSpacerRight);
+
+    this->addToolBar(Qt::BottomToolBarArea, toolBar);
+
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+
+    createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
+    createNewSection->setVisible(false);
+
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+
+    setCentralWidget(centralWidget);
+}
+
+void MainWindow::resizeEvent(QResizeEvent *event)
+{
+    QMainWindow::resizeEvent(event);
+
+    createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
+    if (createNewSection->isVisible())
+    {
+        createNewSection->raise();
+    }
+}
+
+void MainWindow::showNewItemDialog()
+{
+    if (sketchPageActive)
+    {
+        showSketchPage();
+    }
+    else
+    {
+        if (newItemDialog == nullptr || !newItemDialog->isVisible())
+        {
+            newItemDialog = new NewItemDialog(this);
+            newItemDialog->setAttribute(Qt::WA_DeleteOnClose);
+
+            connect(newItemDialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
+
+            connect(newItemDialog, &NewItemDialog::newSheetRequested, this, [this]()
+                    {
+                        if (newItemDialog)
+                        {
+                            newItemDialog->close();
+                            newItemDialog = nullptr;
+                        }
+                        showSketchPage(); });
+
+            newItemDialog->show();
+        }
+    }
+}
+
+void MainWindow::toggleCreateNewSection()
+{
+    bool isVisible = createNewSection->isVisible();
+    createNewSection->setVisible(!isVisible);
+
+    if (!isVisible)
+    {
+        createNewSection->raise();
+    }
+    else
+    {
+        toolBar->raise();
+    }
+}
+
+void MainWindow::createNewFolder(const QString &folderName)
+{
+    if (!gridLayout)
+    {
+        return;
+    }
+
+    if (!folderNames)
+    {
+        return;
+    }
+
+    folderNames->append(folderName);
+
+    FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
+    int row = (folderNames->size() - 1) / 3;
+    int column = (folderNames->size() - 1) % 3;
+    gridLayout->addWidget(newFolderWidget, row, column);
+}
+
+void MainWindow::createNewSheet()
+{
+    QMessageBox::information(this, "Action", "Create New Sheet action triggered");
+}
+
+void MainWindow::showSketchPage()
+{
+    // Remove the current central widget
+    QWidget *currentCentralWidget = centralWidget();
+    if (currentCentralWidget)
+    {
+        currentCentralWidget->hide();
+    }
+
+    // Set the sketch page as the new central widget
+    setCentralWidget(sketchPage);
+    sketchPage->show();
+
+    // Change the toolbar to show the home button instead of the sketch button
+    toolBar->clear();
 
     // Add stretchable spacers to center the icons
     QWidget *spacerLeft = new QWidget();
@@ -324,19 +456,19 @@ MainWindow::MainWindow(QWidget *parent)
     spacer1->setFixedWidth(26); // Set your desired width
     toolBar->addWidget(spacer1);
 
-    // Repeat the custom widget process for the second icon
-    QWidget *customWidgetTwo = new QWidget();
-    QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
-    customLayoutTwo->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
-    QToolButton *actionButtonSketch = new QToolButton();
-    actionButtonSketch->setIcon(QIcon(":/assets/icons/sketch_icon.png"));
-    actionButtonSketch->setIconSize(QSize(55, 55));
-    actionButtonSketch->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
-    customLayoutTwo->addWidget(actionButtonSketch, 0, Qt::AlignCenter);
-
-    QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
-    widgetActionTwo->setDefaultWidget(customWidgetTwo);
-    toolBar->addAction(widgetActionTwo);
+    // Custom widget for the home button with increased padding
+    QWidget *customWidgetHome = new QWidget();
+    QVBoxLayout *customLayoutHome = new QVBoxLayout(customWidgetHome);
+    customLayoutHome->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
+    QPushButton *homeButton = new QPushButton();
+    homeButton->setIcon(QIcon(":/assets/icons/homescreen_icon.png"));
+    homeButton->setIconSize(QSize(55, 55));
+    homeButton->setStyleSheet("QPushButton { border: none; background-color: transparent; }");
+    customLayoutHome->addWidget(homeButton, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionHome = new QWidgetAction(toolBar);
+    widgetActionHome->setDefaultWidget(customWidgetHome);
+    toolBar->addAction(widgetActionHome);
+    connect(homeButton, &QPushButton::clicked, this, &MainWindow::showHomePage);
 
     // Spacer between the icons
     QWidget *spacer2 = new QWidget();
@@ -344,7 +476,7 @@ MainWindow::MainWindow(QWidget *parent)
     spacer2->setFixedWidth(26); // Set your desired width
     toolBar->addWidget(spacer2);
 
-    // Repeat the custom widget process for the third icon
+    // Custom widget for the third icon with increased padding
     QWidget *customWidgetThree = new QWidget();
     QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
     customLayoutThree->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
@@ -360,126 +492,40 @@ MainWindow::MainWindow(QWidget *parent)
     spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
 
-    // Increase the width of the right spacer
-    int rightSpacerWidth = 1; // Increase this value to push the icons to the left
-    QWidget *additionalSpacerRight = new QWidget();
-    additionalSpacerRight->setFixedWidth(rightSpacerWidth);
-    toolBar->addWidget(additionalSpacerRight);
-
-    this->addToolBar(Qt::BottomToolBarArea, toolBar);
-
-    // Connect the sketch button's signal to the slot that toggles the 'Create New' section visibility
-    // connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::toggleCreateNewSection);
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
-
-    // Position createNewSection at the bottom of the MainWindow and raise it.
-    createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
-    createNewSection->setVisible(false); // It should start hidden.
-
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
-
-    // Set the central widget
-    setCentralWidget(centralWidget);
+    // Mark sketch page as active
+    sketchPageActive = true;
 }
 
-void MainWindow::resizeEvent(QResizeEvent *event)
+void MainWindow::showHomePage()
 {
-    QMainWindow::resizeEvent(event); // Call the base class implementation
-
-    // Adjust the 'Create New' section to the new size.
-    createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
-    if (createNewSection->isVisible())
-    {
-        createNewSection->raise();
-    }
-}
-
-void MainWindow::showNewItemDialog()
-{
-    if (newItemDialog == nullptr || !newItemDialog->isVisible())
-    {
-        newItemDialog = new NewItemDialog(this);
-        newItemDialog->setAttribute(Qt::WA_DeleteOnClose); // Set the dialog to delete itself on close
-
-        // Connect newFolderRequested signal to createNewFolder slot
-        connect(newItemDialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
-
-        // Connect the sheet button signal to the showSketchPage slot
-        connect(newItemDialog, &NewItemDialog::newSheetRequested, this, [this]()
-                {
-            qDebug() << "New sheet requested, closing dialog and showing sketch page";
-            newItemDialog->close(); // Close the dialog
-            showSketchPage(); });
-
-        newItemDialog->show(); // Display the dialog
-    }
-}
-
-void MainWindow::toggleCreateNewSection()
-{
-    bool isVisible = createNewSection->isVisible();
-    createNewSection->setVisible(!isVisible);
-
-    if (!isVisible)
-    {
-        createNewSection->raise(); // Ensure it covers the toolbar
-    }
-    else
-    {
-        toolBar->raise(); // Make sure the toolbar comes back on top
-    }
-}
-
-void MainWindow::createNewFolder(const QString &folderName)
-{
-    // Check if the member variables are initialized
-    if (!gridLayout)
-    {
-        qDebug() << "Grid layout is not initialized";
-        return;
-    }
-
-    if (!folderNames)
-    {
-        qDebug() << "Folder names list is not initialized";
-        return;
-    }
-
-    // Append the new folder name to the list
-    folderNames->append(folderName);
-    qDebug() << "Total folders:" << folderNames->size(); // Add this line
-
-    // Create the new FolderWidget and add it to the grid layout
-    FolderWidget *newFolderWidget = new FolderWidget(folderName, this);
-    int row = (folderNames->size() - 1) / 3;
-    int column = (folderNames->size() - 1) % 3;
-    qDebug() << "Adding new folder widget at row" << row << "and column" << column;
-    gridLayout->addWidget(newFolderWidget, row, column);
-
-    qDebug() << "New folder widget added to the layout.";
-}
-
-void MainWindow::createNewSheet()
-{
-    // Implement the logic for creating a new sheet here.
-    // For now, you can leave this empty or add a simple placeholder implementation.
-
-    // Placeholder example: Show a message box indicating the action (for testing purposes)
-    QMessageBox::information(this, "Action", "Create New Sheet action triggered");
-}
-
-void MainWindow::showSketchPage()
-{
-    // Remove the current central widget
     QWidget *currentCentralWidget = centralWidget();
     if (currentCentralWidget)
     {
         currentCentralWidget->hide();
     }
 
-    // Set the sketch page as the new central widget
-    setCentralWidget(sketchPage);
-    sketchPage->show();
+    QWidget *centralWidget = new QWidget(this);
+    QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
+    mainLayout->setContentsMargins(0, 0, 0, 0);
+
+    mainLayout->addLayout(centeredAdminBarLayout);
+    mainLayout->addSpacing(5);
+    mainLayout->addWidget(headerWidget);
+    mainLayout->addWidget(scrollArea, 1);
+
+    setCentralWidget(centralWidget);
+
+    toolBar->clear();
+
+    toolBar->addWidget(spacerLeft);
+    toolBar->addAction(widgetActionOne);
+    toolBar->addWidget(spacer1);
+    toolBar->addAction(widgetActionTwo);
+    toolBar->addWidget(spacer2);
+    toolBar->addAction(widgetActionThree);
+    toolBar->addWidget(spacerRight);
+
+    sketchPageActive = false;
 }
 
 MainWindow::~MainWindow()

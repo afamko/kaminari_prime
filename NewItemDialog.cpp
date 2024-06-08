@@ -6,7 +6,7 @@
 #include <QApplication>
 #include <QScreen>
 #include <QHBoxLayout>
-#include <QTimer>
+#include <QTimer> // Include QTimer
 
 NewItemDialog::NewItemDialog(QWidget *parent)
     : QDialog(parent, Qt::FramelessWindowHint | Qt::Popup)
@@ -36,7 +36,7 @@ NewItemDialog::NewItemDialog(QWidget *parent)
 
     layout->addLayout(titleLayout);
 
-    layout->addSpacing(10); // Add extra spacing between the title and the buttons
+    layout->addSpacing(10);
 
     QHBoxLayout *buttonLayout = new QHBoxLayout();
     buttonLayout->setAlignment(Qt::AlignCenter);
@@ -53,7 +53,7 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     folderLabel->setStyleSheet("color: #FFFFFF;");
 
     folderLayout->addWidget(newFolderButton);
-    folderLayout->addSpacing(5); // Add spacer for spacing between icon and text
+    folderLayout->addSpacing(5);
     folderLayout->addWidget(folderLabel);
 
     // Create Sheet button
@@ -68,11 +68,11 @@ NewItemDialog::NewItemDialog(QWidget *parent)
     sheetLabel->setStyleSheet("color: #FFFFFF;");
 
     sheetLayout->addWidget(newSheetButton);
-    sheetLayout->addSpacing(5); // Add spacer for spacing between icon and text
+    sheetLayout->addSpacing(5);
     sheetLayout->addWidget(sheetLabel);
 
     buttonLayout->addLayout(folderLayout);
-    buttonLayout->addSpacing(80); // Add spacing between Folder and Sheet buttons
+    buttonLayout->addSpacing(80);
     buttonLayout->addLayout(sheetLayout);
 
     layout->addLayout(buttonLayout);
@@ -107,18 +107,13 @@ void NewItemDialog::positionAtBottom(QWidget *parent)
 {
     if (parent != nullptr)
     {
-        // Set the width of the dialog to match the parent's width
         int dialogWidth = parent->width();
         setFixedWidth(dialogWidth);
 
-        // Calculate the x position to align with the parent's left edge
         int x = parent->geometry().left();
 
-        // Calculate the y position to align at the bottom of the parent
-        // Adjust the y-coordinate to position it above the window frame, status bar, or other bottom elements
         int y = parent->geometry().bottom() - this->height() - parent->frameGeometry().height() + parent->geometry().height();
 
-        // Ensure that the dialog is completely visible on screen.
         QRect availableGeometry = QApplication::primaryScreen()->availableGeometry();
         if (y < availableGeometry.top())
         {
@@ -129,7 +124,6 @@ void NewItemDialog::positionAtBottom(QWidget *parent)
             y = availableGeometry.bottom() - height();
         }
 
-        // Set the dialog's position
         move(x, y);
     }
 }
