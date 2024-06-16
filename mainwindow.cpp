@@ -421,7 +421,7 @@ void MainWindow::createNewSheet()
 
 void MainWindow::showSketchPage()
 {
-    // Remove the current central widget
+    // Hide the current central widget
     QWidget *currentCentralWidget = centralWidget();
     if (currentCentralWidget)
     {
@@ -499,25 +499,51 @@ void MainWindow::showSketchPage()
 
 void MainWindow::showHomePage()
 {
+    // Remove the current central widget
     QWidget *currentCentralWidget = centralWidget();
     if (currentCentralWidget)
     {
         currentCentralWidget->hide();
+        delete currentCentralWidget;
     }
 
-    QWidget *centralWidget = new QWidget(this);
-    QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget);
-    mainLayout->setContentsMargins(0, 0, 0, 0);
+    // Create a new central widget and layout
+    QWidget *newCentralWidget = new QWidget(this);
+    QVBoxLayout *newMainLayout = new QVBoxLayout(newCentralWidget);
+    newMainLayout->setContentsMargins(0, 0, 0, 0);
 
-    mainLayout->addLayout(centeredAdminBarLayout);
-    mainLayout->addSpacing(5);
-    mainLayout->addWidget(headerWidget);
-    mainLayout->addWidget(scrollArea, 1);
+    // Restore admin bar layout, header widget, and scroll area
+    newMainLayout->addLayout(centeredAdminBarLayout);
+    newMainLayout->addSpacing(5);
+    newMainLayout->addWidget(headerWidget);
 
-    setCentralWidget(centralWidget);
+    // Create a new scroll area and grid layout for folders
+    QScrollArea *newScrollArea = new QScrollArea();
+    QWidget *newGridWidget = new QWidget();
+    QGridLayout *newGridLayout = new QGridLayout(newGridWidget);
+    newGridLayout->setSpacing(10);
 
+    for (int i = 0; i < folderNames->size(); ++i)
+    {
+        FolderWidget *folder = new FolderWidget((*folderNames)[i]);
+        int row = i / 3;
+        int column = i % 3;
+        newGridLayout->addWidget(folder, row, column);
+    }
+
+    newGridWidget->setLayout(newGridLayout);
+    newScrollArea->setWidget(newGridWidget);
+    newScrollArea->setWidgetResizable(true);
+    newScrollArea->viewport()->setStyleSheet("background-color: rgb(239, 239, 239);");
+    newScrollArea->setStyleSheet("QScrollArea { border: none; }");
+
+    newMainLayout->addWidget(newScrollArea, 1);
+    setCentralWidget(newCentralWidget);
+
+    // Clear the toolbar and re-add the original widgets and actions
     toolBar->clear();
 
+    // Add stretchable spacers to center the icons
     toolBar->addWidget(spacerLeft);
     toolBar->addAction(widgetActionOne);
     toolBar->addWidget(spacer1);
@@ -526,7 +552,16 @@ void MainWindow::showHomePage()
     toolBar->addAction(widgetActionThree);
     toolBar->addWidget(spacerRight);
 
+    // Mark sketch page as inactive
     sketchPageActive = false;
+
+    // Delete the previous scroll area and grid layout to prevent memory leaks
+    delete scrollArea;
+    delete gridLayout;
+
+    // Assign the new scroll area and grid layout to the member variables
+    scrollArea = newScrollArea;
+    gridLayout = newGridLayout;
 }
 
 MainWindow::~MainWindow()

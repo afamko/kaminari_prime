@@ -4,10 +4,13 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QGridLayout>
-#include "SketchPage.h"
 #include <QScrollArea>
 #include <QWidgetAction>
-#include "NewItemDialog.h" // Include the NewItemDialog header
+#include <QToolBar>
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include "SketchPage.h"
+#include "NewItemDialog.h"
 
 namespace Ui
 {
@@ -30,8 +33,8 @@ private slots:
     void toggleCreateNewSection();
     void createNewFolder(const QString &folderName);
     void createNewSheet();
-    void showSketchPage(); // Slot for showing the sketch page
-    void showHomePage();   // Slot for showing the home page
+    void showSketchPage();
+    void showHomePage();
 
 private:
     Ui::MainWindow *ui;
@@ -39,16 +42,14 @@ private:
     QGridLayout *gridLayout;
     QWidget *createNewSection;
     QToolBar *toolBar;
-    SketchPage *sketchPage;        // Member variable for the sketch page
-    bool sketchPageActive = false; // To keep track of whether the sketch page is active
+    SketchPage *sketchPage;
+    bool sketchPageActive = false;
 
-    // Member variables for UI elements to restore on home page
     QVBoxLayout *mainLayout;
     QHBoxLayout *centeredAdminBarLayout;
     QWidget *headerWidget;
     QScrollArea *scrollArea;
 
-    // Member variables for toolbar actions
     QWidgetAction *widgetActionOne;
     QWidgetAction *widgetActionTwo;
     QWidgetAction *widgetActionThree;
@@ -58,9 +59,8 @@ private:
     QWidget *spacer2;
     QWidget *spacerRight;
 
-    NewItemDialog *newItemDialog; // Declare newItemDialog as a member variable
+    NewItemDialog *newItemDialog;
 
-    // Declare custom widgets as member variables
     QWidget *customWidgetOne;
     QWidget *customWidgetTwo;
     QWidget *customWidgetThree;
