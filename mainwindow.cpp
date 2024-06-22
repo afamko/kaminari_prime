@@ -28,6 +28,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    qInfo() << "Loading fonts...";
     // Load the Roboto font
     QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Black.ttf");
     QFontDatabase::addApplicationFont(":/assets/fonts/Roboto-Bold.ttf");
@@ -94,6 +95,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Center the admin bar within the centralWidget
     centeredAdminBarLayout = new QHBoxLayout();
+    qInfo() << "centeredAdminBarLayout initialized at" << centeredAdminBarLayout;
     centeredAdminBarLayout->addStretch(1);
     centeredAdminBarLayout->addWidget(adminBar);
     centeredAdminBarLayout->addStretch(1);
@@ -499,6 +501,8 @@ void MainWindow::showSketchPage()
 
 void MainWindow::showHomePage()
 {
+    qInfo() << "Entering showHomePage()";
+
     // Remove the current central widget
     QWidget *currentCentralWidget = centralWidget();
     if (currentCentralWidget)
@@ -512,8 +516,37 @@ void MainWindow::showHomePage()
     QVBoxLayout *newMainLayout = new QVBoxLayout(newCentralWidget);
     newMainLayout->setContentsMargins(0, 0, 0, 0);
 
-    // Restore admin bar layout, header widget, and scroll area
-    newMainLayout->addLayout(centeredAdminBarLayout);
+    // Check centeredAdminBarLayout initialization
+    if (!centeredAdminBarLayout)
+    {
+        qCritical() << "centeredAdminBarLayout is not initialized!";
+        return;
+    }
+
+    // Check if centeredAdminBarLayout already has a parent
+    qInfo() << "centeredAdminBarLayout address:" << centeredAdminBarLayout;
+    QObject *parentObj = centeredAdminBarLayout->parent();
+    if (parentObj)
+    {
+        qCritical() << "centeredAdminBarLayout already has a parent!" << parentObj;
+    }
+    else
+    {
+        qInfo() << "centeredAdminBarLayout does not have a parent.";
+    }
+
+    qInfo() << "Adding centeredAdminBarLayout to newMainLayout...";
+    try
+    {
+        newMainLayout->addLayout(centeredAdminBarLayout);
+        qInfo() << "Layout added successfully.";
+    }
+    catch (const std::exception &e)
+    {
+        qCritical() << "Exception caught while adding centeredAdminBarLayout: " << e.what();
+        return;
+    }
+
     newMainLayout->addSpacing(5);
     newMainLayout->addWidget(headerWidget);
 
@@ -538,6 +571,7 @@ void MainWindow::showHomePage()
     newScrollArea->setStyleSheet("QScrollArea { border: none; }");
 
     newMainLayout->addWidget(newScrollArea, 1);
+    newCentralWidget->setLayout(newMainLayout); // Ensure the layout is set for the new central widget
     setCentralWidget(newCentralWidget);
 
     // Clear the toolbar and re-add the original widgets and actions
@@ -555,13 +589,11 @@ void MainWindow::showHomePage()
     // Mark sketch page as inactive
     sketchPageActive = false;
 
-    // Delete the previous scroll area and grid layout to prevent memory leaks
-    delete scrollArea;
-    delete gridLayout;
-
-    // Assign the new scroll area and grid layout to the member variables
+    // Reassign member variables to prevent invalid access
     scrollArea = newScrollArea;
     gridLayout = newGridLayout;
+
+    qInfo() << "Exiting showHomePage()";
 }
 
 MainWindow::~MainWindow()

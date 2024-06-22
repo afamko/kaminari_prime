@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>assets/icons/folder_icon.png</file>
+    <file>assets/icons/wifi_icon.png</file>
+    <file>assets/icons/battery_icon.png</file>
+    <file>assets/icons/action_icon.png</file>
+    <file>assets/icons/sketch_icon.png</file>
+    <file>assets/icons/homescreen_icon.png</file>
+    <file>assets/icons/settings_icon.png</file>
+
+    <file>assets/icons/search_icon.png</file>
+    <file>assets/icons/sticky_note_icon.png</file>
+    <file>assets/icons/d_icon.png</file>
+    <file>assets/icons/g_icon.png</file>
+    <file>assets/icons/o_icon.png</file>
+    <file>assets/icons/trashcan_icon.png</file>
+    <file>assets/icons/sort_icon.png</file>
+    <file>assets/icons/filter_icon.png</file>
+    
+    <file>assets/icons/newFolder_icon.png</file>
+    <file>assets/icons/newSheet_icon.png</file>
+    <file>assets/icons/createNew_icon.png</file>
+
+
+    <file>assets/fonts/Roboto-Bold.ttf</file>
+    <file>assets/fonts/Roboto-Regular.ttf</file>
+</qresource>
+</RCC>

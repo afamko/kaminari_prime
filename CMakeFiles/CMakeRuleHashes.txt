@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+f0c67c285c326c23efa490cf93554f85 CMakeFiles/InkwellBeta_autogen
+f0c67c285c326c23efa490cf93554f85 CMakeFiles/InkwellBeta_autogen_timestamp_deps
+dd89a5d8ecd1f03d7a913e183e3f9852 InkwellBeta_autogen/timestamp
+6345dc843475189fd430517d0705b0c0 qrc_myresources.cpp

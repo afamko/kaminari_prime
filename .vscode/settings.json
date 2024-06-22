@@ -19,6 +19,7 @@
         "qfontdatabase": "cpp",
         "qwidgetaction": "cpp",
         "qscrollarea": "cpp",
-        "qguiapplication": "cpp"
+        "qguiapplication": "cpp",
+        "qstringlist": "cpp"
     }
 }
