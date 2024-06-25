@@ -1,5 +1,0 @@
-/users/AfamObioha/kaminari_prime/CMakeFiles/InkwellBeta.dir
-/users/AfamObioha/kaminari_prime/CMakeFiles/edit_cache.dir
-/users/AfamObioha/kaminari_prime/CMakeFiles/rebuild_cache.dir
-/users/AfamObioha/kaminari_prime/CMakeFiles/InkwellBeta_autogen_timestamp_deps.dir
-/users/AfamObioha/kaminari_prime/CMakeFiles/InkwellBeta_autogen.dir
