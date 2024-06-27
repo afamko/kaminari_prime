@@ -528,7 +528,8 @@ void MainWindow::showHomePage()
     QObject *parentObj = centeredAdminBarLayout->parent();
     if (parentObj)
     {
-        qCritical() << "centeredAdminBarLayout already has a parent!" << parentObj;
+        qInfo() << "centeredAdminBarLayout parent address:" << parentObj;
+        qInfo() << "centeredAdminBarLayout parent class:" << parentObj->metaObject()->className();
     }
     else
     {
