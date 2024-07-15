@@ -64,6 +64,8 @@ private:
     QWidget *customWidgetOne;
     QWidget *customWidgetTwo;
     QWidget *customWidgetThree;
+
+    QWidget *adminBar; // Add this line
 };
 
 #endif // MAINWINDOW_H

@@ -536,6 +536,13 @@ void MainWindow::showHomePage()
         qInfo() << "centeredAdminBarLayout does not have a parent.";
     }
 
+    // Check memory address of centeredAdminBarLayout
+    if (reinterpret_cast<uintptr_t>(centeredAdminBarLayout) == 0xDEADBEEF) // Replace 0xDEADBEEF with known invalid address
+    {
+        qCritical() << "centeredAdminBarLayout has an invalid memory address!";
+        return;
+    }
+
     qInfo() << "Adding centeredAdminBarLayout to newMainLayout...";
     try
     {

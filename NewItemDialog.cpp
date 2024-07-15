@@ -111,7 +111,6 @@ void NewItemDialog::positionAtBottom(QWidget *parent)
         setFixedWidth(dialogWidth);
 
         int x = parent->geometry().left();
-
         int y = parent->geometry().bottom() - this->height() - parent->frameGeometry().height() + parent->geometry().height();
 
         QRect availableGeometry = QApplication::primaryScreen()->availableGeometry();
