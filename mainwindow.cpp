@@ -499,6 +499,8 @@ void MainWindow::showSketchPage()
     sketchPageActive = true;
 }
 
+// mainwindow.cpp
+
 void MainWindow::showHomePage()
 {
     qInfo() << "Entering showHomePage()";
@@ -508,7 +510,7 @@ void MainWindow::showHomePage()
     if (currentCentralWidget)
     {
         currentCentralWidget->hide();
-        delete currentCentralWidget;
+        currentCentralWidget->deleteLater(); // Use deleteLater instead of delete
     }
 
     // Create a new central widget and layout
@@ -523,6 +525,12 @@ void MainWindow::showHomePage()
         return;
     }
 
+    // Remove centeredAdminBarLayout from its current parent
+    if (centeredAdminBarLayout->parentWidget())
+    {
+        centeredAdminBarLayout->parentWidget()->layout()->removeItem(centeredAdminBarLayout);
+    }
+
     // Check if centeredAdminBarLayout already has a parent
     qInfo() << "centeredAdminBarLayout address:" << centeredAdminBarLayout;
     QObject *parentObj = centeredAdminBarLayout->parent();
@@ -534,13 +542,6 @@ void MainWindow::showHomePage()
     else
     {
         qInfo() << "centeredAdminBarLayout does not have a parent.";
-    }
-
-    // Check memory address of centeredAdminBarLayout
-    if (reinterpret_cast<uintptr_t>(centeredAdminBarLayout) == 0xDEADBEEF) // Replace 0xDEADBEEF with known invalid address
-    {
-        qCritical() << "centeredAdminBarLayout has an invalid memory address!";
-        return;
     }
 
     qInfo() << "Adding centeredAdminBarLayout to newMainLayout...";
