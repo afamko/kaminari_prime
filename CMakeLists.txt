@@ -12,9 +12,9 @@ set(CMAKE_AUTORCC ON)
 
 # It's better to set Qt's CMAKE_PREFIX_PATH in the environment variable rather than in the CMake file
 # This way, each developer can have their own Qt setup
-# For example, you can set it in your .bashrc or .zshrc: export CMAKE_PREFIX_PATH="$HOME/Qt/6.6.2/macos/lib/cmake"
+# For example, you can set it in your .bashrc or .zshrc: export CMAKE_PREFIX_PATH="$HOME/Qt/6.6.3/macos/lib/cmake"
 
-# list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.2/macos/lib/cmake")
+# list(APPEND CMAKE_PREFIX_PATH "/Users/AfamObioha/Qt/6.6.3/macos/lib/cmake")
 
 if(DEFINED ENV{MY_CMAKE_PATH})
     list(APPEND CMAKE_PREFIX_PATH $ENV{MY_CMAKE_PATH})

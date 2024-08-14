@@ -1,8 +1,12 @@
 #include "mainwindow.h"
 #include <QApplication>
+#include <QDebug>
+#include <QtGlobal>
 
 int main(int argc, char *argv[])
 {
+
+    qInfo() << "Qt version:" << QT_VERSION_STR;
     QApplication app(argc, argv);
 
     MainWindow w;
