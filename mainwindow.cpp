@@ -506,14 +506,18 @@ void MainWindow::showHomePage()
     qInfo() << "Entering showHomePage()";
 
     // Remove the current central widget
+    qInfo() << "Removing current central widget...";
     QWidget *currentCentralWidget = centralWidget();
     if (currentCentralWidget)
     {
         currentCentralWidget->hide();
+        qInfo() << "Current central widget hidden";
         currentCentralWidget->deleteLater(); // Use deleteLater instead of delete
+        qInfo() << "Current central widget marked for deletion";
     }
 
     // Create a new central widget and layout
+    qInfo() << "Creating new central widget and layout...";
     QWidget *newCentralWidget = new QWidget(this);
     QVBoxLayout *newMainLayout = new QVBoxLayout(newCentralWidget);
     newMainLayout->setContentsMargins(0, 0, 0, 0);
@@ -526,9 +530,11 @@ void MainWindow::showHomePage()
     }
 
     // Remove centeredAdminBarLayout from its current parent
+    qInfo() << "Attempting to remove centeredAdminBarLayout from its current parent...";
     if (centeredAdminBarLayout->parentWidget())
     {
         centeredAdminBarLayout->parentWidget()->layout()->removeItem(centeredAdminBarLayout);
+        qInfo() << "centeredAdminBarLayout removed from its parent layout";
     }
 
     // Check if centeredAdminBarLayout already has a parent
@@ -558,8 +564,10 @@ void MainWindow::showHomePage()
 
     newMainLayout->addSpacing(5);
     newMainLayout->addWidget(headerWidget);
+    qInfo() << "Added headerWidget to newMainLayout";
 
     // Create a new scroll area and grid layout for folders
+    qInfo() << "Creating new scroll area and grid layout for folders...";
     QScrollArea *newScrollArea = new QScrollArea();
     QWidget *newGridWidget = new QWidget();
     QGridLayout *newGridLayout = new QGridLayout(newGridWidget);
@@ -572,6 +580,7 @@ void MainWindow::showHomePage()
         int column = i % 3;
         newGridLayout->addWidget(folder, row, column);
     }
+    qInfo() << "Folders added to newGridLayout";
 
     newGridWidget->setLayout(newGridLayout);
     newScrollArea->setWidget(newGridWidget);
@@ -582,8 +591,10 @@ void MainWindow::showHomePage()
     newMainLayout->addWidget(newScrollArea, 1);
     newCentralWidget->setLayout(newMainLayout); // Ensure the layout is set for the new central widget
     setCentralWidget(newCentralWidget);
+    qInfo() << "New central widget set";
 
     // Clear the toolbar and re-add the original widgets and actions
+    qInfo() << "Reconfiguring toolbar...";
     toolBar->clear();
 
     // Add stretchable spacers to center the icons
