@@ -20,6 +20,7 @@
 #include <QDebug>
 #include <QStringList>
 #include <QTimer>
+#include <QStackedWidget>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
@@ -41,11 +42,16 @@ MainWindow::MainWindow(QWidget *parent)
     const int windowHeight = windowWidth * 4 / 3;
     setFixedSize(windowWidth, windowHeight);
 
-    QWidget *centralWidget = new QWidget(this);
-    mainLayout = new QVBoxLayout(centralWidget);
+    // Use QStackedWidget to manage multiple pages
+    QStackedWidget *stackedWidget = new QStackedWidget(this);
+    setCentralWidget(stackedWidget);
+
+    // Home Page Setup
+    QWidget *homePage = new QWidget(this);
+    mainLayout = new QVBoxLayout(homePage);
     mainLayout->setContentsMargins(0, 0, 0, 0);
 
-    // Admin Bar setup
+    // Admin Bar setup (as in your previous code)
     QWidget *adminBar = new QWidget();
     adminBar->setObjectName("adminBar");
     adminBar->setStyleSheet("background-color: rgb(239, 239, 239);"
@@ -93,7 +99,7 @@ MainWindow::MainWindow(QWidget *parent)
     batteryIconLabel->setStyleSheet("background-color: transparent; border: none;");
     adminLayout->addWidget(batteryIconLabel);
 
-    // Center the admin bar within the centralWidget
+    // Center the admin bar within the homePage
     centeredAdminBarLayout = new QHBoxLayout();
     qInfo() << "centeredAdminBarLayout initialized at" << centeredAdminBarLayout;
     centeredAdminBarLayout->addStretch(1);
@@ -101,16 +107,9 @@ MainWindow::MainWindow(QWidget *parent)
     centeredAdminBarLayout->addStretch(1);
 
     mainLayout->addLayout(centeredAdminBarLayout);
-
     mainLayout->addSpacing(5);
 
-    // Initialize the toolbar
-    toolBar = new QToolBar(this);
-    toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
-    toolBar->setMovable(false);
-    toolBar->setIconSize(QSize(55, 55));
-
-    // Header section setup
+    // Header section setup (as before)
     headerWidget = new QWidget();
     QVBoxLayout *headerLayout = new QVBoxLayout(headerWidget);
 
@@ -263,16 +262,22 @@ MainWindow::MainWindow(QWidget *parent)
 
     mainLayout->addWidget(scrollArea, 1);
 
+    stackedWidget->addWidget(homePage);
+
+    // Add the sketch page to the stacked widget
+    stackedWidget->addWidget(sketchPage);
+
     createNewSection = new QWidget(this);
     createNewSection->setObjectName("createNewSection");
     createNewSection->setVisible(false);
 
+    // Toolbar setup (as in your previous code)
     toolBar = new QToolBar(this);
     toolBar->setStyleSheet("QToolBar { background-color: rgb(239, 239, 239); border: none; }");
     toolBar->setMovable(false);
-
     toolBar->setIconSize(QSize(55, 55));
 
+    // Spacer and widget setup for the toolbar
     spacerLeft = new QWidget();
     spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerLeft);
@@ -331,14 +336,15 @@ MainWindow::MainWindow(QWidget *parent)
 
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
 
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showSketchPage);
 
     createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
     createNewSection->setVisible(false);
 
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showSketchPage);
 
-    setCentralWidget(centralWidget);
+    // Set the initial page to the home page
+    stackedWidget->setCurrentWidget(homePage);
 }
 
 void MainWindow::resizeEvent(QResizeEvent *event)
@@ -423,18 +429,14 @@ void MainWindow::createNewSheet()
 
 void MainWindow::showSketchPage()
 {
-    // Hide the current central widget
-    QWidget *currentCentralWidget = centralWidget();
-    if (currentCentralWidget)
+    qInfo() << "Switching to Sketch Page...";
+    QStackedWidget *stackedWidget = qobject_cast<QStackedWidget *>(centralWidget());
+    if (stackedWidget)
     {
-        currentCentralWidget->hide();
+        stackedWidget->setCurrentWidget(sketchPage); // Switch to Sketch Page
     }
 
-    // Set the sketch page as the new central widget
-    setCentralWidget(sketchPage);
-    sketchPage->show();
-
-    // Change the toolbar to show the home button instead of the sketch button
+    // Reconfigure the toolbar for the Sketch Page
     toolBar->clear();
 
     // Add stretchable spacers to center the icons
@@ -443,14 +445,7 @@ void MainWindow::showSketchPage()
     toolBar->addWidget(spacerLeft);
 
     // Custom widget for the first icon with increased padding
-    QWidget *customWidgetOne = new QWidget();
-    QVBoxLayout *customLayoutOne = new QVBoxLayout(customWidgetOne);
-    customLayoutOne->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
-    QLabel *iconLabelOne = new QLabel(customWidgetOne);
-    iconLabelOne->setPixmap(QPixmap(":/assets/icons/action_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
-    customLayoutOne->addWidget(iconLabelOne, 0, Qt::AlignCenter);
-    QWidgetAction *widgetActionOne = new QWidgetAction(toolBar);
-    widgetActionOne->setDefaultWidget(customWidgetOne);
+    customWidgetOne->setParent(toolBar);
     toolBar->addAction(widgetActionOne);
 
     // Spacer between the icons
@@ -480,14 +475,7 @@ void MainWindow::showSketchPage()
     toolBar->addWidget(spacer2);
 
     // Custom widget for the third icon with increased padding
-    QWidget *customWidgetThree = new QWidget();
-    QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
-    customLayoutThree->setContentsMargins(0, 25, 0, 25); // Adjust the top and bottom margin as needed
-    QLabel *iconLabelThree = new QLabel(customWidgetThree);
-    iconLabelThree->setPixmap(QPixmap(":/assets/icons/settings_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
-    customLayoutThree->addWidget(iconLabelThree, 0, Qt::AlignCenter);
-    QWidgetAction *widgetActionThree = new QWidgetAction(toolBar);
-    widgetActionThree->setDefaultWidget(customWidgetThree);
+    customWidgetThree->setParent(toolBar);
     toolBar->addAction(widgetActionThree);
 
     // Add stretchable spacer to the right
@@ -495,125 +483,80 @@ void MainWindow::showSketchPage()
     spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
 
-    // Mark sketch page as active
     sketchPageActive = true;
-}
 
-// mainwindow.cpp
+    qInfo() << "Sketch Page shown";
+}
 
 void MainWindow::showHomePage()
 {
-    qInfo() << "Entering showHomePage()";
-
-    // Remove the current central widget
-    qInfo() << "Removing current central widget...";
-    QWidget *currentCentralWidget = centralWidget();
-    if (currentCentralWidget)
+    qInfo() << "Switching to Home Page...";
+    QStackedWidget *stackedWidget = qobject_cast<QStackedWidget *>(centralWidget());
+    if (stackedWidget)
     {
-        currentCentralWidget->hide();
-        qInfo() << "Current central widget hidden";
-        currentCentralWidget->deleteLater(); // Use deleteLater instead of delete
-        qInfo() << "Current central widget marked for deletion";
+        stackedWidget->setCurrentWidget(stackedWidget->widget(0)); // Switch to Home Page
     }
 
-    // Create a new central widget and layout
-    qInfo() << "Creating new central widget and layout...";
-    QWidget *newCentralWidget = new QWidget(this);
-    QVBoxLayout *newMainLayout = new QVBoxLayout(newCentralWidget);
-    newMainLayout->setContentsMargins(0, 0, 0, 0);
-
-    // Check centeredAdminBarLayout initialization
-    if (!centeredAdminBarLayout)
-    {
-        qCritical() << "centeredAdminBarLayout is not initialized!";
-        return;
-    }
-
-    // Remove centeredAdminBarLayout from its current parent
-    qInfo() << "Attempting to remove centeredAdminBarLayout from its current parent...";
-    if (centeredAdminBarLayout->parentWidget())
-    {
-        centeredAdminBarLayout->parentWidget()->layout()->removeItem(centeredAdminBarLayout);
-        qInfo() << "centeredAdminBarLayout removed from its parent layout";
-    }
-
-    // Check if centeredAdminBarLayout already has a parent
-    qInfo() << "centeredAdminBarLayout address:" << centeredAdminBarLayout;
-    QObject *parentObj = centeredAdminBarLayout->parent();
-    if (parentObj)
-    {
-        qInfo() << "centeredAdminBarLayout parent address:" << parentObj;
-        qInfo() << "centeredAdminBarLayout parent class:" << parentObj->metaObject()->className();
-    }
-    else
-    {
-        qInfo() << "centeredAdminBarLayout does not have a parent.";
-    }
-
-    qInfo() << "Adding centeredAdminBarLayout to newMainLayout...";
-    try
-    {
-        newMainLayout->addLayout(centeredAdminBarLayout);
-        qInfo() << "Layout added successfully.";
-    }
-    catch (const std::exception &e)
-    {
-        qCritical() << "Exception caught while adding centeredAdminBarLayout: " << e.what();
-        return;
-    }
-
-    newMainLayout->addSpacing(5);
-    newMainLayout->addWidget(headerWidget);
-    qInfo() << "Added headerWidget to newMainLayout";
-
-    // Create a new scroll area and grid layout for folders
-    qInfo() << "Creating new scroll area and grid layout for folders...";
-    QScrollArea *newScrollArea = new QScrollArea();
-    QWidget *newGridWidget = new QWidget();
-    QGridLayout *newGridLayout = new QGridLayout(newGridWidget);
-    newGridLayout->setSpacing(10);
-
-    for (int i = 0; i < folderNames->size(); ++i)
-    {
-        FolderWidget *folder = new FolderWidget((*folderNames)[i]);
-        int row = i / 3;
-        int column = i % 3;
-        newGridLayout->addWidget(folder, row, column);
-    }
-    qInfo() << "Folders added to newGridLayout";
-
-    newGridWidget->setLayout(newGridLayout);
-    newScrollArea->setWidget(newGridWidget);
-    newScrollArea->setWidgetResizable(true);
-    newScrollArea->viewport()->setStyleSheet("background-color: rgb(239, 239, 239);");
-    newScrollArea->setStyleSheet("QScrollArea { border: none; }");
-
-    newMainLayout->addWidget(newScrollArea, 1);
-    newCentralWidget->setLayout(newMainLayout); // Ensure the layout is set for the new central widget
-    setCentralWidget(newCentralWidget);
-    qInfo() << "New central widget set";
-
-    // Clear the toolbar and re-add the original widgets and actions
-    qInfo() << "Reconfiguring toolbar...";
+    // Reconfigure the toolbar for the Home Page
     toolBar->clear();
 
-    // Add stretchable spacers to center the icons
+    // Re-create the spacer widgets and reset the toolbar to its original state
+    QWidget *spacerLeft = new QWidget();
+    spacerLeft->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerLeft);
+
+    QWidget *customWidgetOne = new QWidget();
+    QVBoxLayout *customLayoutOne = new QVBoxLayout(customWidgetOne);
+    customLayoutOne->setContentsMargins(0, 25, 0, 25);
+    QLabel *iconLabelOne = new QLabel(customWidgetOne);
+    iconLabelOne->setPixmap(QPixmap(":/assets/icons/action_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutOne->addWidget(iconLabelOne, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionOne = new QWidgetAction(toolBar);
+    widgetActionOne->setDefaultWidget(customWidgetOne);
     toolBar->addAction(widgetActionOne);
+
+    QWidget *spacer1 = new QWidget();
+    spacer1->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer1->setFixedWidth(26);
     toolBar->addWidget(spacer1);
+
+    QWidget *customWidgetTwo = new QWidget();
+    QVBoxLayout *customLayoutTwo = new QVBoxLayout(customWidgetTwo);
+    customLayoutTwo->setContentsMargins(0, 25, 0, 25);
+    QToolButton *actionButtonSketch = new QToolButton();
+    actionButtonSketch->setIcon(QIcon(":/assets/icons/sketch_icon.png"));
+    actionButtonSketch->setIconSize(QSize(55, 55));
+    actionButtonSketch->setStyleSheet("QToolButton { border: none; background-color: transparent; }");
+    customLayoutTwo->addWidget(actionButtonSketch, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionTwo = new QWidgetAction(toolBar);
+    widgetActionTwo->setDefaultWidget(customWidgetTwo);
     toolBar->addAction(widgetActionTwo);
+
+    // Connect the sketch button to show the NewItemDialog
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
+
+    QWidget *spacer2 = new QWidget();
+    spacer2->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Expanding);
+    spacer2->setFixedWidth(26);
     toolBar->addWidget(spacer2);
+
+    QWidget *customWidgetThree = new QWidget();
+    QVBoxLayout *customLayoutThree = new QVBoxLayout(customWidgetThree);
+    customLayoutThree->setContentsMargins(0, 25, 0, 25);
+    QLabel *iconLabelThree = new QLabel(customWidgetThree);
+    iconLabelThree->setPixmap(QPixmap(":/assets/icons/settings_icon.png").scaled(55, 55, Qt::KeepAspectRatio));
+    customLayoutThree->addWidget(iconLabelThree, 0, Qt::AlignCenter);
+    QWidgetAction *widgetActionThree = new QWidgetAction(toolBar);
+    widgetActionThree->setDefaultWidget(customWidgetThree);
     toolBar->addAction(widgetActionThree);
+
+    QWidget *spacerRight = new QWidget();
+    spacerRight->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     toolBar->addWidget(spacerRight);
 
-    // Mark sketch page as inactive
     sketchPageActive = false;
 
-    // Reassign member variables to prevent invalid access
-    scrollArea = newScrollArea;
-    gridLayout = newGridLayout;
-
-    qInfo() << "Exiting showHomePage()";
+    qInfo() << "Home Page shown with original toolbar formatting and Sketch button linked to NewItemDialog.";
 }
 
 MainWindow::~MainWindow()
