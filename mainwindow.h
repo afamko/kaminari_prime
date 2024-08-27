@@ -44,6 +44,8 @@ private:
     QToolBar *toolBar;
     SketchPage *sketchPage;
     bool sketchPageActive = false;
+    bool sketchPageFirstAccess = true;    // Flag to track first access to Sketch Page
+    bool isFirstSketchButtonClick = true; // Flag to track the first click of the Sketch button
 
     QVBoxLayout *mainLayout;
     QHBoxLayout *centeredAdminBarLayout;
