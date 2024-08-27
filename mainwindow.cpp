@@ -25,7 +25,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow),
       folderNames(new QStringList()), gridLayout(new QGridLayout()),
-      sketchPage(new SketchPage(this)), newItemDialog(nullptr) // Initialize newItemDialog to nullptr
+      sketchPage(new SketchPage(this)), newItemDialog(nullptr)
 {
     ui->setupUi(this);
 
@@ -336,12 +336,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     this->addToolBar(Qt::BottomToolBarArea, toolBar);
 
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showSketchPage);
+    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showNewItemDialog);
 
     createNewSection->setGeometry(0, height() - createNewSection->height(), width(), createNewSection->height());
     createNewSection->setVisible(false);
-
-    connect(actionButtonSketch, &QToolButton::clicked, this, &MainWindow::showSketchPage);
 
     // Set the initial page to the home page
     stackedWidget->setCurrentWidget(homePage);
@@ -360,30 +358,23 @@ void MainWindow::resizeEvent(QResizeEvent *event)
 
 void MainWindow::showNewItemDialog()
 {
-    if (sketchPageActive)
+    if (newItemDialog == nullptr || !newItemDialog->isVisible())
     {
-        showSketchPage();
-    }
-    else
-    {
-        if (newItemDialog == nullptr || !newItemDialog->isVisible())
-        {
-            newItemDialog = new NewItemDialog(this);
-            newItemDialog->setAttribute(Qt::WA_DeleteOnClose);
+        newItemDialog = new NewItemDialog(this);
+        newItemDialog->setAttribute(Qt::WA_DeleteOnClose);
 
-            connect(newItemDialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
+        connect(newItemDialog, &NewItemDialog::newFolderRequested, this, &MainWindow::createNewFolder);
 
-            connect(newItemDialog, &NewItemDialog::newSheetRequested, this, [this]()
+        connect(newItemDialog, &NewItemDialog::newSheetRequested, this, [this]()
+                {
+                    if (newItemDialog)
                     {
-                        if (newItemDialog)
-                        {
-                            newItemDialog->close();
-                            newItemDialog = nullptr;
-                        }
-                        QTimer::singleShot(0, this, &MainWindow::showSketchPage); });
+                        newItemDialog->close();
+                        newItemDialog = nullptr;
+                    }
+                    QTimer::singleShot(0, this, &MainWindow::showSketchPage); });
 
-            newItemDialog->show();
-        }
+        newItemDialog->show();
     }
 }
 
@@ -430,10 +421,12 @@ void MainWindow::createNewSheet()
 void MainWindow::showSketchPage()
 {
     qInfo() << "Switching to Sketch Page...";
+
+    // Switch to Sketch Page
     QStackedWidget *stackedWidget = qobject_cast<QStackedWidget *>(centralWidget());
     if (stackedWidget)
     {
-        stackedWidget->setCurrentWidget(sketchPage); // Switch to Sketch Page
+        stackedWidget->setCurrentWidget(sketchPage);
     }
 
     // Reconfigure the toolbar for the Sketch Page

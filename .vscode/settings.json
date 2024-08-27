@@ -21,6 +21,7 @@
         "qscrollarea": "cpp",
         "qguiapplication": "cpp",
         "qstringlist": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "qhboxlayout": "cpp"
     }
 }
